@@ -1,0 +1,1 @@
+Log into `/manager`, upload WAR reverse shell, navigate to reverse shell location.

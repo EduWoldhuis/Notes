@@ -1,0 +1,1 @@
+![[WindowsForensicsCheatsheetTryHackMe-1.png]]
