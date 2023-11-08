@@ -11,8 +11,12 @@
             "id": "7b8a949f2b3f7996",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -130,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -138,8 +147,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7a59cff17c4cd",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "README.md"
+    "PHP deserialization.md",
+    "Mounting a tunneled NFS share.md",
+    "Linux forensics.md",
+    "LFI to RCE.md",
+    "Rooms/HTB-Photobomb.md",
+    "Exfiltration.md",
+    "Jenkins reverse shell.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+    "Buffer overflow.md",
+    "Xfreerdp.md",
+    "VNET-Creation.md",
+    "To-do notes.md",
+    "SMB enumeration.md",
+    "Setting manual DNS.md",
+    "Docker.md",
+    "Dive.md",
+    "C2.md",
+    "Windows/Tools/Powerview.md",
+    "Windows/Tools/powerup.ps1.md",
+    "Windows/Methodologies/Windows privesc.md",
+    "Windows/Methodologies/Windows persistence.md",
+    "Windows/Methodologies/Windows firewall evasion.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
+    "Windows/Tools",
+    "Windows/Methodologies",
+    "Windows/misc",
+    "Windows/Forensics",
+    "Windows/kerberos exploitation",
+    "Windows/Exploits",
+    "Windows/blue-team",
+    "Windows",
+    "Tools",
+    "Rooms",
+    "Images/snapshot.jpg",
+    "Images/Pasted image 20230424224442.png",
+    "Images/Pasted image 20221109232554.png",
+    "Images/dbbd403c6b1196904312c7b88f2514f2.png",
+    "Images/d6681547760638d55d47149cb895b9ac.svg"
   ]
 }
