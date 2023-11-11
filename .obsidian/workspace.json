@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Rooms/ustoun.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Rooms/ustoun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Rooms/ustoun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Rooms/ustoun.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "README.md",
+    "Rooms/ustoun.md",
     "PHP deserialization.md",
     "Mounting a tunneled NFS share.md",
     "Linux forensics.md",
@@ -173,8 +175,6 @@
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows Active directory.md",
-    "Windows/Methodologies/Persistence.md",
-    "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
