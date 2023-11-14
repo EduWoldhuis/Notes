@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rooms/ustoun.md",
+                "file": "Windows/Methodologies/Active Directory persistence.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rooms/ustoun.md",
+                "file": "Windows/Methodologies/Active Directory persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rooms/ustoun.md",
+                "file": "Windows/Methodologies/Active Directory persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rooms/ustoun.md"
+                "file": "Windows/Methodologies/Active Directory persistence.md"
               }
             }
           }
@@ -149,15 +149,19 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "README.md",
-    "Rooms/ustoun.md",
-    "PHP deserialization.md",
-    "Mounting a tunneled NFS share.md",
-    "Linux forensics.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Active directory.md",
+    "Windows/Core processes.md",
+    "Jenkins reverse shell.md",
     "LFI to RCE.md",
+    "Mounting a tunneled NFS share.md",
+    "Rooms/ustoun.md",
+    "README.md",
+    "PHP deserialization.md",
+    "Linux forensics.md",
     "Rooms/HTB-Photobomb.md",
     "Exfiltration.md",
-    "Jenkins reverse shell.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Buffer overflow.md",
     "Xfreerdp.md",
@@ -171,10 +175,6 @@
     "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Methodologies/Windows privesc.md",
-    "Windows/Methodologies/Windows persistence.md",
-    "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Methodologies/Windows Active directory.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
