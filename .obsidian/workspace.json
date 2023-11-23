@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Exploits/Always Install Elevated.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "metasploit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Exploits/Always Install Elevated.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Exploits/Always Install Elevated.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xfreerdp.md"
+                "file": "Windows/Exploits/Always Install Elevated.md"
               }
             }
           }
@@ -149,6 +150,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Xfreerdp.md",
     "Rooms/Dreaming.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing UAC.md",
@@ -166,7 +168,6 @@
     "Exfiltration.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Buffer overflow.md",
-    "Xfreerdp.md",
     "VNET-Creation.md",
     "To-do notes.md",
     "SMB enumeration.md",
