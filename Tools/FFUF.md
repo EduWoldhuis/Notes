@@ -21,3 +21,4 @@ note: there can be multiple levels of subdomain (`abc.def.ghi.safe.com`)
 ```
 ffuf -w WORDLIST1:FUZZ1,WORDLIST2:FUZZ2 // FUZZ paramaters are FUZZ1, FUZZ2
 ```
+ 

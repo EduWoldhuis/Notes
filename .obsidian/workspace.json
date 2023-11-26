@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "metasploit",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md"
+                "file": "Tools/FFUF.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/Exploits/Always Install Elevated.md",
     "Xfreerdp.md",
     "Rooms/Dreaming.md",
     "Windows/Methodologies/Active Directory persistence.md",
@@ -175,7 +176,6 @@
     "Docker.md",
     "Dive.md",
     "C2.md",
-    "Windows/Tools/Powerview.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
