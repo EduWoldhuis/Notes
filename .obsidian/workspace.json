@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Tools/pyrdp.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Tools/pyrdp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Tools/pyrdp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md"
+                "file": "Tools/pyrdp.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Tools/pyrdp.md",
     "Tools/FFUF.md",
     "Windows/Exploits/Always Install Elevated.md",
     "Xfreerdp.md",
@@ -174,8 +175,6 @@
     "To-do notes.md",
     "SMB enumeration.md",
     "Setting manual DNS.md",
-    "Docker.md",
-    "Dive.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
