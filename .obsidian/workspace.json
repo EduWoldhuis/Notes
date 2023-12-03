@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/pyrdp.md",
+                "file": "Methods/Wordlist creation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/pyrdp.md",
+                "file": "Methods/Wordlist creation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/pyrdp.md",
+                "file": "Methods/Wordlist creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/pyrdp.md"
+                "file": "Methods/Wordlist creation.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Windows/Methodologies/Active Directory exploitation.md",
     "Tools/pyrdp.md",
+    "Methods/Wordlist creation.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
     "Tools/FFUF.md",
     "Windows/Exploits/Always Install Elevated.md",
     "Xfreerdp.md",
@@ -174,7 +175,6 @@
     "VNET-Creation.md",
     "To-do notes.md",
     "SMB enumeration.md",
-    "Setting manual DNS.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
