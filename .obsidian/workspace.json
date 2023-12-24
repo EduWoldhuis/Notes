@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Xfreerdp.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Xfreerdp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md",
+                "file": "Xfreerdp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Always Install Elevated.md"
+                "file": "Xfreerdp.md"
               }
             }
           }
@@ -151,32 +150,32 @@
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
     "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory persistence.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Active directory.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/Insecure service permissions.md",
+    "Windows/Exploits/Backdooring files.md",
+    "Windows/Exploits/Credential harvesting.md",
+    "Windows/Exploits/Applocker bypass.md",
+    "Windows/Exploits/Insecure GUI processes.md",
+    "Windows/Exploits/Modifiable services.md",
+    "Windows/Exploits/Password mining (MSFConsole).md",
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
+    "Windows/Exploits/Unattended install file.md",
+    "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
+    "Rooms/Wonderland.md",
+    "Linux/SSH persistence.md",
+    "Linux/Node js insecure deserialization.md",
+    "Linux/env_keep+=LD_PRELOAD exploitation.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+    "Windows/Exploits/Always Install Elevated.md",
     "Methods/Wordlist creation.md",
     "Tools/pyrdp.md",
-    "Tools/FFUF.md",
-    "Windows/Exploits/Always Install Elevated.md",
-    "Xfreerdp.md",
-    "Rooms/Dreaming.md",
-    "Windows/Methodologies/Active Directory persistence.md",
-    "Windows/Methodologies/Bypassing UAC.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Active directory.md",
-    "Windows/Core processes.md",
-    "Jenkins reverse shell.md",
-    "LFI to RCE.md",
-    "Mounting a tunneled NFS share.md",
-    "Rooms/ustoun.md",
-    "README.md",
-    "PHP deserialization.md",
-    "Linux forensics.md",
-    "Rooms/HTB-Photobomb.md",
-    "Exfiltration.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
-    "Buffer overflow.md",
-    "VNET-Creation.md",
-    "To-do notes.md",
-    "SMB enumeration.md",
-    "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
     "Windows/misc",
