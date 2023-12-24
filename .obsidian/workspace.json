@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Tools/Responder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Tools/Responder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Tools/Responder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xfreerdp.md"
+                "file": "Tools/Responder.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Xfreerdp.md",
+    "Tools/Responder.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
@@ -174,8 +176,6 @@
     "Linux/env_keep+=LD_PRELOAD exploitation.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/Exploits/Always Install Elevated.md",
-    "Methods/Wordlist creation.md",
-    "Tools/pyrdp.md",
     "Windows/Tools",
     "Windows/Methodologies",
     "Windows/misc",
