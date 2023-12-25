@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Volatility.md",
+                "file": "Tools/Responder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Volatility.md",
+                "file": "Tools/Responder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Volatility.md",
+                "file": "Tools/Responder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Volatility.md"
+                "file": "Tools/Responder.md"
               }
             }
           }
@@ -147,11 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7a59cff17c4cd",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Jenkins reverse shell.md",
+    "Exfiltration.md",
+    "Docker.md",
+    "C2.md",
+    "Xfreerdp.md",
+    "Tools/Volatility.md",
     "Tools/Untitled.md",
     "Tools/Responder.md",
-    "Xfreerdp.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
@@ -171,11 +176,6 @@
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Unattended install file.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
-    "Rooms/Wonderland.md",
-    "Linux/SSH persistence.md",
-    "Linux/Node js insecure deserialization.md",
-    "Linux/env_keep+=LD_PRELOAD exploitation.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/Tools",
     "Windows/Methodologies",
     "Windows/misc",
