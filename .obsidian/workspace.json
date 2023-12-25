@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Volatility.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Volatility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Volatility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Responder.md"
+                "file": "Tools/Volatility.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "0bc7a59cff17c4cd",
   "lastOpenFiles": [
-    "Xfreerdp.md",
+    "Tools/Untitled.md",
     "Tools/Responder.md",
+    "Xfreerdp.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
@@ -175,7 +176,6 @@
     "Linux/Node js insecure deserialization.md",
     "Linux/env_keep+=LD_PRELOAD exploitation.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
-    "Windows/Exploits/Always Install Elevated.md",
     "Windows/Tools",
     "Windows/Methodologies",
     "Windows/misc",

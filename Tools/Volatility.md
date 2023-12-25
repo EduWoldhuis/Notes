@@ -1,5 +1,14 @@
 ##### Info
-Volatility is a Python3 tool for virtual memory files (`.vmem`)
+Volatility is a Python3 tool for memory files. 
+Raw machine RAM is usually a `.raw` memory file, extracted using FTK Imager / Redline / DumpIt.exe / win32dd.exe / Memoryze / FastDump.
+For virtual machines, there are more types. They are found in the host's drive.
+
+| File type | Virtual machine type |
+|---|---|
+|`.vmem`| VMWare | 
+|`.bin`| Hyper-V | 
+|`.mem`| Parallels | 
+|`.sav`| VirtualBox | 
 
 ##### Usage
 ```
