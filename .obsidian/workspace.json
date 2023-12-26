@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Hydra.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "msfvenom",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Responder.md"
+                "file": "Tools/Hydra.md"
               }
             }
           }
@@ -149,6 +150,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Methods/General file filtering and log analysis.md",
+    "Tools/Responder.md",
     "Jenkins reverse shell.md",
     "Exfiltration.md",
     "Docker.md",
@@ -156,7 +159,6 @@
     "Xfreerdp.md",
     "Tools/Volatility.md",
     "Tools/Untitled.md",
-    "Tools/Responder.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
@@ -174,7 +176,6 @@
     "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/Password mining (MSFConsole).md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
-    "Windows/Exploits/Unattended install file.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
