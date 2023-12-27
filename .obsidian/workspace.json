@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Windows/Tools/Sysinternals.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wire",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Windows/Tools/Sysinternals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Windows/Tools/Sysinternals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Wireshark.md"
+                "file": "Windows/Tools/Sysinternals.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Wireshark.md",
+    "Windows/Tools/Sysinternals.md",
     "Tools/Hydra.md",
     "Methods/General file filtering and log analysis.md",
     "Tools/Responder.md",
@@ -174,8 +175,6 @@
     "Windows/Exploits/Credential harvesting.md",
     "Windows/Exploits/Applocker bypass.md",
     "Windows/Exploits/Insecure GUI processes.md",
-    "Windows/Exploits/Modifiable services.md",
-    "Windows/Exploits/Password mining (MSFConsole).md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
