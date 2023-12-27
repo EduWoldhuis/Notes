@@ -18,6 +18,14 @@ Process Monitor is an advanced monitoring tool for Windows that shows real-time 
 procmon -accepteula
 ```
 
+### Strings
+Strings but for Windows
+##### Usage
+```
+strings.exe INPUT_FILE
+strings.exe INPUT_FILE | findstr /i "search_pattern"        // strings | grep -i PATTERN   in Windows
+```
+
 ### Sigcheck
 General virus check, uploads to virusTotal
 ##### Official definition
