@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/Wireshark.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "wire",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/Wireshark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/Wireshark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Hydra.md"
+                "file": "Tools/Wireshark.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Hydra.md",
     "Methods/General file filtering and log analysis.md",
     "Tools/Responder.md",
     "Jenkins reverse shell.md",
@@ -175,7 +176,6 @@
     "Windows/Exploits/Insecure GUI processes.md",
     "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/Password mining (MSFConsole).md",
-    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
