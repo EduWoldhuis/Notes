@@ -21,9 +21,16 @@ To decrypt HTTPS using it:
 ```
 Edit --> Preferences --> Protocols --> TLS --> (Pre)-Master-Secret log filename --> enter the file.
 ```
+
 ### Extracting plaintext credentials
 Wireshark can extract usernames and passwords from protocols like `HTTP` with `BASIC-AUTH` and plain `FTP`.
 To view them, check
 ```
-tools --> Credentials
+Tools --> Credentials
+```
+
+### Creating firewall rules
+Select the packet upon which a rule shoud be based, and visit
+```
+Tools --> Firewall ACL Rules
 ```
