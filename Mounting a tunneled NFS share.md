@@ -10,3 +10,10 @@ To mount:
 ```
 sudo mount -v -t nfs localhost:/ /tmp/share_here/
 ```
+
+#### SSH Tunneling
+Open a local port to the public:
+```
+ssh -R 8181:localhost:3389 TARGET_PORT
+// gateway ports, allowtcpforwarding needs to be yes in the sshdconfig
+```
