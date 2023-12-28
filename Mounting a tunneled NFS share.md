@@ -1,9 +1,10 @@
 To tunnel, use SSH port tunneling:
 ```
-ssh -L LOCAL_PORT:LOCAL_IP_ADDRES:REMOTE_PORT USER@IP_ADDRESS
+ssh -L LOCAL_PORT:INSIDE_TUNNEL_IP_ADDRES:REMOTE_PORT USER@IP_ADDRESS
 ```
-For the `LOCAL_IP_ADDRESS`, use the IP address you want to connect to for access (usually localhost)
 
+For the `INSIDE_TUNNEL_IP_ADDRESS`, use the IP address you want to connect to for access (usually localhost)
+Note: the `INSIDE_TUNNEL_IP_ADDRESS` is the host that the remote SSH service will use as `host:` parameter.  It's the target from the remote point of view.
 
 To mount:
 ```

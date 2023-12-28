@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Tools/Sysinternals.md",
+                "file": "Mounting a tunneled NFS share.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh tunneling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Tools/Sysinternals.md",
+                "file": "Mounting a tunneled NFS share.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Tools/Sysinternals.md",
+                "file": "Mounting a tunneled NFS share.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Tools/Sysinternals.md"
+                "file": "Mounting a tunneled NFS share.md"
               }
             }
           }
@@ -149,8 +150,14 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Tools/Wireshark.md",
+    "Windows/kerberos exploitation/Attack terminology.md",
+    "Windows/kerberos exploitation/AS-REP roasting.md",
+    "Windows/blue-team/Windows hardening.md",
+    "Windows/blue-team/Active Directory hardening.md",
+    "Windows/Exploits/Registry password search.md",
+    "Windows/Exploits/Autoruns (registry).md",
     "Windows/Tools/Sysinternals.md",
+    "Tools/Wireshark.md",
     "Tools/Hydra.md",
     "Methods/General file filtering and log analysis.md",
     "Tools/Responder.md",
@@ -169,12 +176,6 @@
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Persistence.md",
     "Windows/Active directory.md",
-    "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/Insecure service permissions.md",
-    "Windows/Exploits/Backdooring files.md",
-    "Windows/Exploits/Credential harvesting.md",
-    "Windows/Exploits/Applocker bypass.md",
-    "Windows/Exploits/Insecure GUI processes.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
