@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows Event Logs.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows Event Logs.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Windows Event Logs.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Windows Event Logs.md"
+                "file": "Windows/Exploits/Abusing Windows Intenals.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Methods/Tomcat.md",
     "Windows/Windows Event Logs.md",
+    "Windows/Exploits/Abusing Windows Intenals.md",
+    "Methods/Tomcat.md",
     "Windows/Core processes.md",
     "Windows/Active directory.md",
     "Windows/kerberos exploitation/General kerberos information.md",
@@ -186,7 +187,6 @@
     "Docker.md",
     "C2.md",
     "Xfreerdp.md",
-    "Tools/Volatility.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
