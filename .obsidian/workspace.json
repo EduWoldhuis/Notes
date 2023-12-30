@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Windows/Exploits/Unquoted service path.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Windows/Exploits/Unquoted service path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Windows/Exploits/Unquoted service path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md"
+                "file": "Windows/Exploits/Unquoted service path.md"
               }
             }
           }
@@ -161,32 +161,32 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Windows/Windows Event Logs.md",
+    "Windows/kerberos exploitation/Skeleton key persistence.md",
+    "Windows/kerberos exploitation/Unconstrained delegation.md",
+    "Windows/kerberos exploitation/Pass the ticket.md",
+    "Windows/kerberos exploitation/Password spraying.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
+    "Windows/kerberos exploitation/Kerbrute enumeration.md",
+    "Windows/kerberos exploitation/Harvesting tickets.md",
+    "Windows/kerberos exploitation/Golden ticket.md",
+    "Windows/kerberos exploitation/General kerberos information.md",
+    "Windows/kerberos exploitation/Attack terminology.md",
+    "Windows/kerberos exploitation/AS-REP roasting.md",
+    "Windows/Exploits/DLL hijacking.md",
+    "Windows/Exploits/Insecure service permissions.md",
+    "Windows/Exploits/Modifyable service files.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
+    "Windows/Windows Event Logs.md",
     "Methods/Tomcat.md",
     "Windows/Core processes.md",
     "Windows/Active directory.md",
-    "Windows/kerberos exploitation/General kerberos information.md",
     "Methods/SSH Tunnelling.md",
     "Tools/Chisel.md",
     "Mounting a tunneled NFS share.md",
     "Linux forensics.md",
-    "Windows/kerberos exploitation/Attack terminology.md",
-    "Windows/kerberos exploitation/AS-REP roasting.md",
     "Windows/blue-team/Windows hardening.md",
     "Windows/blue-team/Active Directory hardening.md",
     "Windows/Exploits/Registry password search.md",
-    "Windows/Exploits/Autoruns (registry).md",
-    "Windows/Tools/Sysinternals.md",
-    "Tools/Wireshark.md",
-    "Tools/Hydra.md",
-    "Methods/General file filtering and log analysis.md",
-    "Tools/Responder.md",
-    "Jenkins reverse shell.md",
-    "Exfiltration.md",
-    "Docker.md",
-    "C2.md",
-    "Xfreerdp.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
