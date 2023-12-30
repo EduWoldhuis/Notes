@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Unquoted service path.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Unquoted service path.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Unquoted service path.md",
+                "file": "Windows/Exploits/Abusing Windows Intenals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Unquoted service path.md"
+                "file": "Windows/Exploits/Abusing Windows Intenals.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/Exploits/Always Install Elevated.md",
+    "Windows/Exploits/Abusing Windows Intenals.md",
+    "Windows/Exploits/Unquoted service path.md",
     "Windows/kerberos exploitation/Skeleton key persistence.md",
     "Windows/kerberos exploitation/Unconstrained delegation.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
@@ -175,7 +178,6 @@
     "Windows/Exploits/DLL hijacking.md",
     "Windows/Exploits/Insecure service permissions.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Windows Event Logs.md",
     "Methods/Tomcat.md",
     "Windows/Core processes.md",
@@ -185,8 +187,6 @@
     "Mounting a tunneled NFS share.md",
     "Linux forensics.md",
     "Windows/blue-team/Windows hardening.md",
-    "Windows/blue-team/Active Directory hardening.md",
-    "Windows/Exploits/Registry password search.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
