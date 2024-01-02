@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md"
+                "file": "Tools/FFUF.md"
               }
             }
           }
@@ -161,8 +162,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Windows/Exploits/Always Install Elevated.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
+    "Windows/Exploits/Always Install Elevated.md",
     "Windows/Exploits/Unquoted service path.md",
     "Windows/kerberos exploitation/Skeleton key persistence.md",
     "Windows/kerberos exploitation/Unconstrained delegation.md",
