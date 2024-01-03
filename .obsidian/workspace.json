@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Hydra.md"
+                "file": "Tools/FFUF.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Hydra.md",
     "Tools/FFUF.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Exploits/Always Install Elevated.md",
@@ -187,7 +188,6 @@
     "Methods/SSH Tunnelling.md",
     "Tools/Chisel.md",
     "Mounting a tunneled NFS share.md",
-    "Linux forensics.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
