@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "Tools/Hydra.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "Tools/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "Tools/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/FFUF.md"
+                "file": "Tools/Hydra.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Tools/Hydra.md",
     "Tools/FFUF.md",
+    "Tools/Hydra.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Exploits/Always Install Elevated.md",
     "Windows/Exploits/Unquoted service path.md",
