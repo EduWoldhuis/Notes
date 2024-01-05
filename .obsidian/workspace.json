@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "LFI to RCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lfi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "LFI to RCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "LFI to RCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Hydra.md"
+                "file": "LFI to RCE.md"
               }
             }
           }
@@ -162,8 +163,9 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
-    "Methods/Wordlist creation.md",
+    "Tools/Curl.md",
     "Tools/Hydra.md",
+    "Methods/Wordlist creation.md",
     "Tools/Chisel.md",
     "Tools/Burp suite.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
@@ -187,7 +189,6 @@
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Windows Event Logs.md",
     "Methods/Tomcat.md",
-    "Windows/Core processes.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",

@@ -5,6 +5,11 @@ Access to files
 A log file (Usually `/var/log/apache2/access.log`)
 
 ##### Important
+First, run 
+```
+../../../proc/self/environ
+```
+to get general information.
 If RCE doesn't work, try RFI (other vhosts on machine)
 If there is HTTP-BASIC-AUTH involved, check the `.htpasswd` file, it often contains credentials. (usually `/etc/apache2/.htpasswd`)
 
