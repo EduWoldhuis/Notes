@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Methods/Wordlist creation.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "Tools/Hydra.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Tools/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Tools/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md"
+                "file": "Tools/Hydra.md"
               }
             }
           }
@@ -159,9 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "3e06175989fcf52f",
   "lastOpenFiles": [
+    "Methods/Wordlist creation.md",
     "Tools/Hydra.md",
+    "Tools/Chisel.md",
+    "Tools/Burp suite.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Tools/FFUF.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Exploits/Always Install Elevated.md",
@@ -183,10 +188,6 @@
     "Windows/Windows Event Logs.md",
     "Methods/Tomcat.md",
     "Windows/Core processes.md",
-    "Windows/Active directory.md",
-    "Methods/SSH Tunnelling.md",
-    "Tools/Chisel.md",
-    "Mounting a tunneled NFS share.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
