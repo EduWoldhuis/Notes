@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Windows/Exploits/Applocker bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Windows/Exploits/Applocker bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+                "file": "Windows/Exploits/Applocker bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md"
+                "file": "Windows/Exploits/Applocker bypass.md"
               }
             }
           }
@@ -162,9 +162,12 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
+    "Tools/ss.md",
+    "Tools/Socat.md",
+    "Tools/msfvenom 1.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Methods/DNS zone transfer.md",
     "Tools/Hydra.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Methods/POST Request parameter bypass.md",
     "Methods/Local File Inclusion.md",
     "Methods/Living off the land.md",
@@ -185,9 +188,6 @@
     "Windows/kerberos exploitation/Skeleton key persistence.md",
     "Windows/kerberos exploitation/Password spraying.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
-    "Windows/kerberos exploitation/Kerbrute enumeration.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
-    "Windows/kerberos exploitation/Harvesting tickets.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
