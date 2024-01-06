@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Applocker bypass.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Ssh tunneling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Applocker bypass.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Applocker bypass.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Applocker bypass.md"
+                "file": "Methods/SSH Tunnelling.md"
               }
             }
           }
@@ -162,6 +163,8 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
+    "Mounting a tunneled NFS share.md",
+    "Windows/Exploits/Applocker bypass.md",
     "Tools/ss.md",
     "Tools/Socat.md",
     "Tools/msfvenom 1.md",
@@ -186,8 +189,6 @@
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/kerberos exploitation/Unconstrained delegation.md",
     "Windows/kerberos exploitation/Skeleton key persistence.md",
-    "Windows/kerberos exploitation/Password spraying.md",
-    "Windows/kerberos exploitation/Pass the ticket.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
