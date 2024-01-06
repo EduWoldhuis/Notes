@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "ssh tunnel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/SSH Tunnelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/XSS.md"
+                "file": "Methods/SSH Tunnelling.md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
+    "Methods/XSS.md",
     "LFI to RCE.md",
     "Tools/Curl.md",
     "Tools/Hydra.md",
@@ -188,7 +189,6 @@
     "Windows/Exploits/DLL hijacking.md",
     "Windows/Exploits/Insecure service permissions.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Windows/Windows Event Logs.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
