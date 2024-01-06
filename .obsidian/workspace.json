@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ssh tunneling",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/SSH Tunnelling.md"
+                "file": "Docker.md"
               }
             }
           }
@@ -163,6 +163,11 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
+    "Windows/Exploits/Modifiable services.md",
+    "Tools/smbclient.md",
+    "Tools/Responder.md",
+    "Methods/SSH Tunnelling.md",
     "Mounting a tunneled NFS share.md",
     "Windows/Exploits/Applocker bypass.md",
     "Tools/ss.md",
@@ -184,11 +189,6 @@
     "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Windows/Methodologies/Active Directory persistence.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/kerberos exploitation/Unconstrained delegation.md",
-    "Windows/kerberos exploitation/Skeleton key persistence.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
