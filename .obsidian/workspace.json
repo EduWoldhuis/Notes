@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh tunnel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/SSH Tunnelling.md",
+                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/SSH Tunnelling.md"
+                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md"
               }
             }
           }
@@ -163,32 +162,32 @@
   },
   "active": "3e06175989fcf52f",
   "lastOpenFiles": [
-    "Methods/XSS.md",
-    "LFI to RCE.md",
-    "Tools/Curl.md",
+    "Methods/DNS zone transfer.md",
     "Tools/Hydra.md",
-    "Methods/Wordlist creation.md",
-    "Tools/Chisel.md",
-    "Tools/Burp suite.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
-    "Tools/FFUF.md",
-    "Windows/Exploits/Abusing Windows Intenals.md",
-    "Windows/Exploits/Always Install Elevated.md",
-    "Windows/Exploits/Unquoted service path.md",
-    "Windows/kerberos exploitation/Skeleton key persistence.md",
+    "Methods/POST Request parameter bypass.md",
+    "Methods/Local File Inclusion.md",
+    "Methods/Living off the land.md",
+    "Methods/IDOR.md",
+    "Methods/General methodology.md",
+    "Methods/General file filtering and log analysis.md",
+    "Methods/DNS Exfiltration.md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Active Directory persistence.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/kerberos exploitation/Unconstrained delegation.md",
-    "Windows/kerberos exploitation/Pass the ticket.md",
+    "Windows/kerberos exploitation/Skeleton key persistence.md",
     "Windows/kerberos exploitation/Password spraying.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
+    "Windows/kerberos exploitation/Pass the ticket.md",
     "Windows/kerberos exploitation/Kerbrute enumeration.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/kerberos exploitation/Harvesting tickets.md",
-    "Windows/kerberos exploitation/Golden ticket.md",
-    "Windows/kerberos exploitation/General kerberos information.md",
-    "Windows/kerberos exploitation/Attack terminology.md",
-    "Windows/kerberos exploitation/AS-REP roasting.md",
-    "Windows/Exploits/DLL hijacking.md",
-    "Windows/Exploits/Insecure service permissions.md",
-    "Windows/Exploits/Modifyable service files.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
