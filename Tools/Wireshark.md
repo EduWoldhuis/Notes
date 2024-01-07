@@ -5,6 +5,21 @@ edit --> preferences --> Name resolution --> Resolve transport names, resolve ne
 ```
 
 ### HTTPS decryption
+##### Using certificates found on the system:
+When on a target system with a log of the local traffic of a webserver, look in these directories for any `.key` files:
+```
+- /etc/apache2/ssl/key
+- /usr/local/apache2/conf/ssl.key
+- /etc/ssl
+- /etc/nginx/ssl
+- /etc/lighttpd/ssl
+```
+If you have apache and can’t find it, look in the configuration file (often found in /etc/apache2/) for the following: SSLCertificateKeyFile. It will be followed by the location.
+
+```
+C:\Program Files\Apache Software Foundation\Apache2.2\conf\httpd.conf
+```
+
 Example file:
 ``` 
 CLIENT_HANDSHAKE_TRAFFIC_SECRET f35fff3ca92d297cb03a5f158d65286c7afdd583e6392a84b13a9f7ac431a222 f4ce2a326ffa83c7c1f1fc00e142471438547a951cd6e383f6492a0aa386fcf8

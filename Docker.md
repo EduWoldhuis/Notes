@@ -94,5 +94,5 @@ To make sure, use:
 if you scan it using `nmap`, you might find something
 
 
-### miscellanious
+### miscellaneous
 get full tty: `script /dev/null -c bash`
