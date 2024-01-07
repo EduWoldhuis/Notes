@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Methods/XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wireshark",
+                "query": "xss",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Methods/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Wireshark.md",
+                "file": "Methods/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Wireshark.md"
+                "file": "Methods/XSS.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Wireshark.md",
     "Methods/Wordlist creation.md",
     "Docker.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
@@ -175,7 +176,6 @@
     "Windows/Methodologies/Persistence.md",
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Living off the land.md",
-    "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
