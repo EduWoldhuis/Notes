@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +148,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
     "Methods/XSS.md",
     "Windows/blue-team/Windows event logs.md",
