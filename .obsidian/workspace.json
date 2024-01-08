@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/XSS.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Methods/XSS.md",
+    "Windows/blue-team/Windows event logs.md",
     "Tools/Wireshark.md",
     "Methods/Wordlist creation.md",
     "Docker.md",
@@ -174,8 +175,6 @@
     "Methods/General file filtering and log analysis.md",
     "Methods/DNS Exfiltration.md",
     "Windows/Methodologies/Persistence.md",
-    "Windows/Methodologies/Password hunting (privesc).md",
-    "Windows/Methodologies/Living off the land.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
