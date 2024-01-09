@@ -148,10 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Methods/XSS.md",
     "Windows/blue-team/Windows event logs.md",
+    "Methods/XSS.md",
     "Tools/Wireshark.md",
     "Methods/Wordlist creation.md",
     "Docker.md",
