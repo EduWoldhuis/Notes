@@ -25,9 +25,9 @@ wevtutil is a CLI tool for filtering through a large amount of Event Logs
 
 #### Useful commands
 ```
-wevtutil.exe /?                       -- Get help
-wevtutil.exe COMMAND /?               -- Get specific help
-wevtutil.exe 
+wevtutil.exe /?                                 -- Get help
+wevtutil.exe COMMAND /?                         -- Get specific help
+wevtutil.exe qe Application /rd:false /f:text   -- Print all the events, in text format and read first event first.
 ```
 
 ### General useful list of IDs
