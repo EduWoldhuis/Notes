@@ -49,7 +49,12 @@ Get-WinEvent -LogName Application | Where-Object { $_.ProviderName -Match 'WLMS'
 // Get only Application logs from WLMS
 Get-WinEvent -FilterHashtable @{LogName='Application';ProviderName='WLMS'}
 // Guidelines: @{ <name> = <value>; [<name> = <value> ] ...}
+
+# Using the FilterHashtable parameter:
+$Yesterday = (Get-Date) - (New-TimeSpan -Day 1)
+Get-WinEvent -FilterHashtable @{ LogName='Windows PowerShell'; Level=3; StartTime=$Yesterday }
 ```
+
 To get the possible names and values, use the Event Viewer:
 - Find a target packet (or a similar packet) in the Event Viewer.
 - In the "general information" tab in the middle, the possible names and values are listed (Log name: Application  ;  Source: MsiInstalled  ;  Event ID: 11707)
@@ -59,6 +64,9 @@ To get the possible names and values, use the Event Viewer:
 #### Xpath queries
 ```
 Get-WinEvent -LogName Application -FilerXPath '*/System/EventID=100'   // List every log where the Event ID is 100
+
+Get-WinEvent -LogName Application -FilerXPath '*[System[(Level <= 3) and TimeCreated[timediff(@SystemTime) <= 86400000]]]' // All events where the log level is equal to or lower than 3, and happened in the last 24 hours.
+
 ```
 
 #### Combination with Wevtutil.exe

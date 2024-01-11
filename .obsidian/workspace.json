@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4938d9c211fa61b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Xfreerdp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Xfreerdp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Xfreerdp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md"
+                "file": "Xfreerdp.md"
               }
             }
           }
@@ -147,12 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
+    "Windows/blue-team/Windows event logs.md",
     "Linux/SSH persistence.md",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
-    "Windows/blue-team/Windows event logs.md",
     "Docker.md",
     "Methods/XSS.md",
     "Tools/Wireshark.md",
