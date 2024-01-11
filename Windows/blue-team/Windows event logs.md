@@ -76,8 +76,10 @@ wevtutil.exe qe Application /q:*/System[EventID=100] /f:text /c:1
 ### General useful list of IDs
 
 
-| ID | Action |
-| ---- | ---- |
-| 4104 | Execute a Remote Command |
-| 800 | Details on commands ran  |
-|  |  |
+| ID | Action | Extra details |
+| ---- | ---- | ---- |
+| 4104 | Execute a Remote Command |  |
+| 4724 | Reset a user password |  |
+| 800 | Details on commands ran |  |
+| 400 | Powershell downgrade attack | Look for `HostVersion=2.0` or such |
+| 104 | Log clear |  |

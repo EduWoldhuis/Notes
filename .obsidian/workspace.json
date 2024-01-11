@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xfreerdp.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -160,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4938d9c211fa61b",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Xfreerdp.md",
     "Windows/blue-team/Windows event logs.md",
     "Linux/SSH persistence.md",
     "Pasted image 20240111171755.png",
@@ -189,7 +189,6 @@
     "Methods/IDOR.md",
     "Methods/General methodology.md",
     "Methods/General file filtering and log analysis.md",
-    "Methods/DNS Exfiltration.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
