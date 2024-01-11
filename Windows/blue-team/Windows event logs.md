@@ -16,7 +16,8 @@ Note: Powershell logs are in two different places:
 Microsoft-Windows-PowerShell/Admin,Microsoft-Windows-PowerShell/Operational
 Windows PowerShell
 ```
-
+#### Advanced filtering (XML)
+Enable `Edit Query Manually` To edit the XML queries and get the ability to filter by entries in the `details` view of events.
 
 
 ### Wevtutil.exe
