@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -150,11 +149,14 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Linux/SSH persistence.md",
+    "Pasted image 20240111171755.png",
+    "Pasted image 20240111171918.png",
     "Windows/blue-team/Windows event logs.md",
+    "Docker.md",
     "Methods/XSS.md",
     "Tools/Wireshark.md",
     "Methods/Wordlist creation.md",
-    "Docker.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Modifiable services.md",
     "Tools/smbclient.md",
@@ -175,7 +177,6 @@
     "Methods/General methodology.md",
     "Methods/General file filtering and log analysis.md",
     "Methods/DNS Exfiltration.md",
-    "Windows/Methodologies/Persistence.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
