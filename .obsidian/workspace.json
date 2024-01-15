@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Methodologies/Evading logigng and monitoring.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Methodologies/Evading logigng and monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Methodologies/Evading logigng and monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md"
+                "file": "Windows/Methodologies/Evading logigng and monitoring.md"
               }
             }
           }
@@ -161,8 +161,18 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Xfreerdp.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Methodologies/Windows privesc.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Evading logigng and monitoring.md",
     "Windows/blue-team/Windows event logs.md",
+    "Xfreerdp.md",
     "Linux/SSH persistence.md",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
@@ -179,16 +189,6 @@
     "Windows/Exploits/Applocker bypass.md",
     "Tools/ss.md",
     "Tools/Socat.md",
-    "Tools/msfvenom 1.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
-    "Methods/DNS zone transfer.md",
-    "Tools/Hydra.md",
-    "Methods/POST Request parameter bypass.md",
-    "Methods/Local File Inclusion.md",
-    "Methods/Living off the land.md",
-    "Methods/IDOR.md",
-    "Methods/General methodology.md",
-    "Methods/General file filtering and log analysis.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
