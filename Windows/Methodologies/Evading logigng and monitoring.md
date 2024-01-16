@@ -9,9 +9,9 @@ ETW is made up of three main parts:
 
 | Component | Function | Exploit techniques |
 | ---- | ---- | ---- |
-| Provider |  | PSEtwLogProvider Modification, Group Policy Takeover, Log Pipeline Abuse, Type Creation |
-| Controller |  | Patching EtwEventWrite, Runtime Tracing Tampering, |
-| Consumers |  | Log Smashing, Log Tampering |
+| Provider | A program with logging tools. After a provider registers, the Controller can enable it, (usually) starting logging. (in some cases, it will log whether it is enabled or not, because the Provider can decide what "enabled" and "disabled" mean for itself.) | PSEtwLogProvider Modification, Group Policy Takeover, Log Pipeline Abuse, Type Creation |
+| Controller | Control the starting and stoping of the logging sessions, the location and size of the log files, enable providers to log to the session, obtain execution statistics for sessions. | Patching EtwEventWrite, Runtime Tracing Tampering, |
+| Consumers | The tool used to interpret events, usually Microsoft's Event Viewer | Log Smashing, Log Tampering |
 
 
 
