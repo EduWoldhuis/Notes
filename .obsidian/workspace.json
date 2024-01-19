@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -159,20 +160,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
-    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Windows firewall evasion.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Xfreerdp.md",
+    "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Living off the land.md",
-    "Windows/Methodologies/Password hunting (privesc).md",
-    "Windows/Methodologies/Persistence.md",
     "Windows/Methodologies/Windows privesc.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Methodologies/Windows Active directory.md",
-    "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/blue-team/Windows event logs.md",
-    "Xfreerdp.md",
     "Linux/SSH persistence.md",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
@@ -187,8 +190,6 @@
     "Methods/SSH Tunnelling.md",
     "Mounting a tunneled NFS share.md",
     "Windows/Exploits/Applocker bypass.md",
-    "Tools/ss.md",
-    "Tools/Socat.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
