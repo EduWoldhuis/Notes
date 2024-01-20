@@ -31,5 +31,41 @@ The `$MFT` is the `Master File Table` file. It's a hidden file placed in the roo
 
 ### Evidence of execution
 
+##### Prefetch files
+Tool to gather information: `PECmd.exe -d DIRECTORY --csv .` (Eric Zimmerman)
+When a program is executed in Windows, information about it is stored in:
+```
+C:\Windows\Prefetch\
+```
+The information about the binary is stored to make often executed programs faster to load.
+Most of the important information contained will be the
+- Start time
+- Amount of times ran
+- SourceCreated, SourceModified (First time ran, last time ran)
+
+##### Windows 10 timeline
+Tool: `WxTCmd.exe -f ActivitiedCache.db --csv .` (Eric Zimmerman)
+Windows 10 will store recently used applications in a SQLite database called the `Windows 10 Timeline`.  It is stored in:
+```
+C:\Users\<username>\AppData\Local\ConnectedDevicesPlatform\{RANDOMLY_GENERATED_FOLDER}\ActivitiesCache.db
+```
+
+It stores information about the last executed programs. 
+##### Windows jump lists
+Similar to the [[#Shortcut files]], windows also keeps a `Jump list` as a "Recent activity" , when right-clicking something in the task bar (example: firefox).
+The directory to store this information is kept in:
+```
+C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+```
+It contains a massive amount of data (depending on application), including:
+- Files accessed by notepad
+- Directories accessed by File Explorer
+- Times accessed, 
+##### Shortcut files
+To create the `Recent` items in the Windows File Explorer, a list of recently opened files is kept in one of these two directories:
+```
+C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent\
+C:\Users\<username>\AppData\Roaming\Microsoft\Office\Recent\
+```
 
 
