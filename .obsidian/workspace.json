@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Forensics/Windows forensics 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Forensics/Windows forensics 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Forensics/Windows forensics 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md"
+                "file": "Windows/Forensics/Windows forensics 1.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
+    "Windows/blue-team/Windows event logs.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Password hunting (privesc).md",
@@ -175,7 +176,6 @@
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Living off the land.md",
     "Windows/Methodologies/Windows privesc.md",
-    "Windows/blue-team/Windows event logs.md",
     "Linux/SSH persistence.md",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
