@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "alternate data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,6 +163,10 @@
   },
   "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
+    "Windows/Tools/Sysinternals.md",
+    "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Forensics/Windows forensics 1.md",
+    "test.md",
     "Windows/blue-team/Windows event logs.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
@@ -171,7 +176,6 @@
     "Windows/Methodologies/Persistence.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Xfreerdp.md",
-    "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Living off the land.md",
@@ -187,9 +191,6 @@
     "Windows/Exploits/Modifiable services.md",
     "Tools/smbclient.md",
     "Tools/Responder.md",
-    "Methods/SSH Tunnelling.md",
-    "Mounting a tunneled NFS share.md",
-    "Windows/Exploits/Applocker bypass.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
