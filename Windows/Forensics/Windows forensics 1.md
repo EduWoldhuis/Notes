@@ -49,9 +49,12 @@ Windows 10 will store recently used applications in a SQLite database called the
 ```
 C:\Users\<username>\AppData\Local\ConnectedDevicesPlatform\{RANDOMLY_GENERATED_FOLDER}\ActivitiesCache.db
 ```
+It stores information about the last executed programs, including:
+- The duration a program was focused
+- Recent exetued programs
 
-It stores information about the last executed programs. 
 ##### Windows jump lists
+Tool: `JLECmd.exe -d DIRECTORY --csv .`
 Similar to the [[#Shortcut files]], windows also keeps a `Jump list` as a "Recent activity" , when right-clicking something in the task bar (example: firefox).
 The directory to store this information is kept in:
 ```
@@ -60,8 +63,9 @@ C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinatio
 It contains a massive amount of data (depending on application), including:
 - Files accessed by notepad
 - Directories accessed by File Explorer
-- Times accessed, 
+- Time last accessed, time first accessed
 ##### Shortcut files
+tool: `LECmd.exe -d DIRECTORY --csv .`
 To create the `Recent` items in the Windows File Explorer, a list of recently opened files is kept in one of these two directories:
 ```
 C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent\
