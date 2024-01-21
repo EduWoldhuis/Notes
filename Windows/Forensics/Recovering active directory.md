@@ -24,8 +24,20 @@ Note: when looking into users, use the Windows `Active Directory Users and Compu
 Get-ADComputer -filter * -properties whencreated | Select Name,@{n="Owner";e={(Get-acl "ad:\$($_.distinguishedname)").owner}},whencreated 
 ```
 
+Some important `Event Viewer` IDs to look for:
 - ID **4756**: Member added to a universal security group.
 - ID **4757**: Member removed from a universal security group.
 - ID **4728**: Member added to a global security group.
 - ID **4729**: Member removed from a global security group.
 
+### Post-compromise - Domain takeback
+
+##### Recovery plan
+- Reset all `tier 0` (regular users) account passwords. Tool: `Active Directory Users and Computers`
+- Look for possibly compromised or suspicious accounts, and disable or remove them. Tool: `Active Directory Users and Computers`
+- Reset the passwords of any accounts with admin privileges. Tool:   `Active Directory Users and Computers`
+- Use the `Reset-ComputerMachinePassword` Powershell command to reset passwords of computer objects on the domain.
+- Reset the password of the DC, to prevent a [Silver ticket](Golden ticket#Silver tickets) attack.  Tool: `Active Directory Users and Computers`
+- If there is a safe backup of the DC, restore it.
+- Perform malware analysis on any attacked DC or user.
+- Make sure there are no scheduled tasks. Tool: `run --> schtasks.msc`

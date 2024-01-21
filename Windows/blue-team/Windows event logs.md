@@ -83,10 +83,10 @@ wevtutil.exe qe Application /q:*/System[EventID=100] /f:text /c:1
 | 4103 | "logs command invocation" |  |
 | 4104 | Execute a Remote Command (script block) | Logs the powershell commands, logging events 4104 and 4103 can be disabled in the group policy editor. |
 | 4724 | Reset a user password |  |
-| 4728 |  |  |
-| 4729 |  |  |
-| 4756 |  |  |
-|  |  |  |
+| 4728 | Member added to a global security group |  |
+| 4729 | Member removed from a global security group |  |
+| 4756 | Member added to a universal security group |  |
+| 4757 | Member removed from a universal security group |  |
 | 800 | Details on commands ran |  |
 | 400 | Powershell downgrade attack | Look for `HostVersion=2.0` or such |
 | 104 | Log clear |  |

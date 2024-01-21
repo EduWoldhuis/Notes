@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Forensics/Recovering active directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Forensics/Recovering active directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md"
+                "file": "Windows/Forensics/Recovering active directory.md"
               }
             }
           }
@@ -172,11 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
+    "Pasted image 20240121133215.png",
     "Windows/Forensics/Recovering active directory.md",
-    "Windows/Tools/Powerview.md",
     "Windows/blue-team/Windows event logs.md",
+    "Windows/Tools/Powerview.md",
     "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Forensics/Windows forensics.md",
@@ -201,7 +202,6 @@
     "Docker.md",
     "Methods/XSS.md",
     "Tools/Wireshark.md",
-    "Methods/Wordlist creation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
