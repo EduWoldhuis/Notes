@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "event viewer",
+                "query": "DCSync",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4938d9c211fa61b",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
     "Pasted image 20240121133215.png",
     "Windows/Forensics/Recovering active directory.md",

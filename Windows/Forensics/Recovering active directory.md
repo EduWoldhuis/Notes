@@ -1,4 +1,3 @@
-
 ### Immediate action - first response
 -  create a backup of the compromised AD server using `run --> wbadmin.msc`. This backup can be used later on for advanced analysis, and to prevent more damage from being done.
 -  restore the Trusted Backup of the server. Some data will be lost (AD objects like users, computers etc), but they can be restored from the previously made compromised backup.
@@ -41,3 +40,27 @@ Some important `Event Viewer` IDs to look for:
 - If there is a safe backup of the DC, restore it.
 - Perform malware analysis on any attacked DC or user.
 - Make sure there are no scheduled tasks. Tool: `run --> schtasks.msc`
+- Check event logs, Access Control Lists (ACL), and group policies for any changes.
+- Enable traffic filtering on inbound traffic, to identify Indicators of Compromise (IOC). This is a task for the security team (SOC).
+
+### Common misconfigurations
+##### BIOS boot order
+If the boot order / allowance is improperly set in the BIOS, an attacker can plug in another SSD, USB or disks to boot from, giving access to all other SSDs and their data.
+##### AD Sever Administrator Group members
+By default, any AD user (member of `Domain Users` group), can log into any workstation in the AD. This is usually a massive vulnerability, so there are a few steps that can be taken to limit user access.
+Tool: `run --> gpedit.msc`
+In the group policy editor, navigate to:
+```
+Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment
+```
+Here, double-click on the `Allow log on locally` option, and select only the users or groups who should be able to log into the DC.
+##### Weak passwords
+Make sure there are password rules and regulations set on the AD, otherwise a lot of users can be compromised by bruteforce, or passwords can be saved post-compromise.
+##### DCSync attacks
+If the attacker compromises any account or group with `Replicating Directory Changes` and `Replicating Directory Changes All` rights, a DCSync attack can be performed.
+A DCSync attack uses the `GetNCChanges` Windows command, cloning an entire AD Domain. This includes all users and their password hashes, plus all data. At this point, everything is compromised.
+To prevent this, make sure to minimize any users and groups with the `Replicating Directory Changes` and `Replicating Directory Changes All` priveleges.
+##### Scripts and Applications Permissions on Workstations
+If a domain user can run unauthorised scripts or commands, it's trivial for them to enumerate the entire domain and to run exploits. To prevent this or make it more difficult, set a restriction policy on scripts and applications.
+##### Configure Network Time Synchronisation
+It's a lot easier to correlate log source data from different AD domains / servers if their time is propery synchronised. 
