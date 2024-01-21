@@ -1,4 +1,3 @@
-
 ### Transaction logs and backups of registry hives
 Transaction logs store the logs of changes of the registry hives, and will be in `C:\Windows\System32\Config\NAME_OF_HIVE.log` 
 

@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Forensics/Windows forensics 1.md",
+                "file": "Windows/Forensics/Recovering active directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Windows/Forensics/Recovering active directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Windows/Forensics/Recovering active directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md"
+                "file": "Windows/Forensics/Recovering active directory.md"
               }
             }
           }
@@ -159,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "f4938d9c211fa61b",
   "lastOpenFiles": [
-    "Windows/Forensics/Windows forensics 1.md",
-    "Windows/Tools/Sysinternals.md",
+    "Windows/Forensics/Windows forensics.md",
+    "Windows/Forensics/Recovering active directory.md",
     "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Tools/Sysinternals.md",
     "test.md",
     "Windows/blue-team/Windows event logs.md",
     "Windows/Methodologies/Active Directory persistence.md",
@@ -188,7 +190,6 @@
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Modifiable services.md",
     "Tools/smbclient.md",
-    "Tools/Responder.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
