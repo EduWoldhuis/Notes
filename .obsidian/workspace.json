@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa065279659c6265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Tools/Powerview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "event viewer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -160,14 +172,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4938d9c211fa61b",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Windows/Forensics/Windows forensics.md",
     "Windows/Forensics/Recovering active directory.md",
+    "Windows/Tools/Powerview.md",
+    "Windows/blue-team/Windows event logs.md",
     "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Forensics/Windows forensics.md",
+    "Windows/Windows Event Logs.md",
     "Windows/Tools/Sysinternals.md",
     "test.md",
-    "Windows/blue-team/Windows event logs.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Password hunting (privesc).md",
@@ -187,9 +202,6 @@
     "Methods/XSS.md",
     "Tools/Wireshark.md",
     "Methods/Wordlist creation.md",
-    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
-    "Windows/Exploits/Modifiable services.md",
-    "Tools/smbclient.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",

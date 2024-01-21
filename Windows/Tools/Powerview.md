@@ -16,5 +16,6 @@ Import-Module .\powerview.ps1
 ```
 Get-NetDomainController   // Output information on the domain controller.
 Get-NetGroup "Domain Admins" // Output information on the domain administrators
-Fin-DomainShare // List all domain shares
+Find-DomainShare // List all domain shares
+	Get-NetComputer | select name  // List all computers on the AD
 ```
