@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DCSync",
+                "query": "monitoring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md",
+                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md",
+                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Forensics/Recovering active directory.md"
+                "file": "Windows/Methodologies/Evading loggng and monitoring.md"
               }
             }
           }
@@ -173,11 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Pasted image 20240121133215.png",
-    "Windows/Forensics/Recovering active directory.md",
     "Windows/blue-team/Windows event logs.md",
+    "Windows/Forensics/Recovering active directory.md",
+    "Pasted image 20240121133215.png",
     "Windows/Tools/Powerview.md",
     "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/Methodologies/Active Directory enumeration.md",
