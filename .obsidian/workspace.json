@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "monitoring",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Evading loggng and monitoring.md"
+                "file": "Docker.md"
               }
             }
           }
@@ -174,11 +174,11 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/blue-team/Windows event logs.md",
     "Windows/Forensics/Recovering active directory.md",
     "Pasted image 20240121133215.png",
     "Windows/Tools/Powerview.md",
-    "Windows/Methodologies/Evading loggng and monitoring.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Forensics/Windows forensics.md",
     "Windows/Windows Event Logs.md",

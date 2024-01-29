@@ -107,6 +107,7 @@ docker run -v /:/mnt --rm -it ANY_IMAGE_ID chroot /mnt sh   // Mount the host sy
 ```
 
 ##### Shared namespaces
+THe shared network namespace vulnerability works because the container gets access to the host-machine's network interface. 
 If you see a lot of processes when running `ps aux`  generally 20+, try this:
 ```
 nsenter --target 1 --mount sh
