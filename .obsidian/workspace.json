@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
+                "file": "Methods/DNS Exfiltration.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
+                "file": "Methods/DNS Exfiltration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
+                "file": "Methods/DNS Exfiltration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Buffer overflows/cryptocat_ret2win_params/code.md"
+                "file": "Methods/DNS Exfiltration.md"
               }
             }
           }
@@ -173,6 +173,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
     "Methods/Buffer overflows/misfortune_John_Hammond/Exploitation.md",
     "Methods/Buffer overflows/x_sixty_what-picoCTF/code.md",
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
@@ -198,7 +199,6 @@
     "Tools/Sigma.md",
     "Tools/SQLmap.md",
     "Tools/ss.md",
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
