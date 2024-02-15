@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/DNS Exfiltration.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/DNS Exfiltration.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/DNS Exfiltration.md",
+                "file": "Windows/blue-team/Windows event logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/DNS Exfiltration.md"
+                "file": "Windows/blue-team/Windows event logs.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/blue-team/Active Directory hardening.md",
+    "Methods/DNS Exfiltration.md",
     "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
     "Methods/Buffer overflows/misfortune_John_Hammond/Exploitation.md",
     "Methods/Buffer overflows/x_sixty_what-picoCTF/code.md",
@@ -197,8 +199,6 @@
     "Tools/msfvenom 1.md",
     "Tools/pyrdp.md",
     "Tools/Sigma.md",
-    "Tools/SQLmap.md",
-    "Tools/ss.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
