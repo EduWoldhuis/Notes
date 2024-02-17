@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Tools/Powerview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md",
+                "file": "Windows/Tools/Powerview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/blue-team/Windows event logs.md"
+                "file": "Windows/Tools/Powerview.md"
               }
             }
           }
@@ -171,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/blue-team/Windows event logs.md",
     "Windows/blue-team/Active Directory hardening.md",
     "Methods/DNS Exfiltration.md",
     "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
@@ -198,7 +200,6 @@
     "Tools/Meterpreter.md",
     "Tools/msfvenom 1.md",
     "Tools/pyrdp.md",
-    "Tools/Sigma.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
