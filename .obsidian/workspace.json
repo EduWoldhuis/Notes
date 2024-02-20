@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Tools/Powerview.md",
+                "file": "LFI to RCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lfi to rce",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Tools/Powerview.md",
+                "file": "LFI to RCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Tools/Powerview.md",
+                "file": "LFI to RCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Tools/Powerview.md"
+                "file": "LFI to RCE.md"
               }
             }
           }
@@ -174,6 +175,7 @@
   },
   "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/Tools/Powerview.md",
     "Windows/blue-team/Windows event logs.md",
     "Windows/blue-team/Active Directory hardening.md",
     "Methods/DNS Exfiltration.md",
@@ -199,7 +201,6 @@
     "Tools/Curl.md",
     "Tools/Meterpreter.md",
     "Tools/msfvenom 1.md",
-    "Tools/pyrdp.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
