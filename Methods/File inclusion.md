@@ -81,6 +81,8 @@ include 'templates/footer.php';
 - Original path kept
 /var/www/../../etc/passwd
 /var/www/html/../../../etc/passwd
+
+Note: extra output gets appended, use a nullbyte (%00) to immediately terminate the string. This might cause issues.
 ```
 
 ##### PHP wrappers
