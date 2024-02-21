@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lfi to rce",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
