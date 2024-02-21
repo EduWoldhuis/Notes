@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,6 +174,8 @@
   },
   "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/Forensics/Recovering active directory.md",
+    "File inclusion.md",
     "Windows/Tools/Powerview.md",
     "Windows/blue-team/Windows event logs.md",
     "Windows/blue-team/Active Directory hardening.md",
@@ -199,8 +200,6 @@
     "Tools/Burp suite.md",
     "Tools/Chisel.md",
     "Tools/Curl.md",
-    "Tools/Meterpreter.md",
-    "Tools/msfvenom 1.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
