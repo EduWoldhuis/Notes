@@ -60,7 +60,7 @@ if(isset($_GET['page'])){
 </div>
 <?php
 include 'templates/footer.php';
-	?>
+?>
 
 ```
 
