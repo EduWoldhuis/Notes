@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "powershell",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "Methods/File inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "Methods/File inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md"
+                "file": "Methods/File inclusion.md"
               }
             }
           }
@@ -161,34 +159,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Methods/Command injection.md",
-    "Methods/Uploading vulnerabilities.md",
-    "Windows/Forensics/Recovering active directory.md",
+    "Methods/Living off the land.md",
+    "Methods/Local File Inclusion.md",
+    "Methods/IDOR.md",
+    "Methods/General methodology.md",
+    "Methods/General file filtering and log analysis.md",
+    "Methods/Forensics.md",
     "Methods/File inclusion.md",
-    "Windows/blue-team/Windows event logs.md",
-    "Windows/Tools/Powerview.md",
-    "Windows/blue-team/Active Directory hardening.md",
+    "Methods/DNS zone transfer.md",
     "Methods/DNS Exfiltration.md",
-    "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
-    "Methods/Buffer overflows/misfortune_John_Hammond/Exploitation.md",
-    "Methods/Buffer overflows/x_sixty_what-picoCTF/code.md",
-    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
-    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/code.md",
-    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
-    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
-    "Methods/Buffer overflows/Note on targets running Ubuntu.md",
-    "Methods/Buffer overflows/pwntools remote.md",
-    "Methods/Buffer overflows/gadgets (64-bit).md",
-    "Methods/Buffer overflows/buffer overflows without pwntools having access.md",
-    "Windows/Methodologies/Windows exploitation.md",
+    "Methods/Command injection.md",
+    "Methods/MySQL exploitation.md",
+    "Methods/SSRF.md",
     "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Bypassing UAC.md",
-    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Windows privesc.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Persistence.md",
-    "Tools/Hydra.md",
-    "Tools/Burp suite.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Active Directory persistence.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Methods/Uploading vulnerabilities.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
