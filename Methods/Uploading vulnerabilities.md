@@ -2,7 +2,9 @@
 https://book.hacktricks.xyz/pentesting-web/file-upload
 
 #### ASPX or PHP
-Find out if the back-end is running ASPX or PHP, 
+Find out if the back-end is running ASPX or PHP.
+ASPX is usually windows (make sure to adjust payloads and shells)
+PHP can be either. Check the NMAP log.
 
 There are ASPX and PHP reverse shells.
 #### Bypassing filters
