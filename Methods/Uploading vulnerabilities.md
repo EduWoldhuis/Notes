@@ -22,8 +22,11 @@ Erlang Yaws Web Server: .yaws
 
 | Filter | Bypasses |
 | ---- | ---- |
-| Case checking |  |
-| First extension checking |  |
+| Case checking | `.pHp` |
+| First extension checking | `.png.php` |
 |  |  |
 |  |  |
 
+```
+
+```
