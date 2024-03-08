@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/Writable password files.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/Writable password files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/Writable password files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/XSS.md"
+                "file": "Methods/Writable password files.md"
               }
             }
           }
@@ -175,6 +174,8 @@
   },
   "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Methods/XSS.md",
+    "Methods/Writable password files.md",
     "Tools/Hydra.md",
     "Methods/Living off the land.md",
     "Methods/Local File Inclusion.md",
@@ -199,8 +200,6 @@
     "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Active Directory persistence.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
