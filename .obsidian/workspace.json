@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "312a059da7fd4887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Xfreerdp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fa065279659c6265",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "xfreerdp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Xfreerdp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Xfreerdp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Writable password files.md"
+                "file": "Xfreerdp.md"
               }
             }
           }
@@ -172,10 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d09d81c5950626f",
+  "active": "312a059da7fd4887",
   "lastOpenFiles": [
-    "Methods/XSS.md",
     "Methods/Writable password files.md",
+    "Methods/XSS.md",
     "Tools/Hydra.md",
     "Methods/Living off the land.md",
     "Methods/Local File Inclusion.md",
