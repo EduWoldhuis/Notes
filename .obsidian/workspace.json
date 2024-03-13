@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Tools/Powerview.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Tools/Powerview.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Tools/Powerview.md"
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md"
               }
             }
           }
@@ -184,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "312a059da7fd4887",
   "lastOpenFiles": [
+    "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
     "Methods/Uploading vulnerabilities.md",
     "Methods/File inclusion.md",
@@ -203,7 +204,6 @@
     "Windows/Methodologies/Active Directory enumeration.md",
     "Methods/DNS zone transfer.md",
     "Methods/DNS Exfiltration.md",
-    "Windows/Tools/Powerview.md",
     "Xfreerdp.md",
     "Methods/XSS.md",
     "Tools/Hydra.md",
