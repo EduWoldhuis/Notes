@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md"
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md"
               }
             }
           }
@@ -197,8 +197,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0c02386094c21f6",
+  "active": "312a059da7fd4887",
   "lastOpenFiles": [
+    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Living off the land.md",
     "Windows/Methodologies/Password hunting (privesc).md",
@@ -220,7 +221,6 @@
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/code.md",
     "Buffer overflow.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Methods/DNS zone transfer.md",
     "Methods/DNS Exfiltration.md",
     "Xfreerdp.md",
