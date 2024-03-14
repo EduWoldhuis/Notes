@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Windows/Exploits/Modifyable service files.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "Rooms/red team capstone.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bd3660b64955b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/msfvenom.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "service",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,9 +211,13 @@
   },
   "active": "312a059da7fd4887",
   "lastOpenFiles": [
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Rooms/red team capstone.md",
+    "Tools/msfvenom.md",
     "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Exploits/Modifyable service files.md",
+    "Windows/Active directory.md",
+    "Methods/Writable password files.md",
+    "Rooms/red team capstone.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Living off the land.md",
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Windows privesc.md",
@@ -211,7 +228,6 @@
     "Windows/Tools/powerup.ps1.md",
     "Methods/Uploading vulnerabilities.md",
     "Methods/File inclusion.md",
-    "Methods/Writable password files.md",
     "Windows/Exploits/AMSI.md",
     "Methods/Buffer overflows/x_sixty_what-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/cryptocat_ret2win_params/Exploitation.md",
@@ -220,10 +236,6 @@
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/code.md",
-    "Buffer overflow.md",
-    "Methods/DNS zone transfer.md",
-    "Methods/DNS Exfiltration.md",
-    "Xfreerdp.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
