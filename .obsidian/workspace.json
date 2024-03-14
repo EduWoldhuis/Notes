@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+                "file": "Rooms/red team capstone.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sharphound",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+                "file": "Rooms/red team capstone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+                "file": "Rooms/red team capstone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md"
+                "file": "Rooms/red team capstone.md"
               }
             }
           }
@@ -199,8 +198,9 @@
   },
   "active": "312a059da7fd4887",
   "lastOpenFiles": [
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Rooms/red team capstone.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Living off the land.md",
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Windows privesc.md",
@@ -224,7 +224,6 @@
     "Methods/DNS zone transfer.md",
     "Methods/DNS Exfiltration.md",
     "Xfreerdp.md",
-    "Methods/XSS.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
