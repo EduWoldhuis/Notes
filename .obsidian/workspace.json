@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "Tools/Socat.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chisel",
+                "query": "socat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "Tools/Socat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "Tools/Socat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Chisel.md"
+                "file": "Tools/Socat.md"
               }
             }
           }
@@ -210,6 +210,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Chisel.md",
     "Methods/File inclusion.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Living off the land.md",
