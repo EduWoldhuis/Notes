@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "socat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Socat.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Socat.md",
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Socat.md"
+                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md"
               }
             }
           }
@@ -208,14 +209,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Exploits/Modifyable service files.md",
+    "Tools/Socat.md",
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Living off the land.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Exploits/Modifyable service files.md",
     "Rooms/red team capstone.md",
     "Tools/msfvenom.md",
     "Windows/Active directory.md",
@@ -235,7 +237,6 @@
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
     "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
-    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/code.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
