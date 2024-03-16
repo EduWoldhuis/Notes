@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+                "file": "Tools/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+                "file": "Tools/msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md"
+                "file": "Tools/msfvenom.md"
               }
             }
           }
@@ -209,14 +209,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "4bd3660b64955b6c",
   "lastOpenFiles": [
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Exploits/Modifyable service files.md",
     "Tools/Socat.md",
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Living off the land.md",
     "Rooms/red team capstone.md",
     "Tools/msfvenom.md",
