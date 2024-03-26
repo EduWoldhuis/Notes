@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Methods/Writable password files.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "writable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Methods/Writable password files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Methods/Writable password files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Methods/Writable password files.md"
               }
             }
           }
@@ -208,14 +209,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "d0c02386094c21f6",
   "lastOpenFiles": [
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Docker.md",
     "Methods/Writable password files.md",
     "Tools/Socat.md",
     "Tools/msfvenom.md",
     "Methods/XSS.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Exploits/Modifyable service files.md",
     "Rooms/red team capstone.md",
     "Tools/Chisel.md",
@@ -235,7 +237,6 @@
     "Methods/Buffer overflows/cryptocat_ret2win_params/Exploitation.md",
     "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
-    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
