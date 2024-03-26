@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Socat.md",
+                "file": "Methods/Writable password files.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "XSS",
+                "query": "writable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/Writable password files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/XSS.md",
+                "file": "Methods/Writable password files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/XSS.md"
+                "file": "Methods/Writable password files.md"
               }
             }
           }
@@ -209,14 +208,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Socat.md",
+    "Tools/msfvenom.md",
+    "Methods/XSS.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "Tools/Socat.md",
     "Windows/Exploits/Modifyable service files.md",
     "Rooms/red team capstone.md",
-    "Tools/msfvenom.md",
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
     "Windows/Methodologies/Living off the land.md",
@@ -236,7 +236,6 @@
     "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/code.md",
-    "Methods/Buffer overflows/buffer_overflow_2-picoCTF/Exploitation.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
