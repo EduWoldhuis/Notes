@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Xfreerdp.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "xfree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,9 +211,11 @@
   },
   "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Xfreerdp.md",
+    "Docker.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "Linux/dirtypipe exploitation.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Docker.md",
     "Tools/Git.md",
     "Tools/msfvenom.md",
     "Methods/Writable password files.md",
@@ -228,14 +231,12 @@
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Windows privesc.md",
     "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
     "Methods/Uploading vulnerabilities.md",
     "Windows/Exploits/AMSI.md",
     "Methods/Buffer overflows/x_sixty_what-picoCTF/Exploitation.md",
-    "Methods/Buffer overflows/cryptocat_ret2win_params/Exploitation.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
