@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/dirtypipe exploitation.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/dirtypipe exploitation.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/dirtypipe exploitation.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/dirtypipe exploitation.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -210,8 +210,8 @@
   },
   "active": "2d09d81c5950626f",
   "lastOpenFiles": [
-    "Windows/Exploits/Modifyable service files.md",
     "Linux/dirtypipe exploitation.md",
+    "Windows/Exploits/Modifyable service files.md",
     "Docker.md",
     "Tools/Git.md",
     "Tools/msfvenom.md",
