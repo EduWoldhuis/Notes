@@ -1,4 +1,3 @@
-
 #### /etc/passwd
 ```
 ┌─[root@edu-virtualbox]─[/home/edu/OSCP]
@@ -18,3 +17,4 @@ Note: this is very risky, as you'll need to change an existing password.
 ```
 
 ```
+

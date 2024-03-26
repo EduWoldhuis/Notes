@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Modifyable service files.md",
+                "file": "Linux/dirtypipe exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Tools/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "writable",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Linux/dirtypipe exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Linux/dirtypipe exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Writable password files.md"
+                "file": "Linux/dirtypipe exploitation.md"
               }
             }
           }
@@ -209,16 +208,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0c02386094c21f6",
+  "active": "2d09d81c5950626f",
   "lastOpenFiles": [
-    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Exploits/Modifyable service files.md",
+    "Linux/dirtypipe exploitation.md",
     "Docker.md",
-    "Methods/Writable password files.md",
-    "Tools/Socat.md",
+    "Tools/Git.md",
     "Tools/msfvenom.md",
+    "Methods/Writable password files.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Tools/Socat.md",
     "Methods/XSS.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Windows/Exploits/Modifyable service files.md",
     "Rooms/red team capstone.md",
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
@@ -235,8 +236,6 @@
     "Windows/Exploits/AMSI.md",
     "Methods/Buffer overflows/x_sixty_what-picoCTF/Exploitation.md",
     "Methods/Buffer overflows/cryptocat_ret2win_params/Exploitation.md",
-    "Methods/Buffer overflows/cryptocat_ret2win_params/code.md",
-    "Methods/Buffer overflows/buffer_ovreflow_1-picoCTF/Exploitation.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
