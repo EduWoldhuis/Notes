@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "writable",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Writable password files.md"
+                "file": "Docker.md"
               }
             }
           }
@@ -210,6 +210,7 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Methods/Writable password files.md",
     "Tools/Socat.md",
     "Tools/msfvenom.md",
     "Methods/XSS.md",
@@ -221,7 +222,6 @@
     "Methods/File inclusion.md",
     "Windows/Methodologies/Living off the land.md",
     "Windows/Active directory.md",
-    "Methods/Writable password files.md",
     "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Methodologies/Windows privesc.md",
     "Windows/Methodologies/Windows firewall evasion.md",
