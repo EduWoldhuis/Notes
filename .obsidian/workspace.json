@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xfreerdp.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -209,15 +209,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Xfreerdp.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Tools/Hydra.md",
     "Methods/XSS.md",
     "Methods/Writable password files.md",
     "Tools/Git.md",
     "Rooms/red team capstone.md",
-    "Xfreerdp.md",
     "Docker.md",
     "Linux/dirtypipe exploitation.md",
     "Windows/Exploits/Modifyable service files.md",
