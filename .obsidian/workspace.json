@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Hydra.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -221,8 +221,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Tools/Hydra.md",
     "Methods/XSS.md",
     "Methods/Writable password files.md",
     "Tools/Git.md",
@@ -248,7 +249,6 @@
     "Windows/Tools/powerup.ps1.md",
     "Methods/Uploading vulnerabilities.md",
     "Windows/Exploits/AMSI.md",
-    "Methods/Buffer overflows/x_sixty_what-picoCTF/Exploitation.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
