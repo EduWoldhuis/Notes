@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/Modifiable services.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "service",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/Modifiable services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/Modifiable services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Windows/Exploits/Modifiable services.md"
               }
             }
           }
@@ -211,8 +211,10 @@
   },
   "active": "2d09d81c5950626f",
   "lastOpenFiles": [
-    "Xfreerdp.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Tools/Burp suite.md",
     "Windows/Methodologies/Windows exploitation.md",
+    "Xfreerdp.md",
     "Tools/Hydra.md",
     "Methods/XSS.md",
     "Methods/Writable password files.md",
@@ -235,8 +237,6 @@
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
-    "Methods/Uploading vulnerabilities.md",
-    "Windows/Exploits/AMSI.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
