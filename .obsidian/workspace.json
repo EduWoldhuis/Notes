@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Methodologies/Windows service exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Methodologies/Windows service exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Methodologies/Windows service exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Windows/Methodologies/Windows service exploitation.md"
               }
             }
           }
@@ -210,13 +210,14 @@
   },
   "active": "fa065279659c6265",
   "lastOpenFiles": [
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows service exploitation.md",
     "Tools/Hydra.md",
     "Tools/Git.md",
     "Rooms/red team capstone.md",
     "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Burp suite.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Xfreerdp.md",
     "Methods/XSS.md",
     "Methods/Writable password files.md",
@@ -235,7 +236,6 @@
     "Windows/Methodologies/Windows privesc.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows Active directory.md",
-    "Windows/Tools/Powerview.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
