@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "357d8e67c5be1935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/msfvenom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4bd3660b64955b6c",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exe-service",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +138,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,21 +223,21 @@
   },
   "active": "fa065279659c6265",
   "lastOpenFiles": [
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Methodologies/Windows service exploitation.md",
-    "Tools/Hydra.md",
     "Tools/Git.md",
+    "Tools/msfvenom.md",
     "Rooms/red team capstone.md",
     "Windows/Exploits/Modifiable services.md",
+    "Xfreerdp.md",
+    "Windows/Methodologies/Windows service exploitation.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Tools/Hydra.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Burp suite.md",
-    "Xfreerdp.md",
     "Methods/XSS.md",
     "Methods/Writable password files.md",
     "Docker.md",
     "Linux/dirtypipe exploitation.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Tools/msfvenom.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Tools/Socat.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
