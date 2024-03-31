@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Xfreerdp.md",
+                "file": "Tools/Hydra.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exe-service",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows service exploitation.md",
+                "file": "Tools/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows service exploitation.md",
+                "file": "Tools/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows service exploitation.md"
+                "file": "Tools/Hydra.md"
               }
             }
           }
@@ -221,14 +220,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Tools/msfvenom.md",
+    "Xfreerdp.md",
     "Windows/Methodologies/Windows service exploitation.md",
+    "Tools/msfvenom.md",
     "Tools/Git.md",
     "Rooms/red team capstone.md",
     "Windows/Exploits/Modifiable services.md",
-    "Xfreerdp.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Tools/Hydra.md",
     "Windows/Exploits/Mimikatz.md",
