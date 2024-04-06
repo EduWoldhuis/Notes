@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -233,14 +233,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bd3660b64955b6c",
+  "active": "657c965b9eae5abb",
   "lastOpenFiles": [
+    "Windows/Exploits/Abusing Windows Intenals.md",
+    "Windows/Exploits/DLL hijacking.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Methods/Writable password files.md",
-    "Windows/Exploits/Abusing Windows Intenals.md",
     "Rooms/red team capstone.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Tools/powerup.ps1.md",
@@ -261,7 +262,6 @@
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
-    "Windows/Methodologies/Living off the land.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
