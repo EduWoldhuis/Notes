@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Scheduled tasks.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Scheduled tasks.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Scheduled tasks.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -233,10 +233,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa065279659c6265",
+  "active": "657c965b9eae5abb",
   "lastOpenFiles": [
-    "Methods/Writable password files.md",
     "Windows/Exploits/Scheduled tasks.md",
+    "Methods/Writable password files.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Rooms/red team capstone.md",
