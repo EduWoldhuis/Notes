@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Tools/msfvenom.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dll",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
               }
             }
           }
@@ -235,20 +234,22 @@
   },
   "active": "657c965b9eae5abb",
   "lastOpenFiles": [
-    "Windows/Exploits/Abusing Windows Intenals.md",
-    "Windows/Exploits/DLL hijacking.md",
+    "Windows/Exploits/Scheduled tasks.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Methodologies/Windows exploitation.md",
+    "Tools/msfvenom.md",
+    "Tools/Meterpreter.md",
+    "Tools/Hydra.md",
+    "Windows/Exploits/DLL hijacking.md",
+    "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
-    "Windows/Exploits/Scheduled tasks.md",
     "Methods/Writable password files.md",
     "Rooms/red team capstone.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Exploits/Unquoted service path.md",
-    "Tools/msfvenom.md",
     "Windows/Exploits/Modifiable services.md",
-    "Tools/Hydra.md",
     "Untitled.canvas",
     "Xfreerdp.md",
     "Windows/Exploits/Mimikatz.md",
@@ -260,8 +261,6 @@
     "Windows/Methodologies/Active Directory enumeration.md",
     "Tools/Socat.md",
     "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Tools/Chisel.md",
-    "Methods/File inclusion.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
