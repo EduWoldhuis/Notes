@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "Windows/Exploits/DLL hijacking.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scheduled",
+                "query": "dll",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/DLL hijacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Windows/Exploits/DLL hijacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Windows/Exploits/DLL hijacking.md"
               }
             }
           }
@@ -233,14 +233,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "657c965b9eae5abb",
+  "active": "4bd3660b64955b6c",
   "lastOpenFiles": [
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Active directory.md",
+    "Tools/Git.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Methods/Writable password files.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Rooms/red team capstone.md",
-    "Tools/Git.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Exploits/Unquoted service path.md",
@@ -261,7 +262,6 @@
     "Tools/Chisel.md",
     "Methods/File inclusion.md",
     "Windows/Methodologies/Living off the land.md",
-    "Windows/Active directory.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
