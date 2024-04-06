@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/General locating of public exploits.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/General locating of public exploits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/General locating of public exploits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
+                "file": "Methods/General locating of public exploits.md"
               }
             }
           }
@@ -234,8 +234,9 @@
   },
   "active": "657c965b9eae5abb",
   "lastOpenFiles": [
-    "Windows/Exploits/Scheduled tasks.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "Methods/General locating of public exploits.md",
+    "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Tools/msfvenom.md",
     "Tools/Meterpreter.md",
@@ -260,7 +261,6 @@
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Tools/Socat.md",
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
