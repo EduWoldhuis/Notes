@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Modifiable services.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "potato",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
+                "file": "Windows/Exploits/Mimikatz.md"
               }
             }
           }
@@ -233,10 +233,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "657c965b9eae5abb",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
-    "Methods/General locating of public exploits.md",
+    "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "Methods/General locating of public exploits.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Tools/msfvenom.md",
@@ -251,7 +252,6 @@
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Exploits/Unquoted service path.md",
-    "Windows/Exploits/Modifiable services.md",
     "Untitled.canvas",
     "Xfreerdp.md",
     "Windows/Exploits/Mimikatz.md",
