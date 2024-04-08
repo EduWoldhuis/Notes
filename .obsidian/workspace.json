@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/General locating of public exploits.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "potato",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/General locating of public exploits.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/General locating of public exploits.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/General locating of public exploits.md"
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
               }
             }
           }
@@ -234,8 +235,8 @@
   },
   "active": "657c965b9eae5abb",
   "lastOpenFiles": [
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/General locating of public exploits.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Tools/msfvenom.md",
