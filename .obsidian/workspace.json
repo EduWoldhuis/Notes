@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Methods/Hash cracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -233,8 +232,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
+    "Methods/Hash cracking.md",
     "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/General locating of public exploits.md",
@@ -254,14 +255,12 @@
     "Windows/Exploits/Unquoted service path.md",
     "Untitled.canvas",
     "Xfreerdp.md",
-    "Windows/Exploits/Mimikatz.md",
     "Tools/Burp suite.md",
     "Methods/XSS.md",
     "Docker.md",
     "Linux/dirtypipe exploitation.md",
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "Tools/Socat.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
