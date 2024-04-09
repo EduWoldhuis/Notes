@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Tools/Responder.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimikatz",
+                "query": "responder",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -247,10 +247,13 @@
   },
   "active": "02c0897a614ada82",
   "lastOpenFiles": [
+    "Tools/Responder.md",
+    "Tools/msfvenom.md",
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/DLL hijacking.md",
-    "Methods/Hash cracking.md",
     "OSCP-specific notes/Apache 2.4.49.md",
+    "Methods/Hash cracking.md",
+    "Windows/Exploits/DLL hijacking.md",
     "OSCP-specific notes",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
@@ -259,7 +262,6 @@
     "Windows/Exploits/Modifiable services.md",
     "Methods/General locating of public exploits.md",
     "Windows/Exploits/Scheduled tasks.md",
-    "Tools/msfvenom.md",
     "Tools/Meterpreter.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
@@ -273,8 +275,6 @@
     "Tools/Burp suite.md",
     "Methods/XSS.md",
     "Docker.md",
-    "Linux/dirtypipe exploitation.md",
-    "Windows/Exploits/Modifyable service files.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
