@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -233,13 +233,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "657c965b9eae5abb",
+  "active": "357d8e67c5be1935",
   "lastOpenFiles": [
+    "Methods/Hash cracking.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Tools/Hydra.md",
-    "Methods/Hash cracking.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Modifiable services.md",
     "Methods/General locating of public exploits.md",
