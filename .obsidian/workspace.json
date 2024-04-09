@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Tools/Hydra.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Abusing Windows Intenals.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hashcat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
               }
             }
           }
@@ -232,20 +233,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d09d81c5950626f",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
-    "Windows/Exploits/Mimikatz.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Exploits/Abusing Windows Intenals.md",
+    "Tools/Hydra.md",
     "Methods/Hash cracking.md",
+    "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Modifiable services.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/General locating of public exploits.md",
     "Windows/Exploits/Scheduled tasks.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Tools/msfvenom.md",
     "Tools/Meterpreter.md",
-    "Tools/Hydra.md",
     "Windows/Exploits/DLL hijacking.md",
-    "Windows/Exploits/Abusing Windows Intenals.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
     "Methods/Writable password files.md",
