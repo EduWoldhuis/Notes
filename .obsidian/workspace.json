@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -245,14 +245,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "357d8e67c5be1935",
   "lastOpenFiles": [
+    "Windows/Exploits/Scheduled tasks.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "Methods/Hash cracking.md",
     "Tools/Responder.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Mimikatz.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
-    "Methods/Hash cracking.md",
     "Windows/Exploits/DLL hijacking.md",
     "OSCP-specific notes",
     "Windows/Methodologies/Windows exploitation.md",
@@ -261,7 +262,6 @@
     "Tools/Hydra.md",
     "Windows/Exploits/Modifiable services.md",
     "Methods/General locating of public exploits.md",
-    "Windows/Exploits/Scheduled tasks.md",
     "Tools/Meterpreter.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
