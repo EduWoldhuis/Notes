@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Apache 2.4.49.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashcat",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Apache 2.4.49.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Apache 2.4.49.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "OSCP-specific notes/Apache 2.4.49.md"
               }
             }
           }
@@ -235,8 +234,10 @@
   },
   "active": "657c965b9eae5abb",
   "lastOpenFiles": [
-    "Windows/Methodologies/Windows exploitation.md",
     "Methods/Hash cracking.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "OSCP-specific notes",
+    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Tools/Hydra.md",
@@ -261,7 +262,6 @@
     "Docker.md",
     "Linux/dirtypipe exploitation.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
@@ -275,7 +275,6 @@
     "Windows/blue-team",
     "Windows",
     "Tools",
-    "Rooms",
     "Images/snapshot.jpg",
     "Images/Pasted image 20230424224442.png",
     "Images/Pasted image 20221109232554.png",
