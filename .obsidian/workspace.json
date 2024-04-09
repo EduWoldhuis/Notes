@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "OSCP-specific notes/File uploads.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "php",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "OSCP-specific notes/File uploads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md",
+                "file": "OSCP-specific notes/File uploads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Uploading vulnerabilities.md"
+                "file": "OSCP-specific notes/File uploads.md"
               }
             }
           }
@@ -247,6 +246,8 @@
   },
   "active": "357d8e67c5be1935",
   "lastOpenFiles": [
+    "Methods/Uploading vulnerabilities.md",
+    "OSCP-specific notes/File uploads.md",
     "Methods/File inclusion.md",
     "Rooms/Cybercrafted.md",
     "Windows/Methodologies/Active Directory exploitation.md",
@@ -272,9 +273,7 @@
     "Rooms/red team capstone.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Tools/powerup.ps1.md",
-    "Windows/Exploits/Unquoted service path.md",
     "Untitled.canvas",
-    "Xfreerdp.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
