@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "78d03f56203323fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Methodologies/Windows exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "657c965b9eae5abb",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/File uploads.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/File uploads.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/File uploads.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -244,16 +256,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "357d8e67c5be1935",
+  "active": "78d03f56203323fc",
   "lastOpenFiles": [
-    "Methods/Uploading vulnerabilities.md",
+    "Windows/Exploits/Scheduled tasks.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/File uploads.md",
+    "Methods/Uploading vulnerabilities.md",
     "Methods/File inclusion.md",
     "Rooms/Cybercrafted.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Exploits/Scheduled tasks.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "Methods/Hash cracking.md",
     "Tools/Responder.md",
     "Tools/msfvenom.md",
