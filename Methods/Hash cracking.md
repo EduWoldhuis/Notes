@@ -1,5 +1,5 @@
 
-OSCP Note: use the `best64` rule:
+OSCP Note: use the `best64` or `rockyou-30000` rule:
 
 ```
 john --list=rules                                                               // display all rules

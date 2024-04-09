@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/Hash cracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -233,15 +233,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "657c965b9eae5abb",
   "lastOpenFiles": [
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Tools/Hydra.md",
     "Methods/Hash cracking.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Modifiable services.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/General locating of public exploits.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Tools/msfvenom.md",
