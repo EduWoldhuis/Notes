@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Methods/Uploading vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "php",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Methods/Uploading vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Methods/Uploading vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Methods/Uploading vulnerabilities.md"
               }
             }
           }
@@ -247,6 +247,10 @@
   },
   "active": "357d8e67c5be1935",
   "lastOpenFiles": [
+    "Methods/File inclusion.md",
+    "Rooms/Cybercrafted.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Scheduled tasks.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "Methods/Hash cracking.md",
@@ -256,7 +260,6 @@
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/DLL hijacking.md",
     "OSCP-specific notes",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/Exploits/Abusing Windows Intenals.md",
     "Tools/Hydra.md",
@@ -272,9 +275,6 @@
     "Windows/Exploits/Unquoted service path.md",
     "Untitled.canvas",
     "Xfreerdp.md",
-    "Tools/Burp suite.md",
-    "Methods/XSS.md",
-    "Docker.md",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
