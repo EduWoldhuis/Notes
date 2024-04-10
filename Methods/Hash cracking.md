@@ -10,6 +10,7 @@ hashcat -m 1000 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/
 hashcat -m 13400 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force       // Keepass
 ./hashcat.exe -m 13400 /tmp/hash /usr/share/wordlists/rockyou.txt -r rules/rockyou-30000.rule --force                   // Keepass on WSL for GPU access
 ./hashcat.exe -m 22921 ssh.hash ssh.passwords -r ssh.rule --force                                                       // With rule (only works on some SSH)
+./hashcat.exe -m 5600 /tmp/hash /usr/share/wordlists/rockyou.txt -r rules/best64.rule                                   // Net-NTLMv2
 ```
 
 Custom John rules:

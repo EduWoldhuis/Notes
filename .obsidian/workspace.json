@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -256,8 +256,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78d03f56203323fc",
+  "active": "02c0897a614ada82",
   "lastOpenFiles": [
+    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Scheduled tasks.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/File uploads.md",
@@ -265,7 +266,6 @@
     "Methods/File inclusion.md",
     "Rooms/Cybercrafted.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Methods/Hash cracking.md",
     "Tools/Responder.md",
     "Tools/msfvenom.md",
