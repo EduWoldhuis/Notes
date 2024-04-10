@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Wordpress website.md",
+                "file": "OSCP-specific notes/Fixing exploits.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Wordpress website.md",
+                "file": "OSCP-specific notes/Fixing exploits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Wordpress website.md",
+                "file": "OSCP-specific notes/Fixing exploits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Wordpress website.md"
+                "file": "OSCP-specific notes/Fixing exploits.md"
               }
             }
           }
@@ -270,8 +270,9 @@
   },
   "active": "0046b41027763c84",
   "lastOpenFiles": [
-    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Wordpress website.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/Information gathering.md",
     "Methods/Hash cracking.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Scheduled tasks.md",
@@ -296,7 +297,6 @@
     "Windows/Active directory.md",
     "Tools/Git.md",
     "Methods/Writable password files.md",
-    "Rooms/red team capstone.md",
     "Untitled.canvas",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
