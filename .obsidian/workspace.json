@@ -126,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0046b41027763c84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-specific notes/Information gathering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "OSCP-specific notes/Information gathering.md"
               }
             }
           }
@@ -256,8 +268,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "0046b41027763c84",
   "lastOpenFiles": [
+    "OSCP-specific notes/Information gathering.md",
+    "Methods/Hash cracking.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Exploits/Scheduled tasks.md",
     "OSCP-specific notes/Apache 2.4.49.md",
@@ -266,7 +280,6 @@
     "Methods/File inclusion.md",
     "Rooms/Cybercrafted.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Methods/Hash cracking.md",
     "Tools/Responder.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
@@ -284,7 +297,6 @@
     "Methods/Writable password files.md",
     "Rooms/red team capstone.md",
     "Windows/Methodologies/Windows service exploitation.md",
-    "Windows/Tools/powerup.ps1.md",
     "Untitled.canvas",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
