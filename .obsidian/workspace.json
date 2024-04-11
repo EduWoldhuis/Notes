@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Fixing exploits.md",
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Fixing exploits.md",
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Fixing exploits.md",
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Fixing exploits.md"
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md"
               }
             }
           }
@@ -270,8 +270,9 @@
   },
   "active": "0046b41027763c84",
   "lastOpenFiles": [
-    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
+    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Information gathering.md",
     "Methods/Hash cracking.md",
     "Windows/Methodologies/Windows exploitation.md",
@@ -296,7 +297,6 @@
     "Tools/Meterpreter.md",
     "Windows/Active directory.md",
     "Tools/Git.md",
-    "Methods/Writable password files.md",
     "Untitled.canvas",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
