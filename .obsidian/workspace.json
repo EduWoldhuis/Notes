@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,8 +139,7 @@
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +168,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ffuf",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +185,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
+                "file": "Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
+                "file": "Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md"
+                "file": "Tools/FFUF.md"
               }
             }
           }
@@ -268,10 +268,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0046b41027763c84",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "OSCP-specific notes/Fixing exploits.md",
+    "Tools/Responder.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
+    "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Information gathering.md",
     "Methods/Hash cracking.md",
@@ -283,7 +284,6 @@
     "Methods/File inclusion.md",
     "Rooms/Cybercrafted.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Tools/Responder.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Windows/Exploits/Mimikatz.md",
