@@ -13,4 +13,8 @@ $PDC = $domainObj.PdcRoleOwner.Name
 # Print the $PDC variable
 $PDC
 
+$DN = ([adsi]'').distinguishedName 
+$LDAP = "LDAP://$PDC/$DN"
+$LDAP
+
 ```
