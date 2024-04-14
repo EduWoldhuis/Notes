@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/enumeration.ps1.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,7 +185,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/enumeration.ps1.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/enumeration.ps1.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/enumeration.ps1.md"
+                "file": "OSCP-specific notes/Active Directory.md"
               }
             }
           }
@@ -267,10 +268,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
-    "Tools/FFUF.md",
     "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/Active Directory.md",
+    "Tools/FFUF.md",
     "Tools/Responder.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Fixing exploits.md",
@@ -295,7 +297,6 @@
     "Tools/Hydra.md",
     "Windows/Exploits/Modifiable services.md",
     "Methods/General locating of public exploits.md",
-    "Tools/Meterpreter.md",
     "Untitled.canvas",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",

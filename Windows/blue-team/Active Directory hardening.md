@@ -1,4 +1,4 @@
-For basic AD info, check [[Active directory]]
+For basic AD info, check [[Windows/Active directory]]
 
 ##### Transative and non-transative trust
 Transative trusts are trusts automatically created by an AD between parent and child domains (and tree-root, or any automatically created trusts) in the AD forest.
