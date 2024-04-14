@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Writable password files.md",
+                "file": "OSCP-specific notes/Scans.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,14 +133,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Scans.md",
+                "file": "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -268,11 +268,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0046b41027763c84",
+  "active": "d0c02386094c21f6",
   "lastOpenFiles": [
-    "OSCP-specific notes/Antivirus evasion (coding).md",
-    "OSCP-specific notes/Scans.md",
+    "Methods/Writable password files.md",
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
+    "OSCP-specific notes/File uploads.md",
+    "Rooms/red team capstone.md",
+    "Tools/Hydra.md",
     "OSCP-specific notes/Active Directory.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+    "Linux/env_keep+=LD_PRELOAD exploitation.md",
+    "OSCP-specific notes/Scans.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/enumeration.ps1.md",
@@ -289,13 +296,6 @@
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Persistence.md",
     "Windows/Methodologies/Password hunting (privesc).md",
-    "Windows/Methodologies/Living off the land.md",
-    "Windows/Methodologies/Evading loggng and monitoring.md",
-    "Windows/Methodologies/Bypassing UAC.md",
-    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
-    "Windows/Methodologies/Active Directory persistence.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
