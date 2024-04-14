@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
+                "file": "OSCP-specific notes/Scans.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
+                "file": "OSCP-specific notes/Scans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
+                "file": "OSCP-specific notes/Scans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Antivirus evasion (coding).md"
+                "file": "OSCP-specific notes/Scans.md"
               }
             }
           }
@@ -270,9 +270,10 @@
   },
   "active": "0046b41027763c84",
   "lastOpenFiles": [
+    "OSCP-specific notes/Antivirus evasion (coding).md",
+    "OSCP-specific notes/Scans.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Wordpress website.md",
-    "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Fixing exploits.md",
@@ -295,7 +296,6 @@
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Windows/kerberos exploitation/Unconstrained delegation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
