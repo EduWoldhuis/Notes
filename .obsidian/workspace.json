@@ -139,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -185,8 +186,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md"
+                "file": "OSCP-specific notes/Antivirus evasion (coding).md"
               }
             }
           }
@@ -268,40 +268,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "0046b41027763c84",
   "lastOpenFiles": [
-    "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Active Directory.md",
-    "Tools/FFUF.md",
-    "Tools/Responder.md",
-    "OSCP-specific notes/Antivirus evasion (coding).md",
-    "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Wordpress website.md",
-    "OSCP-specific notes/Information gathering.md",
-    "Methods/Hash cracking.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Exploits/Scheduled tasks.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "OSCP-specific notes/File uploads.md",
-    "Methods/Uploading vulnerabilities.md",
-    "Methods/File inclusion.md",
-    "Rooms/Cybercrafted.md",
+    "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "Windows/Active directory.md",
+    "Windows/Tools/Sysinternals.md",
+    "Windows/Tools/Powerview.md",
+    "Windows/Tools/powerup.ps1.md",
+    "Windows/misc/List of windows AV.md",
+    "Windows/Methodologies/Windows service exploitation.md",
+    "Windows/Methodologies/Windows privesc.md",
+    "Windows/Methodologies/Windows firewall evasion.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Persistence.md",
+    "Windows/Methodologies/Password hunting (privesc).md",
+    "Windows/Methodologies/Living off the land.md",
+    "Windows/Methodologies/Evading loggng and monitoring.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Bypassing AMSI (runtime detection evasion).md",
+    "Windows/Methodologies/Active Directory persistence.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Tools/msfvenom.md",
-    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
-    "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/DLL hijacking.md",
+    "Windows/kerberos exploitation/Unconstrained delegation.md",
+    "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "Windows/Exploits/Abusing Windows Intenals.md",
-    "Tools/Hydra.md",
-    "Windows/Exploits/Modifiable services.md",
-    "Methods/General locating of public exploits.md",
     "Untitled.canvas",
     "Pasted image 20240121133215.png",
     "Pasted image 20240111171755.png",
     "Pasted image 20240111171918.png",
-    "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "Windows/Tools",
     "Windows/Methodologies",
     "Windows/misc",
