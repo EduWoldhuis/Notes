@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Scans.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Scans.md",
+                "file": "OSCP-specific notes/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Scans.md"
+                "file": "OSCP-specific notes/Active Directory.md"
               }
             }
           }
@@ -268,22 +268,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0c02386094c21f6",
+  "active": "78d03f56203323fc",
   "lastOpenFiles": [
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/Wordpress website.md",
+    "OSCP-specific notes/Scans.md",
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "Methods/Hash cracking.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Methods/Writable password files.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "OSCP-specific notes/File uploads.md",
     "Rooms/red team capstone.md",
     "Tools/Hydra.md",
-    "OSCP-specific notes/Active Directory.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Linux/env_keep+=LD_PRELOAD exploitation.md",
-    "OSCP-specific notes/Scans.md",
-    "OSCP-specific notes/Antivirus evasion (coding).md",
-    "OSCP-specific notes/Wordpress website.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/enumeration.ps1.md",
-    "OSCP-specific notes/Fixing exploits.md",
     "Windows/Active directory.md",
     "Windows/Tools/Sysinternals.md",
     "Windows/Tools/Powerview.md",
@@ -292,10 +295,7 @@
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Methodologies/Windows privesc.md",
     "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows Active directory.md",
-    "Windows/Methodologies/Persistence.md",
-    "Windows/Methodologies/Password hunting (privesc).md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
