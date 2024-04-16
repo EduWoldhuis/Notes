@@ -26,4 +26,14 @@ Get-NetComputer | Select name                    // From PowerView
 ```
 
 
-### SPN
+### SPN (Service Principle Name)
+SPNs are the unique identifiers of Service Accounts. Using them, we can find out what IPs and ports a service uses.
+```
+Get-NetUser -SPN | select samaccountname,serviceprincipalname            // From powerview.ps1
+setspn.exe -L SAMACCOUNTNAME
+setspn.exe -L USERNAME
+```
+To get the IP, use
+```
+nslookup.exe web04.corp.com
+```
