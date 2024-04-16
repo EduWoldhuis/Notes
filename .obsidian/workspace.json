@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bloodhound",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md"
+                "file": "Windows/Methodologies/Active Directory enumeration.md"
               }
             }
           }
@@ -270,11 +271,12 @@
   },
   "active": "78d03f56203323fc",
   "lastOpenFiles": [
+    "OSCP-specific notes/Bloodhound.md",
+    "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
     "OSCP-specific notes/Information gathering.md",
-    "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Apache 2.4.49.md",
@@ -295,7 +297,6 @@
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Methodologies/Windows privesc.md",
     "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows Active directory.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
