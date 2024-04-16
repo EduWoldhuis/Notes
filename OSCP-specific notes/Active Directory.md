@@ -37,3 +37,22 @@ To get the IP, use
 ```
 nslookup.exe web04.corp.com
 ```
+
+
+### ACL / ACE
+The Access Controll List (ACL) and Access Control Entries (ACE) decide user-specific accesses to AD objects. 
+```
+GenericAll: Full permissions on object
+GenericWrite: Edit certain attributes on the object
+WriteOwner: Change ownership of the object
+WriteDACL: Edit ACE's applied to object
+AllExtendedRights: Change password, reset password, etc.
+ForceChangePassword: Password change for object
+Self (Self-Membership): Add ourselves to for example a group
+```
+
+To list:
+```
+// Permissions of users in a group (not the group itself) to find targets
+Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights  
+```
