@@ -25,3 +25,5 @@ Get-NetComputer | Select name                    // From PowerView
 
 ```
 
+
+### SPN
