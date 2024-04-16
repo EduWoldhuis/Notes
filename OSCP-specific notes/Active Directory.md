@@ -26,6 +26,15 @@ Get-NetComputer | Select name                    // From PowerView
 ```
 
 
+### Domain shares
+```
+Find-DomainShare                                 // From PowerView, enumerated AD domain shares, might take 1-5 minutes
+Find-DomainShare -CheckShareAccess               // Only display available shares, might take 1-5 minutes
+ls \\dc1.corp.com\sysvol\corp.com\               // Example on connecting via Powershell
+```
+Note: if there are any readable Policy files, there will be an `AES-256`-encrypted password. To decrypt it, use `gpp-decrypt`
+
+
 ### SPN (Service Principle Name)
 SPNs are the unique identifiers of Service Accounts. Using them, we can find out what IPs and ports a service uses.
 ```
