@@ -22,7 +22,7 @@ Get-NetGroup "GroupName" | select member
 Find-LocalAdminAccess                            // Finds computers on the network where the current user has Admin access, from Powerview
 Get-NetComputer | Select name                    // From PowerView
 .\PsLoggedOn.exe \\COMPUTER_NAME                 // Finds where other users are/have logged on, from SysInternals. Requires the "Remote Registry" service to be enabled on the target, if not, use "Get-NetSession -ComputerName NAME"
-
+.\PsLoggedOn.exe \\
 ```
 
 
@@ -51,7 +51,7 @@ nslookup.exe web04.corp.com
 ### ACL / ACE
 The Access Controll List (ACL) and Access Control Entries (ACE) decide user-specific accesses to AD objects. 
 ```
-GenericAll: Full permissions on object
+GenericAll: Full permissions on object                 (Exploit by resetting password)
 GenericWrite: Edit certain attributes on the object
 WriteOwner: Change ownership of the object
 WriteDACL: Edit ACE's applied to object
