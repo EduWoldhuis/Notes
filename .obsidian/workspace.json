@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Hydra.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bloodhound",
+                "query": "mimika",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md"
+                "file": "Windows/Exploits/Mimikatz.md"
               }
             }
           }
@@ -268,11 +269,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Tools/Hydra.md",
+    "OSCP-specific notes/Active Directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "OSCP-specific notes/Bloodhound.md",
-    "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
@@ -286,7 +288,6 @@
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "OSCP-specific notes/File uploads.md",
     "Rooms/red team capstone.md",
-    "Tools/Hydra.md",
     "Linux/env_keep+=LD_PRELOAD exploitation.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "Windows/Active directory.md",
