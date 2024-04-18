@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimika",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +186,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "OSCP-specific notes/Untitled.md"
               }
             }
           }
@@ -271,6 +270,8 @@
   },
   "active": "2d09d81c5950626f",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
+    "OSCP-specific notes/Untitled.md",
     "Tools/Hydra.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
@@ -295,8 +296,6 @@
     "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/misc/List of windows AV.md",
-    "Windows/Methodologies/Windows service exploitation.md",
-    "Windows/Methodologies/Windows privesc.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
