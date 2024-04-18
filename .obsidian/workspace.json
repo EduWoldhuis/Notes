@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "OSCP-specific notes/Active directory password attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d65f64cd3e27eb50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/kerberos exploitation/Kerberoasting.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active directory password attacks.md",
+                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/kerberos exploitation/Kerberoasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/kerberos exploitation/Kerberoasting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/kerberos exploitation/Kerberoasting.md"
               }
             }
           }
@@ -268,9 +280,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "d65f64cd3e27eb50",
   "lastOpenFiles": [
     "OSCP-specific notes/Active directory password attacks.md",
+    "Windows/kerberos exploitation/AS-REP roasting.md",
+    "Methods/Hash cracking.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Hydra.md",
@@ -283,7 +297,6 @@
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "Methods/Hash cracking.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Methods/Writable password files.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
@@ -295,7 +308,6 @@
     "Windows/Tools/Sysinternals.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/powerup.ps1.md",
-    "Windows/misc/List of windows AV.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",

@@ -11,6 +11,7 @@ hashcat -m 13400 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat
 ./hashcat.exe -m 13400 /tmp/hash /usr/share/wordlists/rockyou.txt -r rules/rockyou-30000.rule --force                   // Keepass on WSL for GPU access
 ./hashcat.exe -m 22921 ssh.hash ssh.passwords -r ssh.rule --force                                                       // With rule (only works on some SSH)
 ./hashcat.exe -m 5600 /tmp/hash /usr/share/wordlists/rockyou.txt -r rules/best64.rule                                   // Net-NTLMv2
+./hashcat.exe -m 18200 /tmp/hash /usr/share/wordlists/rockyou.txt -r rules/rockyou-30000.rule --force                   // AS-REP roasting with Kerberos ticket
 ```
 
 Custom John rules:
@@ -21,14 +22,15 @@ Custom John rules:
 Common hashes:
 https://hashcat.net/wiki/doku.php?id=example_hashes
 
-| Hash       | Hashcat code              | Example |
-| ---------- | ------------------------- | ------- |
-| MD5        | 0                         |         |
-| SHA1       | 100                       |         |
-| NTLM       | 1000                      |         |
-| LM         | 3000                      |         |
-| SHA256     | 1400                      |         |
-| SHA512     | 1700                      |         |
-| Kerberos   | 18200 (may be other ones) |         |
-| Keepass    | 13400                     |         |
-| Net-NTLMv2 | 5600                      |         |
+| Hash         | Hashcat code              | Example |
+| ------------ | ------------------------- | ------- |
+| MD5          | 0                         |         |
+| SHA1         | 100                       |         |
+| NTLM         | 1000                      |         |
+| LM           | 3000                      |         |
+| SHA256       | 1400                      |         |
+| SHA512       | 1700                      |         |
+| Kerberos     | 18200 (may be other ones) |         |
+| Kerberos TGS | 18100                     |         |
+| Keepass      | 13400                     |         |
+| Net-NTLMv2   | 5600                      |         |
