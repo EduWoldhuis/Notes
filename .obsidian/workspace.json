@@ -151,8 +151,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "8080",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +197,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/kerberos exploitation/Kerberoasting.md",
+                "file": "OSCP-specific notes/Active directory password attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/kerberos exploitation/Kerberoasting.md",
+                "file": "OSCP-specific notes/Active directory password attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/kerberos exploitation/Kerberoasting.md"
+                "file": "OSCP-specific notes/Active directory password attacks.md"
               }
             }
           }
@@ -280,10 +280,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d65f64cd3e27eb50",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
-    "OSCP-specific notes/Active directory password attacks.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
+    "OSCP-specific notes/Active directory password attacks.md",
     "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Active Directory.md",
