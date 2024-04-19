@@ -31,6 +31,6 @@ https://hashcat.net/wiki/doku.php?id=example_hashes
 | SHA256       | 1400                      |         |
 | SHA512       | 1700                      |         |
 | Kerberos     | 18200 (may be other ones) |         |
-| Kerberos TGS | 18100                     |         |
+| Kerberos TGS | 13100                     |         |
 | Keepass      | 13400                     |         |
 | Net-NTLMv2   | 5600                      |         |

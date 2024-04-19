@@ -283,8 +283,9 @@
   "active": "d65f64cd3e27eb50",
   "lastOpenFiles": [
     "OSCP-specific notes/Active directory password attacks.md",
-    "Windows/kerberos exploitation/AS-REP roasting.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
     "Methods/Hash cracking.md",
+    "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Hydra.md",
@@ -307,7 +308,6 @@
     "Windows/Active directory.md",
     "Windows/Tools/Sysinternals.md",
     "Windows/Tools/Powerview.md",
-    "Windows/Tools/powerup.ps1.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
