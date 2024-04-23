@@ -65,3 +65,6 @@ To list:
 // Permissions of users in a group (not the group itself) to find targets
 Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights  
 ```
+
+
+### Silver tickets
