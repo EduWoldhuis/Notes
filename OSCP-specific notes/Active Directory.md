@@ -15,7 +15,7 @@ Get-NetUser | select cn,pwdlastset,lastlogon      //
 Get-NetGroup | select cn                          // Common name 
 Get-NetGroup "GroupName" | select member
 ```
-
+Note: if a `cpasswd` has been found from a SYSVOL or other source, decode it using `gpp-decrypt`
 
 #### Step 3 other machines
 ```

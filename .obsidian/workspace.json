@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "6d4ed9e9a37e38c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-specific notes/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "939b96d1ac50948c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-specific notes/Active directory password attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6552bcc8d48c1ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2d09d81c5950626f",
             "type": "leaf",
             "state": {
@@ -145,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dcsync",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,8 +198,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "Windows/kerberos exploitation/AS-REP roasting.md"
               }
             }
           }
@@ -245,33 +280,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66e7062da8367d00",
+  "active": "6552bcc8d48c1ce3",
   "lastOpenFiles": [
-    "OSCP-specific notes/Active Directory.md",
-    "Windows/Exploits/Scheduled tasks.md",
     "OSCP-specific notes/Active directory password attacks.md",
-    "Windows/kerberos exploitation/Golden ticket.md",
-    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/File uploads.md",
+    "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/Bloodhound.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/Scheduled tasks.md",
+    "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/kerberos exploitation/AS-REP roasting.md",
     "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "Windows/Exploits/Mimikatz.md",
     "Tools/Hydra.md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "OSCP-specific notes/Bloodhound.md",
-    "OSCP-specific notes/Fixing exploits.md",
-    "OSCP-specific notes/Wordpress website.md",
-    "OSCP-specific notes/Antivirus evasion (coding).md",
     "Windows/Methodologies/Windows exploitation.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Methods/Writable password files.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
-    "OSCP-specific notes/File uploads.md",
     "Rooms/red team capstone.md",
     "Linux/env_keep+=LD_PRELOAD exploitation.md",
-    "OSCP-specific notes/enumeration.ps1.md",
     "Windows/Active directory.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
