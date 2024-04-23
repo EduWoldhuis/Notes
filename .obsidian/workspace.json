@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
+                "file": "Windows/kerberos exploitation/Golden ticket.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "8080",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/kerberos exploitation/Golden ticket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/kerberos exploitation/Golden ticket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/kerberos exploitation/Golden ticket.md"
               }
             }
           }
@@ -281,12 +281,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
+    "Windows/kerberos exploitation/AS-REP roasting.md",
+    "Methods/Hash cracking.md",
     "OSCP-specific notes/Active directory password attacks.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "Methods/Hash cracking.md",
-    "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Hydra.md",
