@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active directory password attacks.md",
+                "file": "Windows/kerberos exploitation/Kerberoasting.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,8 +151,7 @@
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Active directory password attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Active directory password attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "OSCP-specific notes/Active directory password attacks.md"
               }
             }
           }
@@ -280,11 +279,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Windows/kerberos exploitation/AS-REP roasting.md",
-    "OSCP-specific notes/Active directory password attacks.md",
     "OSCP-specific notes/Active Directory.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
+    "OSCP-specific notes/Active directory password attacks.md",
+    "Methods/Hash cracking.md",
+    "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
@@ -297,8 +298,6 @@
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/kerberos exploitation/Golden ticket.md",
-    "Methods/Hash cracking.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Hydra.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Windows exploitation.md",

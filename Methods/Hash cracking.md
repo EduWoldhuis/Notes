@@ -22,15 +22,15 @@ Custom John rules:
 Common hashes:
 https://hashcat.net/wiki/doku.php?id=example_hashes
 
-| Hash         | Hashcat code              | Example |
-| ------------ | ------------------------- | ------- |
-| MD5          | 0                         |         |
-| SHA1         | 100                       |         |
-| NTLM         | 1000                      |         |
-| LM           | 3000                      |         |
-| SHA256       | 1400                      |         |
-| SHA512       | 1700                      |         |
-| Kerberos     | 18200 (may be other ones) |         |
-| Kerberos TGS | 13100                     |         |
-| Keepass      | 13400                     |         |
-| Net-NTLMv2   | 5600                      |         |
+| Hash         | Hashcat code              | Example                 |
+| ------------ | ------------------------- | ----------------------- |
+| MD5          | 0                         |                         |
+| SHA1         | 100                       |                         |
+| NTLM         | 1000                      | AD hashes from Mimikatz |
+| LM           | 3000                      |                         |
+| SHA256       | 1400                      |                         |
+| SHA512       | 1700                      |                         |
+| Kerberos     | 18200 (may be other ones) |                         |
+| Kerberos TGS | 13100                     |                         |
+| Keepass      | 13400                     |                         |
+| Net-NTLMv2   | 5600                      |                         |
