@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/Methodologies/Active Directory exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "13100",
+                "query": "Invoke-s",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Active Directory exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Active Directory exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/Methodologies/Active Directory exploitation.md"
               }
             }
           }
@@ -269,16 +269,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
-    "Windows/Exploits/Mimikatz.md",
     "OSCP-specific notes/Active Directory.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/Scheduled tasks.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
     "Methods/Hash cracking.md",
+    "Using.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "OSCP-specific notes/Active directory password attacks.md",
     "Windows/kerberos exploitation/AS-REP roasting.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
     "OSCP-specific notes/Information gathering.md",
@@ -287,16 +291,12 @@
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Bloodhound.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
-    "Windows/Exploits/Scheduled tasks.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "Tools/Hydra.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Methods/Writable password files.md",
     "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "Rooms/red team capstone.md",
-    "Linux/env_keep+=LD_PRELOAD exploitation.md",
-    "Windows/Active directory.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
