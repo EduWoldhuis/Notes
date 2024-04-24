@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/kerberos exploitation/AS-REP roasting.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -280,8 +280,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6552bcc8d48c1ce3",
+  "active": "02c0897a614ada82",
   "lastOpenFiles": [
+    "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Active directory password attacks.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Apache 2.4.49.md",
@@ -296,7 +297,6 @@
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/kerberos exploitation/Golden ticket.md",
-    "Windows/kerberos exploitation/AS-REP roasting.md",
     "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Hydra.md",
