@@ -22,15 +22,15 @@ Custom John rules:
 Common hashes:
 https://hashcat.net/wiki/doku.php?id=example_hashes
 
-| Hash         | Hashcat code              | Example                 |
-| ------------ | ------------------------- | ----------------------- |
-| MD5          | 0                         |                         |
-| SHA1         | 100                       |                         |
-| NTLM         | 1000                      | AD hashes from Mimikatz |
-| LM           | 3000                      |                         |
-| SHA256       | 1400                      |                         |
-| SHA512       | 1700                      |                         |
-| Kerberos     | 18200 (may be other ones) |                         |
-| Kerberos TGS | 13100                     |                         |
-| Keepass      | 13400                     |                         |
-| Net-NTLMv2   | 5600                      |                         |
+| Hash         | Hashcat code              | Example                                                                                                                  |
+| ------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| MD5          | 0                         |                                                                                                                          |
+| SHA1         | 100                       |                                                                                                                          |
+| NTLM         | 1000                      | AD hashes from Mimikatz                                                                                                  |
+| LM           | 3000                      |                                                                                                                          |
+| SHA256       | 1400                      |                                                                                                                          |
+| SHA512       | 1700                      |                                                                                                                          |
+| Kerberos     | 18200 (may be other ones) |                                                                                                                          |
+| Kerberos TGS | 13100                     | Kerberoasted pass (`$krb5tgs$23$*iis_service$CORP.COM$corp.com/iis_service*$0de174106a00c079d71b32985e823a59$MORE_HASH`) |
+| Keepass      | 13400                     |                                                                                                                          |
+| Net-NTLMv2   | 5600                      |                                                                                                                          |
