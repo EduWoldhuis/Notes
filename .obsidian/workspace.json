@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
               }
             }
           }
@@ -270,14 +270,17 @@
   },
   "active": "02c0897a614ada82",
   "lastOpenFiles": [
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
+    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/Important notes.md",
+    "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "Methods/Hash cracking.md",
     "Using.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
@@ -293,9 +296,6 @@
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "Tools/Hydra.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "Methods/Writable password files.md",
-    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
-    "Rooms/red team capstone.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
