@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Invoke-s",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +186,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -269,16 +268,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "02c0897a614ada82",
   "lastOpenFiles": [
     "OSCP-specific notes/Active Directory.md",
+    "Windows/kerberos exploitation/Golden ticket.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "Methods/Hash cracking.md",
     "Using.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "OSCP-specific notes/Active directory password attacks.md",
@@ -291,7 +291,6 @@
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Bloodhound.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
-    "Windows/kerberos exploitation/Golden ticket.md",
     "Tools/Hydra.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Methods/Writable password files.md",
