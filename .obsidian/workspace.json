@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Xfreerdp.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Xfreerdp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Xfreerdp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
+                "file": "Xfreerdp.md"
               }
             }
           }
@@ -270,8 +270,8 @@
   },
   "active": "02c0897a614ada82",
   "lastOpenFiles": [
-    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+    "Windows/Exploits/PTH (Pass-The-Hash) connection.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Important notes.md",
     "Methods/Hash cracking.md",

