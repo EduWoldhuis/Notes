@@ -44,7 +44,7 @@ Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Creat
 
 ##### PsExec
 To run `PsExec`, these are required:
-- The target user needs to be a *Local Administrator* remotely.
+- The target user needs to be a *Local Administrator* **Locally**?.
 - The `ADMIN$` SMB share needs to be available.
 - *File and Printer Sharing* needs to be enabled.
 
@@ -61,5 +61,12 @@ To execute the command remotely, PsExec performs the following tasks:
 ##### DCOM
 
 
-[[PTH (Pass-The-Hash) connection]]
+[[Passing the hash]]
 
+
+##### Pass-the-hash
+
+[[Passing the hash]]
+
+##### Overpass-the-hash
+Overpassing the hash means using it 
