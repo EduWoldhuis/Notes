@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md"
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
               }
             }
           }
@@ -282,8 +282,8 @@
   },
   "active": "02c0897a614ada82",
   "lastOpenFiles": [
-    "OSCP-specific notes/Apache 2.4.49.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "Windows/Exploits/Passing the hash.md",
     "Xfreerdp.md",
