@@ -191,7 +191,7 @@ The tool used is [DSInternals](https://github.com/MichaelGrafnetter/DSInternals/
 
 ```
 Stop-Service -Name ntds -force
-Add-ADDBSidHistory -SamAccountName 'username of our low-priveleged AD account' -SidHistory 'SID to add to SID History' -DatabasePath C:\Windows\NTDS\ntds.dit 
+Add-ADDBSidHistory -SamAccountName 'username of our low-privileged AD account' -SidHistory 'SID to add to SID History' -DatabasePath C:\Windows\NTDS\ntds.dit 
 Start-Service -Name ntds
 ```
 

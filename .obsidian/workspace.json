@@ -32,78 +32,6 @@
             }
           },
           {
-            "id": "939b96d1ac50948c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/kerberos exploitation/Kerberoasting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6552bcc8d48c1ce3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/kerberos exploitation/AS-REP roasting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d09d81c5950626f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/kerberos exploitation/Golden ticket.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0c02386094c21f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66e7062da8367d00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa065279659c6265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Exploits/Scheduled tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "78d03f56203323fc",
             "type": "leaf",
             "state": {
@@ -140,6 +68,30 @@
             }
           },
           {
+            "id": "032c229b512b1e4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Exploits/Passing the hash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7f40102b7570544",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Exploits/Credential harvesting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8423cc50d866faec",
             "type": "leaf",
             "state": {
@@ -164,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -193,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "golden ticket",
+                "query": "ntds",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/kerberos exploitation/Golden ticket.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/kerberos exploitation/Golden ticket.md",
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/kerberos exploitation/Golden ticket.md"
+                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
               }
             }
           }
@@ -293,17 +245,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "02c0897a614ada82",
   "lastOpenFiles": [
+    "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+    "Windows/kerberos exploitation/Golden ticket.md",
+    "Windows/Exploits/Credential harvesting.md",
+    "Windows/Methodologies/Active Directory persistence.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "Windows/Exploits/Passing the hash.md",
     "Xfreerdp.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Important notes.md",
     "Methods/Hash cracking.md",
-    "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
@@ -319,8 +273,6 @@
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
-    "OSCP-specific notes/Bloodhound.md",
-    "OSCP-specific notes/Antivirus evasion (coding).md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
