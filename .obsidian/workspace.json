@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Windows/kerberos exploitation/Pass the ticket.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Windows/kerberos exploitation/Pass the ticket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Windows/kerberos exploitation/Pass the ticket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
+                "file": "Windows/kerberos exploitation/Pass the ticket.md"
               }
             }
           }
@@ -282,8 +282,10 @@
   },
   "active": "02c0897a614ada82",
   "lastOpenFiles": [
-    "Windows/Exploits/Passing the hash.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "Windows/kerberos exploitation/Pass the ticket.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+    "Windows/Exploits/Passing the hash.md",
     "Xfreerdp.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Important notes.md",
@@ -293,7 +295,6 @@
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "Using.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
@@ -307,7 +308,6 @@
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Bloodhound.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
-    "Tools/Hydra.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",

