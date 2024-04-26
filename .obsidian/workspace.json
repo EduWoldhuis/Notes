@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "b1d7b30124f22db9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0e99543c9ee9c4c2",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -145,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntds",
+                "query": "docker",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md"
+                "file": "Docker.md"
               }
             }
           }
@@ -245,11 +257,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c0897a614ada82",
+  "active": "b1d7b30124f22db9",
   "lastOpenFiles": [
-    "Windows/Exploits/Passing the hash.md",
-    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "Windows/kerberos exploitation/Golden ticket.md",
+    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+    "Windows/Exploits/Passing the hash.md",
     "Windows/Exploits/Credential harvesting.md",
     "Windows/Methodologies/Active Directory persistence.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
