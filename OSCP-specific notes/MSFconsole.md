@@ -5,8 +5,8 @@ Types of MSF exploits:
 | Type      | Explanation                                                                      |
 | --------- | -------------------------------------------------------------------------------- |
 | Auxiliary | Auxiliary modules don't exploit, but they can scan, modify, crack passwords etc. |
-| Exploit   |                                                                                  |
-| Payload   |                                                                                  |
+| Exploit   | Get RCE                                                                          |
+| Payload   | Create payloads for other modules                                                |
 |           |                                                                                  |
 
 
