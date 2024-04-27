@@ -95,8 +95,7 @@ Process List
  1720  668   svchost.exe                  x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\svchost.exe
  1728  668   svchost.exe                  x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\svchost.exe
  1748  668   svchost.exe                  x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\svchost.exe
-
- 2960  668   vm3dservice.exe              x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\vm3dservice.exe                                                                                                            [53/5533]
+ 2960  668   vm3dservice.exe              x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\vm3dservice.exe                                                                                                            
  2972  668   vmtoolsd.exe                 x64   0        NT AUTHORITY\SYSTEM           C:\Program Files\VMware\VMware Tools\vmtoolsd.exe                                                                                                       
  3000  668   MsMpEng.exe                  x64   0                                                                                                                                                                                              
  3012  668   svchost.exe                  x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\svchost.exe 
@@ -151,5 +150,19 @@ Process List
  6852  668   svchost.exe                  x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\svchost.exe                                                                                                                         
  6920  668   SecurityHealthService.exe    x64   0                                                                                                                                                                                              
  6924  5384  SecurityHealthSystray.exe    x64   1        ITWK01\offsec                 C:\Windows\System32\SecurityHealthSystray.exe    
+
+
+// Note the "1". This means it's interactive, meaning we can migrate to it.
+3724  5384  OneDrive.exe                 x64   1        ITWK01\offsec                 C:\Users\offsec\AppData\Local\Microsoft\OneDrive\OneDrive.exe                                                                                           
+//
+
+(Meterpreter 5)(C:\Windows\system32) > getenv flag
+
+Environment Variables
+=====================
+
+Variable  Value
+--------  -----
+flag      thisistheanswertothequestion
 
 ```
