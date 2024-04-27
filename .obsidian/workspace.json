@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Tools/Meterpreter.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "migrate",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Tools/Meterpreter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Tools/Meterpreter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/msfvenom.md"
+                "file": "Tools/Meterpreter.md"
               }
             }
           }
@@ -270,6 +271,7 @@
   },
   "active": "be09bb648694cb4e",
   "lastOpenFiles": [
+    "Tools/msfvenom.md",
     "OSCP-specific notes/MSFconsole.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
@@ -295,7 +297,6 @@
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
     "OSCP-specific notes/Information gathering.md",
-    "OSCP-specific notes/Fixing exploits.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",

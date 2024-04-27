@@ -49,3 +49,7 @@ Usage: `migrate PID`
 Logging keys: `keyscan_start`, `keyscan_stop`, `keyscan_dump`
 Note: This will change the user privilege level, which you might not be able to gain back.
 
+Usage:
+```
+pid
+```
