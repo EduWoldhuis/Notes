@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/kerberos exploitation/Pass the ticket.md"
+                "file": "OSCP-specific notes/MSFconsole.md"
               }
             }
           }
@@ -270,6 +270,8 @@
   },
   "active": "be09bb648694cb4e",
   "lastOpenFiles": [
+    "Windows/kerberos exploitation/Pass the ticket.md",
+    "OSCP-specific notes/MSFconsole.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
@@ -278,7 +280,6 @@
     "Windows/Exploits/Passing the hash.md",
     "Windows/Exploits/Credential harvesting.md",
     "Windows/Methodologies/Active Directory persistence.md",
-    "Windows/kerberos exploitation/Pass the ticket.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "Xfreerdp.md",
     "OSCP-specific notes/Important notes.md",
@@ -295,7 +296,6 @@
     "OSCP-specific notes/Scans.md",
     "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Fixing exploits.md",
-    "OSCP-specific notes/File uploads.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
