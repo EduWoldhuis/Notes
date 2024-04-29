@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,8 +151,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbclient",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,8 +197,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/msfvenom.md"
+                "file": "OSCP-specific notes/Information gathering.md"
               }
             }
           }
@@ -281,15 +279,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6478ccd7680b4694",
+  "active": "0bc7a59cff17c4cd",
   "lastOpenFiles": [
+    "OSCP-specific notes/Untitled.md",
     "Windows/Exploits/Passing the hash.md",
+    "Tools/msfvenom.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "OSCP-specific notes/MSFconsole.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows privesc.md",
-    "Tools/msfvenom.md",
     "OSCP-specific notes/Scans.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Meterpreter.md",
@@ -308,7 +307,6 @@
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Scheduled tasks.md",
     "Using.md",
-    "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
