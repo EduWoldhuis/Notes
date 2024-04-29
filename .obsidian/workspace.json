@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/MSFconsole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md"
+                "file": "OSCP-specific notes/MSFconsole.md"
               }
             }
           }
@@ -279,34 +279,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7a59cff17c4cd",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "OSCP-specific notes/Wordpress website.md",
+    "OSCP-specific notes/Scans.md",
+    "OSCP-specific notes/MSFconsole.md",
+    "OSCP-specific notes/Important notes.md",
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/File uploads.md",
+    "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/Apache 2.4.49.md",
+    "OSCP-specific notes/Antivirus evasion (coding).md",
+    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
+    "OSCP-specific notes/Active directory password attacks.md",
+    "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Untitled.md",
     "Windows/Exploits/Passing the hash.md",
     "Tools/msfvenom.md",
-    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
-    "OSCP-specific notes/MSFconsole.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows privesc.md",
-    "OSCP-specific notes/Scans.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Meterpreter.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
-    "OSCP-specific notes/Active Directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Docker.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Exploits/Credential harvesting.md",
-    "Windows/Methodologies/Active Directory persistence.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
-    "Xfreerdp.md",
-    "OSCP-specific notes/Important notes.md",
-    "Methods/Hash cracking.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/Scheduled tasks.md",
-    "Using.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
