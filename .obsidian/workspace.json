@@ -151,7 +151,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Tools/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Tools/msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md"
+                "file": "Tools/msfvenom.md"
               }
             }
           }
@@ -280,10 +281,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "6478ccd7680b4694",
   "lastOpenFiles": [
-    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "Windows/Exploits/Passing the hash.md",
+    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "OSCP-specific notes/MSFconsole.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
