@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/kerberos exploitation/Kerberoasting.md",
+                "file": "OSCP-specific notes/Scans.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,8 +139,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +168,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "migrate",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +185,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Scans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Scans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/msfvenom.md"
+                "file": "OSCP-specific notes/Scans.md"
               }
             }
           }
@@ -269,10 +267,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be09bb648694cb4e",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "Tools/Meterpreter.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/msfvenom.md",
+    "Tools/Meterpreter.md",
     "OSCP-specific notes/MSFconsole.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
@@ -292,7 +291,6 @@
     "Windows/Exploits/Scheduled tasks.md",
     "Using.md",
     "Linux/env_keep+=LD_LIBRARY_PATH exploitation.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
     "OSCP-specific notes/Active directory password attacks.md",
     "Windows/kerberos exploitation/AS-REP roasting.md",
     "OSCP-specific notes/Wordpress website.md",
