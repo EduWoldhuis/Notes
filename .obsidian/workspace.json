@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/NMAP Scans.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/NMAP Scans.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/NMAP Scans.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/NMAP Scans.md"
+                "file": "OSCP-specific notes/MS Office exploitation.md"
               }
             }
           }
@@ -281,8 +281,9 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
-    "OSCP-specific notes/Nessus.md",
     "OSCP-specific notes/NMAP Scans.md",
+    "OSCP-specific notes/MS Office exploitation.md",
+    "OSCP-specific notes/Nessus.md",
     "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Important notes.md",
@@ -306,7 +307,6 @@
     "Windows/Methodologies/Active Directory enumeration.md",
     "Docker.md",
     "Windows/kerberos exploitation/Golden ticket.md",
-    "Windows/Exploits/Credential harvesting.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
