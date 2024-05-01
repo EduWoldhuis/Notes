@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/Nessus.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/Nessus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/Nessus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md"
+                "file": "OSCP-specific notes/Nessus.md"
               }
             }
           }
@@ -281,6 +281,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Nessus.md",
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/Active Directory.md",
@@ -289,12 +291,10 @@
     "OSCP-specific notes/MSFconsole.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Scans.md",
-    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Active directory password attacks.md",
-    "OSCP-specific notes/Untitled.md",
     "Windows/Exploits/Passing the hash.md",
     "Tools/msfvenom.md",
     "Windows/Methodologies/Windows exploitation.md",
