@@ -1,4 +1,4 @@
-
+# IMPORTANT NOTE: ONLY USE WITH THE `-a` FLAG ON THE OSCP EXAM
 
 Usage for NetNTLM coerced authentication:
 ```
