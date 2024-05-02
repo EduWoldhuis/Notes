@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -197,8 +197,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Responder.md",
+                "file": "OSCP-specific notes/MS Office exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Responder.md"
+                "file": "OSCP-specific notes/MS Office exploitation.md"
               }
             }
           }
@@ -282,6 +281,8 @@
   },
   "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Tools/Responder.md",
+    "Tools/msfvenom.md",
     "OSCP-specific notes/MS Office exploitation.md",
     "OSCP-specific notes/NMAP Scans.md",
     "OSCP-specific notes/Nessus.md",
@@ -298,7 +299,6 @@
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Active directory password attacks.md",
     "Windows/Exploits/Passing the hash.md",
-    "Tools/msfvenom.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows privesc.md",
@@ -307,7 +307,6 @@
     "Windows/kerberos exploitation/Pass the ticket.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Docker.md",
-    "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
