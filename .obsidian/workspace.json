@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "Tools/Socat.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,13 +145,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Methods/Hash cracking.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -180,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "hashcat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +198,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -279,10 +281,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
-    "OSCP-specific notes/MS Office exploitation.md",
+    "Windows/Exploits/Passing the hash.md",
+    "Tools/Socat.md",
     "OSCP-specific notes/Windows Library exploitation.md",
+    "OSCP-specific notes/MS Office exploitation.md",
     "Tools/Responder.md",
     "Tools/msfvenom.md",
     "OSCP-specific notes/NMAP Scans.md",
@@ -299,14 +303,12 @@
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Active directory password attacks.md",
-    "Windows/Exploits/Passing the hash.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows privesc.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Meterpreter.md",
     "Windows/kerberos exploitation/Pass the ticket.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",

