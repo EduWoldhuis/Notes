@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/SSH Tunnelling.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashcat",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,8 +198,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/SSH Tunnelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "OSCP-specific notes/SSH Tunnelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "OSCP-specific notes/SSH Tunnelling.md"
               }
             }
           }
@@ -283,6 +282,9 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
+    "Methods/SSH Tunnelling.md",
+    "OSCP-specific notes/SSH Tunnelling.md",
+    "Methods/Hash cracking.md",
     "Windows/Exploits/Passing the hash.md",
     "Tools/Socat.md",
     "OSCP-specific notes/Windows Library exploitation.md",
@@ -306,9 +308,6 @@
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows privesc.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
-    "Tools/Meterpreter.md",
-    "Windows/kerberos exploitation/Pass the ticket.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
