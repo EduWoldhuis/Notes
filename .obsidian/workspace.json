@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -205,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chisel",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Chisel.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Chisel.md"
+                "file": "OSCP-specific notes/Ligolo-NG.md"
               }
             }
           }
@@ -307,6 +307,7 @@
   },
   "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
+    "Tools/Chisel.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Docker.md",
@@ -332,7 +333,6 @@
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
     "OSCP-specific notes/Active directory password attacks.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",

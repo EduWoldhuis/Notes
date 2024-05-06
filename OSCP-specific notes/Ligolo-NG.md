@@ -27,6 +27,20 @@ Cleaning up:
 ip route del SUBNET/24
 ```
 
+#### Double pivot
+When a hidden domain host has another hidden domain inside of it, with a target host, double pivoting can be used. For this, the `listener_add` function can be used to forward remote ports to local ones:
+```
+listener_add --addr 0.0.0.0:11601 --to 127.0.0.1:11601 --tcp        // For handling the double pivot
+listener_add --addr 0.0.0.0:8080 --to 127.0.0.1:80 --tcp            // For uploading the agent
+```
+
+Because every Network device can only have one pivot set up, a new one needs to be added:
+```
+sudo ip tuntap add user CURRENT_USERNAME mode tun ligolo2
+sudo ip link set ligolo2 up
+start --tun ligolo2                                                 // In the session with the second pivot
+```
+
 
 ##### Example: Windows target
 ```
