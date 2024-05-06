@@ -96,3 +96,57 @@ proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make
 
 
 ##### Example output
+```
+┌─[root@edu-virtualbox]─[/tmp/oscp]
+└──╼ #tail /etc/proxychains.conf 
+#        ( auth types supported: "basic"-http  "user/pass"-socks )
+#
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks5  127.0.0.1 9999 
+#socks5  127.0.0.1 1080
+#socks5  192.168.217.63 9999
+
+
+confluence@confluence01:/opt/atlassian/confluence/bin$ ssh -N -R 9999 edu@192.168.45.194
+Could not create directory '/home/confluence/.ssh'.
+The authenticity of host '192.168.45.194 (192.168.45.194)' can't be established.
+ECDSA key fingerprint is SHA256:UzBB/awDwktsNC1uQJZAZnCicwPwXQEYR2XQrvh5ojE.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Failed to add the host to the list of known hosts (/home/confluence/.ssh/known_hosts).
+
+┌─[✗]─[root@edu-virtualbox]─[/tmp]
+└──╼ #proxychains nmap -sT -n -p9000-9100 -Pn 10.4.171.64 -T4 -vvv
+ProxyChains-3.1 (http://proxychains.sf.net)
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-05-06 17:04 CEST
+Scanning 10.4.171.64 [101 ports]
+adjust_timeouts2: packet supposedly had rtt of 15090506 microseconds.  Ignoring time.                                                                                                                                   
+Connect Scan Timing: About 2.97% done; ETC: 17:30 (0:24:30 remaining)
+adjust_timeouts2: packet supposedly had rtt of 15089824 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 15089824 microseconds.  Ignoring time.
+Discovered open port 9062/tcp on 10.4.171.64
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Connect Scan Timing: About 8.91% done; ETC: 17:27 (0:20:37 remaining)
+adjust_timeouts2: packet supposedly had rtt of 15132217 microseconds.  Ignoring time.
+
+```
+
+
+
+
+### Windows - SSH.exe
+On windows, the command to check for other subnets is `ipconfig`
+
+```
+where ssh
+
+ssh.exe -V
+// If it's above version 7.6, dynamic remote port forwarding can be used.
+```
+
+```
+C:\Users\rdp_admin>where ssh
+C:\Windows\System32\OpenSSH\ssh.exe
+```
