@@ -16,7 +16,7 @@ When dynamic port forwarding, all ports on the target machine are forwarded. To 
 ```
 ssh -N -D 0.0.0.0:9999 USERNAME@HIDDEN_MACHINE           // Run from the remote machine
 // change "socks5 127.0.0.1 1080" to "socks5 REMOTE_IP 9999" in /etc/proxychains.conf locally
-proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // 
+proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
 ```
 
 
