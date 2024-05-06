@@ -18,7 +18,7 @@ ssh -N -D 0.0.0.0:9999 USERNAME@HIDDEN_MACHINE           // Run from the remote 
 // change "socks5 127.0.0.1 1080" to "socks5 REMOTE_IP 9999" in /etc/proxychains.conf locally
 proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
 ```
-
+Note: make sure to use `proxychains` before every network command.
 
 ```
 confluence@confluence01:/opt/atlassian/confluence/bin$ ssh -N -D 0.0.0.0:9999 database_admin@10.4.217.215
