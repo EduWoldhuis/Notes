@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/SSH Tunnelling.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/SSH Tunnelling.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/SSH Tunnelling.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/SSH Tunnelling.md"
+                "file": "OSCP-specific notes/Ligolo-NG.md"
               }
             }
           }
@@ -282,8 +282,9 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
-    "Methods/SSH Tunnelling.md",
     "OSCP-specific notes/SSH Tunnelling.md",
+    "OSCP-specific notes/Ligolo-NG.md",
+    "Methods/SSH Tunnelling.md",
     "Methods/Hash cracking.md",
     "Windows/Exploits/Passing the hash.md",
     "Tools/Socat.md",
@@ -307,7 +308,6 @@
     "OSCP-specific notes/Active directory password attacks.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows firewall evasion.md",
-    "Windows/Methodologies/Windows privesc.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
