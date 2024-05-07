@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "mode": "source",
                 "source": false
               }
@@ -222,8 +222,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md"
+                "file": "OSCP-specific notes/SQL Injections.md"
               }
             }
           }
@@ -305,10 +304,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
-    "Tools/Chisel.md",
     "OSCP-specific notes/Ligolo-NG.md",
+    "OSCP-specific notes/SQL Injections.md",
+    "Tools/Chisel.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Docker.md",
     "Methods/SSH Tunnelling.md",
@@ -332,7 +332,6 @@
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/Antivirus evasion (coding).md",
-    "OSCP-specific notes/Active directory password attacks.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
