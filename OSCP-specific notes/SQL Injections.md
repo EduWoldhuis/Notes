@@ -66,3 +66,8 @@ If a table is found:
 ```
 http://192.168.50.16/blindsqli.php?user=offsec' AND IF (1=1, sleep(3),'false') -- -
 ```
+
+
+
+
+#### MSSQL Code Execution
