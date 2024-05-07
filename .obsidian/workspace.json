@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Socat.md",
+                "file": "OSCP-specific notes/Wordpress website.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,12 +211,14 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
+    "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/Wordpress website.md",
+    "Tools/Socat.md",
     "OSCP-specific notes/SQL Injections.md",
     "Tools/msfvenom.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Tools/Chisel.md",
@@ -223,7 +226,6 @@
     "Docker.md",
     "Methods/SSH Tunnelling.md",
     "Methods/Hash cracking.md",
-    "Tools/Socat.md",
     "OSCP-specific notes/Windows Library exploitation.md",
     "OSCP-specific notes/MS Office exploitation.md",
     "Tools/Responder.md",
@@ -233,7 +235,6 @@
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/MSFconsole.md",
-    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
