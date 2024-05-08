@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md",
+                "file": "OSCP-specific notes/Windows Library exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wp",
+                "query": "config library",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md",
+                "file": "OSCP-specific notes/Windows Library exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md",
+                "file": "OSCP-specific notes/Windows Library exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md"
+                "file": "OSCP-specific notes/Windows Library exploitation.md"
               }
             }
           }
@@ -209,12 +209,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e99543c9ee9c4c2",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
+    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Wordpress website.md",
     "Tools/Socat.md",
-    "OSCP-specific notes/SQL Injections.md",
     "Tools/msfvenom.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "Windows/Exploits/Passing the hash.md",
