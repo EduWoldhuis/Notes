@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "config library",
+                "query": "sql",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md",
+                "file": "OSCP-specific notes/SQL Injections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Windows Library exploitation.md"
+                "file": "OSCP-specific notes/SQL Injections.md"
               }
             }
           }
@@ -211,6 +211,7 @@
   },
   "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
+    "OSCP-specific notes/Windows Library exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Wordpress website.md",
@@ -226,7 +227,6 @@
     "Docker.md",
     "Methods/SSH Tunnelling.md",
     "Methods/Hash cracking.md",
-    "OSCP-specific notes/Windows Library exploitation.md",
     "OSCP-specific notes/MS Office exploitation.md",
     "Tools/Responder.md",
     "OSCP-specific notes/NMAP Scans.md",
