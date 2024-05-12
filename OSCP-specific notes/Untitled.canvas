@@ -1,4 +1,15 @@
 {
-	"nodes":[],
-	"edges":[]
+	"nodes":[
+		{"id":"0692b96fd7c4fe32","x":-260,"y":-420,"width":250,"height":60,"type":"text","text":"Port 445 (`SMB`)"},
+		{"id":"9e8e3d4c10b06250","x":-260,"y":-288,"width":250,"height":60,"type":"text","text":"Port 80 (`HTTP`)"},
+		{"id":"c5cfa04a9363853a","x":-260,"y":-140,"width":250,"height":58,"type":"text","text":"Port 8080 (`HTTP`)\nApache 2.4.49"},
+		{"id":"fd6aeed17488da51","x":340,"y":60,"width":250,"height":60,"type":"text","text":"`www-data` shell"},
+		{"id":"182359dc8070751a","x":-640,"y":-288,"width":250,"height":60,"type":"text","text":"192.168.100.200 (Linux)"}
+	],
+	"edges":[
+		{"id":"9257f3f2434253d8","fromNode":"c5cfa04a9363853a","fromSide":"right","toNode":"fd6aeed17488da51","toSide":"left","label":"cgi-bin PATH exploitation to RCE\n\"curl http://192.168.100.200/cgi-bin/goofy_stuff_here\""},
+		{"id":"910c1009326dd6ff","fromNode":"182359dc8070751a","fromSide":"right","toNode":"9e8e3d4c10b06250","toSide":"left"},
+		{"id":"8b3051291fcab3ef","fromNode":"182359dc8070751a","fromSide":"right","toNode":"0692b96fd7c4fe32","toSide":"left"},
+		{"id":"2e40306c0598232e","fromNode":"182359dc8070751a","fromSide":"right","toNode":"c5cfa04a9363853a","toSide":"left"}
+	]
 }
