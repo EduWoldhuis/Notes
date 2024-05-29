@@ -71,14 +71,11 @@
             "id": "0e99543c9ee9c4c2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Untitled.canvas",
-                "viewState": {
-                  "x": -2.1703369140625286,
-                  "y": -145.51142578124998,
-                  "zoom": 0
-                }
+                "file": "OSCP-specific notes/WPScan.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -149,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Untitled.canvas",
+                "file": "OSCP-specific notes/WPScan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Untitled.canvas",
+                "file": "OSCP-specific notes/WPScan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Untitled.canvas"
+                "file": "OSCP-specific notes/WPScan.md"
               }
             }
           }
@@ -213,8 +210,9 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
-    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Untitled.canvas",
+    "OSCP-specific notes/WPScan.md",
+    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Windows Library exploitation.md",
     "OSCP-specific notes/Active Directory.md",
@@ -238,7 +236,6 @@
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/MSFconsole.md",
-    "OSCP-specific notes/File uploads.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
