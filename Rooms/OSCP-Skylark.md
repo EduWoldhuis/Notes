@@ -1,3 +1,4 @@
+VPN, WEB01, WEB02
 ### Machine 1 - `.120`
 Linux, port 22, port 80.
 
