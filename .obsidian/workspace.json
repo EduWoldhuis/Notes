@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/WPScan.md",
+                "file": "Rooms/OSCP-Skylark.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/WPScan.md",
+                "file": "Rooms/OSCP-Skylark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/WPScan.md",
+                "file": "Rooms/OSCP-Skylark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/WPScan.md"
+                "file": "Rooms/OSCP-Skylark.md"
               }
             }
           }
@@ -210,8 +210,9 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
-    "OSCP-specific notes/Untitled.canvas",
     "OSCP-specific notes/WPScan.md",
+    "Rooms/OSCP-Skylark.md",
+    "OSCP-specific notes/Untitled.canvas",
     "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Windows Library exploitation.md",
