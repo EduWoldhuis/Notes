@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aspx",
+                "query": "php",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,6 +211,8 @@
   },
   "active": "0e99543c9ee9c4c2",
   "lastOpenFiles": [
+    "Methods/File inclusion.md",
+    "Methods/Uploading vulnerabilities.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/WPScan.md",
@@ -236,8 +238,6 @@
     "OSCP-specific notes/NMAP Scans.md",
     "OSCP-specific notes/Nessus.md",
     "OSCP-specific notes/Information gathering.md",
-    "OSCP-specific notes/Fixing exploits.md",
-    "OSCP-specific notes/Important notes.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
