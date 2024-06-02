@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Tools/msfvenom.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ligolo",
+                "query": "msfvenom",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "Tools/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "Tools/msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md"
+                "file": "Tools/msfvenom.md"
               }
             }
           }
@@ -221,12 +221,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be09bb648694cb4e",
+  "active": "78d03f56203323fc",
   "lastOpenFiles": [
+    "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/Ligolo-NG.md",
+    "Rooms/OSCP-Medtech.md",
     "Windows/blue-team/Windows hardening.md",
     "Tools/msfvenom.md",
     "OSCP-specific notes/SQL Injections.md",
-    "Rooms/OSCP-Medtech.md",
     "Rooms/red team capstone.md",
     "Rooms/ustoun.md",
     "Methods/Uploading vulnerabilities.md",
@@ -242,14 +244,12 @@
     "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
-    "OSCP-specific notes/Ligolo-NG.md",
     "Tools/Chisel.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Docker.md",
     "Methods/SSH Tunnelling.md",
     "Methods/Hash cracking.md",
     "OSCP-specific notes/MS Office exploitation.md",
-    "Tools/Responder.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
