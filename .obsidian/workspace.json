@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "msfvenom",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/msfvenom.md"
+                "file": "OSCP-specific notes/Ligolo-NG.md"
               }
             }
           }
@@ -221,13 +220,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78d03f56203323fc",
+  "active": "be09bb648694cb4e",
   "lastOpenFiles": [
+    "Tools/msfvenom.md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/blue-team/Windows hardening.md",
-    "Tools/msfvenom.md",
     "OSCP-specific notes/SQL Injections.md",
     "Rooms/red team capstone.md",
     "Rooms/ustoun.md",
