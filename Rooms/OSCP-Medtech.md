@@ -81,3 +81,49 @@ SMB         172.16.186.11   445    FILES02          [*] Windows 10.0 Build 20348
 SMB         172.16.186.10   445    DC01             [*] Windows 10.0 Build 20348 x64 (name:DC01) (domain:medtech.com) (signing:True) (SMBv1:False)
 
 ```
+
+
+### .121 privesc
+Found SEImpersonatePrivilege:
+```
+
+```
+
+Found password of localhost\\SQLEXPRESS (`WhileChirpTuesday218`):
+```
+PS C:\Users\joe\Downloads\test> cat web.config
+cat web.config
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.web>
+<!--            <customErrors mode="On">
+                <error statusCode="500" redirect="error.aspx"/>
+                        <error statusCode="404" redirect="error.aspx"/>
+                </customErrors> -->
+    <customErrors mode="RemoteOnly" />
+                <compilation debug="true" targetFramework="4.0">
+                        <assemblies>
+                                <add assembly="System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+                                <add assembly="System.DirectoryServices.AccountManagement, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+                                <add assembly="System.DirectoryServices.Protocols, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+                        </assemblies>
+                </compilation>
+        </system.web>
+        <system.webServer>
+        <defaultDocument>
+            <files>
+                <clear />
+                <add value="index.html" />
+                <add value="index.htm" />
+                <add value="default.aspx" />
+            </files>
+        </defaultDocument>
+    </system.webServer>
+        <connectionStrings>
+                <add name="myConnectionString" connectionString="server=localhost\SQLEXPRESS;database=webapp;uid=sa;password=WhileChirpTuesday218;Trusted_Connection=False;MultipleActiveResultSets=true; Integrated Security=False; Max Pool Size=500;" />
+	        </connectionStrings>
+</configuration>
+
+```
+
+Cracked Joe's hash: `Flowers1`

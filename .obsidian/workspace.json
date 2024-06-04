@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Wordpress website.md",
+                "file": "Methods/Hash cracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,8 +115,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/Hash cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+                "file": "Methods/Hash cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/SeImpersonatePrivilege explotation.md"
+                "file": "Methods/Hash cracking.md"
               }
             }
           }
@@ -244,12 +243,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "948686f753c3fad3",
+  "active": "7b8a949f2b3f7996",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
+    "Rooms/OSCP-Medtech.md",
+    "Methods/Hash cracking.md",
+    "Tools/Hashcat.md",
+    "OSCP-specific notes/Wordpress website.md",
     "Tools/msfvenom.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "Rooms/OSCP-Medtech.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "OSCP-specific notes/SQL Injections.md",
     "Windows/blue-team/Windows hardening.md",
@@ -257,7 +261,6 @@
     "Rooms/ustoun.md",
     "Methods/Uploading vulnerabilities.md",
     "Methods/File inclusion.md",
-    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/WPScan.md",
     "OSCP-specific notes/Windows Library exploitation.md",
     "Tools/Hydra.md",
@@ -269,10 +272,6 @@
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "Tools/Chisel.md",
     "OSCP-specific notes/SSH Tunnelling.md",
-    "Docker.md",
-    "Methods/SSH Tunnelling.md",
-    "Methods/Hash cracking.md",
-    "OSCP-specific notes/MS Office exploitation.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
