@@ -8,6 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c78dd1c092b3a4af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "882aaa00d2dac2a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7b8a949f2b3f7996",
             "type": "leaf",
             "state": {
@@ -26,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Exploits/Passing the hash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dbed3823d92def7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/kerberos exploitation/Kerberoasting.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,8 +175,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntlm",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +221,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md"
+                "file": "Windows/Methodologies/Active Directory enumeration.md"
               }
             }
           }
@@ -269,12 +303,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7684a5919a23686",
+  "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
+    "Windows/Exploits/Passing the hash.md",
     "Methods/Hash cracking.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/Passing the hash.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
     "Tools/Hashcat.md",
@@ -295,9 +332,6 @@
     "Tools/Socat.md",
     "Windows/kerberos exploitation/Golden ticket.md",
     "OSCP-specific notes/Apache 2.4.49.md",
-    "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
-    "Tools/Chisel.md",
-    "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
     "Untitled.canvas",
