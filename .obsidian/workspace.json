@@ -223,11 +223,11 @@
   "active": "be09bb648694cb4e",
   "lastOpenFiles": [
     "Tools/msfvenom.md",
-    "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Ligolo-NG.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/blue-team/Windows hardening.md",
-    "OSCP-specific notes/SQL Injections.md",
     "Rooms/red team capstone.md",
     "Rooms/ustoun.md",
     "Methods/Uploading vulnerabilities.md",
