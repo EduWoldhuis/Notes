@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b7684a5919a23686",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Exploits/Passing the hash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6478ccd7680b4694",
             "type": "leaf",
             "state": {
@@ -104,6 +116,18 @@
             }
           },
           {
+            "id": "3abe1de0d956450d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Methodologies/Windows exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6fa015e3e362f312",
             "type": "leaf",
             "state": {
@@ -115,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ntlm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Exploits/Passing the hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Exploits/Passing the hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Hash cracking.md"
+                "file": "Windows/Exploits/Passing the hash.md"
               }
             }
           }
@@ -243,17 +269,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8a949f2b3f7996",
+  "active": "b7684a5919a23686",
   "lastOpenFiles": [
-    "Windows/Exploits/Mimikatz.md",
-    "Rooms/OSCP-Medtech.md",
     "Methods/Hash cracking.md",
+    "OSCP-specific notes/Active Directory.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/Passing the hash.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Rooms/OSCP-Medtech.md",
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/Active Directory.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "OSCP-specific notes/SQL Injections.md",
     "Windows/blue-team/Windows hardening.md",
@@ -267,7 +294,6 @@
     "OSCP-specific notes/Untitled.canvas",
     "Tools/Socat.md",
     "Windows/kerberos exploitation/Golden ticket.md",
-    "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/Active Directory Pivoting and Lateral Movement.md",
     "Tools/Chisel.md",

