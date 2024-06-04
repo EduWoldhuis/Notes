@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Active Directory.md"
+                "file": "Rooms/OSCP-Medtech.md"
               }
             }
           }
@@ -292,18 +292,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d4ed9e9a37e38c3",
+  "active": "2d02b5ab59cf7ba7",
   "lastOpenFiles": [
+    "Windows/kerberos exploitation/Kerberoasting.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "OSCP-specific notes/Active Directory.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/Passing the hash.md",
     "Methods/Hash cracking.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "OSCP-specific notes/Active Directory.md",
     "Windows/Exploits/Mimikatz.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
