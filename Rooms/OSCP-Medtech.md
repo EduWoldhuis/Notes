@@ -67,3 +67,17 @@ PORT     STATE SERVICE  VERSION
 |_  256 24:97:84:f2:58:53:7b:a3:f7:40:e9:ad:3d:12:1e:c7 (ED25519)
 1194/tcp open  openvpn?
 ```
+
+
+### Internal network
+```
+─[✗]─[root@edu-virtualbox]─[/home/edu/OSCP/medtech]
+└──╼ #while read -r line; do nxc smb "$line"; done < internal_hostlist 
+SMB         172.16.186.83   445    CLIENT02         [*] Windows 10.0 Build 22000 x64 (name:CLIENT02) (domain:medtech.com) (signing:False) (SMBv1:False)
+SMB         172.16.186.82   445    CLIENT01         [*] Windows 10.0 Build 22000 x64 (name:CLIENT01) (domain:medtech.com) (signing:False) (SMBv1:False)
+SMB         172.16.186.13   445    PROD01           [*] Windows 10.0 Build 20348 x64 (name:PROD01) (domain:medtech.com) (signing:False) (SMBv1:False)
+SMB         172.16.186.12   445    DEV04            [*] Windows 10.0 Build 20348 x64 (name:DEV04) (domain:medtech.com) (signing:False) (SMBv1:False)
+SMB         172.16.186.11   445    FILES02          [*] Windows 10.0 Build 20348 x64 (name:FILES02) (domain:medtech.com) (signing:False) (SMBv1:False)
+SMB         172.16.186.10   445    DC01             [*] Windows 10.0 Build 20348 x64 (name:DC01) (domain:medtech.com) (signing:True) (SMBv1:False)
+
+```

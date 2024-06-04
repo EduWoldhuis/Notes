@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md"
+                "file": "Rooms/OSCP-Medtech.md"
               }
             }
           }
@@ -220,11 +220,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be09bb648694cb4e",
+  "active": "2d02b5ab59cf7ba7",
   "lastOpenFiles": [
+    "OSCP-specific notes/Ligolo-NG.md",
     "Tools/msfvenom.md",
     "OSCP-specific notes/SQL Injections.md",
-    "OSCP-specific notes/Ligolo-NG.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/blue-team/Windows hardening.md",
