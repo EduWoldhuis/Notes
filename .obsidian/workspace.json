@@ -140,18 +140,6 @@
             }
           },
           {
-            "id": "3abe1de0d956450d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6fa015e3e362f312",
             "type": "leaf",
             "state": {
@@ -163,8 +151,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md"
+                "file": "Windows/Methodologies/Active Directory enumeration.md"
               }
             }
           }
@@ -292,19 +279,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "882aaa00d2dac2a8",
+  "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
-    "Using.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "Methods/Hash cracking.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Using.md",
+    "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "OSCP-specific notes/Active Directory.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/Passing the hash.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
