@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8fa98fe6828e95c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Skylark.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad5645d13b2772e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Methods/File inclusion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82290e9924e24b8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bloodhound CE not booting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c78dd1c092b3a4af",
             "type": "leaf",
             "state": {
@@ -116,18 +80,6 @@
             }
           },
           {
-            "id": "6d4ed9e9a37e38c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-specific notes/Active Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "be09bb648694cb4e",
             "type": "leaf",
             "state": {
@@ -175,8 +127,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -306,33 +257,33 @@
   },
   "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
-    "Windows/Methodologies/Windows exploitation.md",
-    "OSCP-specific notes/Active Directory.md",
-    "OSCP-specific notes/Ligolo-NG.md",
-    "OSCP-specific notes/SQL Injections.md",
-    "Rooms/OSCP-Medtech.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
     "Windows/Tools/Sharphound.md",
+    "OSCP-specific notes/OSCP rooms/Skylark.md",
+    "Methods/File inclusion.md",
+    "Bloodhound CE not booting.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/SQL Injections.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/Ligolo-NG.md",
+    "Rooms/OSCP-Medtech.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/Sysinternals.md",
     "Windows/Core processes.md",
     "Windows/Active directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
-    "Bloodhound CE not booting.md",
-    "Methods/File inclusion.md",
-    "OSCP-specific notes/OSCP rooms/Skylark.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/OSCP rooms",
     "Using.md",
     "Methods/Hash cracking.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/Passing the hash.md",
-    "Windows/Exploits/Mimikatz.md",
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
