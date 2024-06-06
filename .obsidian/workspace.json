@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "Rooms/OSCP-Medtech.md"
               }
             }
           }
@@ -256,8 +256,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fa015e3e362f312",
+  "active": "2d02b5ab59cf7ba7",
   "lastOpenFiles": [
+    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Tools/Sharphound.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "OSCP-specific notes/OSCP rooms/Skylark.md",
@@ -268,7 +269,6 @@
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/SQL Injections.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Tools/powerup.ps1.md",

