@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Tools/Sharphound.md",
+                "file": "Windows/Exploits/Modifyable service files.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "services",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -256,8 +256,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d02b5ab59cf7ba7",
+  "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "OSCP-specific notes/SQL Injections.md",
+    "Rooms/OSCP-Medtech.md",
+    "Windows/Exploits/Modifyable service files.md",
+    "Windows/Exploits/Modifiable services.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Active directory.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Tools/Sharphound.md",
     "Windows/Methodologies/Active Directory exploitation.md",
@@ -265,17 +271,13 @@
     "Methods/File inclusion.md",
     "Bloodhound CE not booting.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/Active Directory.md",
-    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Ligolo-NG.md",
-    "Rooms/OSCP-Medtech.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/Sysinternals.md",
     "Windows/Core processes.md",
-    "Windows/Active directory.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/OSCP rooms",
@@ -283,8 +285,6 @@
     "Methods/Hash cracking.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/Passing the hash.md",
-    "Tools/Hashcat.md",
-    "OSCP-specific notes/Wordpress website.md",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",

