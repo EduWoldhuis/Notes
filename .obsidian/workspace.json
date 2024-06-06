@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Windows/Tools/Sharphound.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Windows/Tools/Sharphound.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md",
+                "file": "Windows/Tools/Sharphound.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Active Directory enumeration.md"
+                "file": "Windows/Tools/Sharphound.md"
               }
             }
           }
@@ -306,17 +306,24 @@
   },
   "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
-    "Windows/Methodologies/Active Directory exploitation.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/Active Directory.md",
     "OSCP-specific notes/Ligolo-NG.md",
+    "OSCP-specific notes/SQL Injections.md",
+    "Rooms/OSCP-Medtech.md",
+    "Windows/Tools/Sharphound.md",
+    "Windows/Tools/powerup.ps1.md",
+    "Windows/Tools/Powerview.md",
+    "Windows/Tools/Sysinternals.md",
+    "Windows/Core processes.md",
+    "Windows/Active directory.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
     "Bloodhound CE not booting.md",
     "Methods/File inclusion.md",
     "OSCP-specific notes/OSCP rooms/Skylark.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/OSCP rooms",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Rooms/OSCP-Medtech.md",
     "Using.md",
     "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
@@ -326,13 +333,6 @@
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/SQL Injections.md",
-    "Windows/blue-team/Windows hardening.md",
-    "Rooms/red team capstone.md",
-    "Rooms/ustoun.md",
-    "Methods/Uploading vulnerabilities.md",
-    "OSCP-specific notes/WPScan.md",
-    "OSCP-specific notes/Windows Library exploitation.md",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
