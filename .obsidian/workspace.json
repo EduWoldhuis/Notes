@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimika",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,8 +174,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Rooms/OSCP-Medtech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "Rooms/OSCP-Medtech.md"
               }
             }
           }
@@ -257,8 +256,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "2d02b5ab59cf7ba7",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
     "OSCP-specific notes/SQL Injections.md",
@@ -267,7 +267,6 @@
     "Windows/Tools/Sharphound.md",
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Exploits/Modifiable services.md",
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Active directory.md",
     "Windows/Methodologies/Active Directory exploitation.md",
     "OSCP-specific notes/OSCP rooms/Skylark.md",

