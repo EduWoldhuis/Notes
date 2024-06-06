@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "7b8a949f2b3f7996",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Methodologies/Active Directory exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b7684a5919a23686",
             "type": "leaf",
             "state": {
@@ -188,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -254,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bloodhound CE not booting.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bloodhound CE not booting.md",
+                "file": "Windows/Methodologies/Active Directory enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bloodhound CE not booting.md"
+                "file": "Windows/Methodologies/Active Directory enumeration.md"
               }
             }
           }
@@ -316,28 +304,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82290e9924e24b8f",
+  "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
-    "Methods/File inclusion.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
+    "OSCP-specific notes/Active Directory.md",
+    "OSCP-specific notes/Ligolo-NG.md",
     "Bloodhound CE not booting.md",
+    "Methods/File inclusion.md",
     "OSCP-specific notes/OSCP rooms/Skylark.md",
     "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/OSCP rooms",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Rooms/OSCP-Medtech.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
     "Using.md",
     "Methods/Hash cracking.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "OSCP-specific notes/Active Directory.md",
     "Tools/msfvenom.md",
     "Windows/Exploits/Passing the hash.md",
     "Windows/Exploits/Mimikatz.md",
     "Tools/Hashcat.md",
     "OSCP-specific notes/Wordpress website.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/Ligolo-NG.md",
     "OSCP-specific notes/SQL Injections.md",
     "Windows/blue-team/Windows hardening.md",
     "Rooms/red team capstone.md",
