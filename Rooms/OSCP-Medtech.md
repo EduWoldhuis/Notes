@@ -252,3 +252,9 @@ Replaced `C:\TEMP\backup.exe` with a reverse shell, and got Admin privileges
 username: leon
 Password: rabbit:)
 ```
+
+```
+PS C:\Users\Administrator\desktop> cat credentials.txt                                                                                                                                                                                
+web01: offsec/century62hisan51       
+(192.168.X.120) root password is the same
+```
