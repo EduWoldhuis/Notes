@@ -43,3 +43,14 @@ ftp:x:112:118:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
 sshd:x:113:65534::/run/sshd:/usr/sbin/nologin
 
 ```
+
+
+### .247
+```
+14020/tcp open     ftp           FileZilla ftpd                                                                     
+| ftp-syst:                                                                                                         
+|_  SYST: UNIX emulated by FileZilla                                                                                
+|_ftp-bounce: bounce working!                                                                                       
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)                                                              
+|_-r--r--r-- 1 ftp ftp         237639 Nov 04  2022 umbraco.pdf 
+```

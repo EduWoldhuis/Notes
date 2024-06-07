@@ -121,14 +121,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smtp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,8 +174,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -257,11 +256,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be09bb648694cb4e",
+  "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
+    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Rooms/OSCP-Medtech.md",
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
@@ -271,7 +271,7 @@
     "Windows/Exploits/Modifiable services.md",
     "Windows/Active directory.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "OSCP-specific notes/OSCP rooms/Skylark.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
     "Methods/File inclusion.md",
     "Bloodhound CE not booting.md",
     "OSCP-specific notes/Active Directory.md",
@@ -285,7 +285,6 @@
     "Using.md",
     "Methods/Hash cracking.md",
     "Tools/msfvenom.md",
-    "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
