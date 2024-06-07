@@ -81,7 +81,7 @@ The SNMP protocol has a database with information, usually about network managem
 ```
 // to scan
 sudo nmap -sU --open -p 161 192.168.50.0/24 -oN open-snmp.txt
-snmpwalk -c public -v1 -t 10 192.168.188.151 -Oa                 // print some general information about the system (some users, the CPU, the physcal network devices)
+snmpwalk -c public -v1 -t 10 192.168.188.151 -Oa                 // print some general information about the system (some users, the CPU, the physical network devices)
 snmpwalk -c public -v1 192.168.50.151 1.3.6.1.4.1.77.1.2.25      // Enumerate users
 snmpwalk -c public -v1 192.168.50.151 1.3.6.1.2.1.25.4.2.1.2     // Enumerate currently running processes
 snmpwalk -c public -v1 192.168.50.151 1.3.6.1.2.1.25.6.3.1.2     // Enumerate software

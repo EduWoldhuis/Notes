@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smtp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +174,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Ligolo-NG.md"
+                "file": "OSCP-specific notes/Information gathering.md"
               }
             }
           }
@@ -258,12 +259,12 @@
   },
   "active": "be09bb648694cb4e",
   "lastOpenFiles": [
+    "OSCP-specific notes/Ligolo-NG.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/Ligolo-NG.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Tools/Sharphound.md",
     "Windows/Exploits/Modifyable service files.md",
