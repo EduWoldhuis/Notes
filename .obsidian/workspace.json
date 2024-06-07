@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rooms/OSCP-Medtech.md"
+                "file": "Windows/Exploits/Mimikatz.md"
               }
             }
           }
@@ -268,13 +268,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d02b5ab59cf7ba7",
+  "active": "6478ccd7680b4694",
   "lastOpenFiles": [
     "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/SQL Injections.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Tools/Sharphound.md",
