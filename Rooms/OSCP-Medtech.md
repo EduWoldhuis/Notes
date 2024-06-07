@@ -5,6 +5,8 @@ VPN, WEB01, WEB02
 Make sure to check for SQL injections with a payload that will actually crash the machine
 Check *all* the user passwords and hashes and add them, even if they may not look suspicous
 use bruteforcing on NetExec, with the Userlists, Passlist and IP ranges, and use WINRM, SMB, and RDP.
+Make sure to "check sudo -l" (winPEAS doesn't find it)
+use rockyou.txt
 ```
 
 ### Machine 1 - `.120`
