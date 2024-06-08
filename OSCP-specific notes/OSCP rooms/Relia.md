@@ -54,3 +54,19 @@ sshd:x:113:65534::/run/sshd:/usr/sbin/nologin
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)                                                              
 |_-r--r--r-- 1 ftp ftp         237639 Nov 04  2022 umbraco.pdf 
 ```
+
+
+### .189
+```
+smtp-enum-users: 
+|   root
+|   admin
+|   administrator
+|   webadmin
+|   sysadmin
+|   netadmin
+|   guest
+|   user
+|   web
+|_  test
+```
