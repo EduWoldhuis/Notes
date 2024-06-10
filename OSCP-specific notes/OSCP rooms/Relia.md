@@ -2,6 +2,8 @@ hints needed
 ```
 Looking for "id_ecdsa" instead of id_rsa with a LFI.
 Find everywhere to use the id_edcsa (.246 too)
+Look for internal webservers
+Check for Sudo version 1.8.31
 ```
 
 ```
