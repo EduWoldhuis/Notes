@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +174,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md"
+                "file": "Tools/FFUF.md"
               }
             }
           }
@@ -258,9 +259,9 @@
   },
   "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "OSCP-specific notes/Important notes.md",
-    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
