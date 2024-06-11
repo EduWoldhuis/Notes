@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "forwarding",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,8 +174,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "OSCP-specific notes/Information gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
+                "file": "OSCP-specific notes/Information gathering.md"
               }
             }
           }
@@ -259,12 +258,16 @@
   },
   "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "OSCP-specific notes/Ligolo-NG.md",
+    "OSCP-specific notes/Important notes.md",
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/File uploads.md",
+    "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
-    "OSCP-specific notes/OSCP rooms/Relia.md",
     "Windows/Exploits/Mimikatz.md",
-    "OSCP-specific notes/Information gathering.md",
-    "OSCP-specific notes/Ligolo-NG.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
@@ -281,11 +284,7 @@
     "Windows/Tools/Powerview.md",
     "Windows/Tools/Sysinternals.md",
     "Windows/Core processes.md",
-    "Windows/Methodologies/Active Directory enumeration.md",
-    "OSCP-specific notes/Apache 2.4.49.md",
     "OSCP-specific notes/OSCP rooms",
-    "Using.md",
-    "Methods/Hash cracking.md",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
