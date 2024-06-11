@@ -4,6 +4,7 @@ Looking for "id_ecdsa" instead of id_rsa with a LFI.
 Find everywhere to use the id_edcsa (.246 too)
 Look for internal webservers
 Check for Sudo version 1.8.31
+Look through found files (PDFs)
 ```
 
 ```
@@ -99,6 +100,8 @@ pasword found: fireball
 |_ftp-bounce: bounce working!                                                                                       
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)                                                              
 |_-r--r--r-- 1 ftp ftp         237639 Nov 04  2022 umbraco.pdf 
+
+found Mark:OathDeeplyReprieve91
 ```
 
 

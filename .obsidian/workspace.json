@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "mode": "source",
                 "source": false
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/FFUF.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/FFUF.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -259,20 +259,21 @@
   },
   "active": "6fa015e3e362f312",
   "lastOpenFiles": [
-    "OSCP-specific notes/Information gathering.md",
-    "OSCP-specific notes/Ligolo-NG.md",
-    "OSCP-specific notes/Important notes.md",
-    "OSCP-specific notes/Fixing exploits.md",
-    "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/enumeration.ps1.md",
+    "OSCP-specific notes/File uploads.md",
+    "OSCP-specific notes/Fixing exploits.md",
+    "OSCP-specific notes/Information gathering.md",
+    "OSCP-specific notes/Important notes.md",
+    "OSCP-specific notes/Ligolo-NG.md",
+    "Tools/FFUF.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/OSCP rooms/Relia.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
     "Windows/Exploits/Mimikatz.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "OSCP-specific notes/SQL Injections.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Exploits/Modifiable services.md",
@@ -284,7 +285,6 @@
     "Windows/Tools/powerup.ps1.md",
     "Windows/Tools/Powerview.md",
     "Windows/Tools/Sysinternals.md",
-    "Windows/Core processes.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
