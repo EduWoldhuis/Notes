@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "7b1e04db1f5e8b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "948686f753c3fad3",
             "type": "leaf",
             "state": {
@@ -97,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/Information gathering.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -157,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "Windows/Methodologies/Windows exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
+                "file": "Windows/Methodologies/Windows exploitation.md"
               }
             }
           }
@@ -257,14 +244,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fa015e3e362f312",
+  "active": "be09bb648694cb4e",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Methodologies/Windows Active directory.md",
+    "Windows/Methodologies/Windows firewall evasion.md",
+    "Windows/Methodologies/Windows service exploitation.md",
+    "Windows/Methodologies/Active Directory enumeration.md",
+    "Windows/Forensics/Windows forensics.md",
+    "OSCP-specific notes/Information gathering.md",
+    "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/OSCP rooms/Relia.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/Fixing exploits.md",
-    "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Tools/FFUF.md",
@@ -272,19 +266,12 @@
     "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
-    "Windows/Exploits/Mimikatz.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Exploits/Modifiable services.md",
     "Windows/Active directory.md",
     "Windows/Methodologies/Active Directory exploitation.md",
-    "Methods/File inclusion.md",
-    "Bloodhound CE not booting.md",
-    "OSCP-specific notes/Active Directory.md",
-    "Windows/Tools/powerup.ps1.md",
-    "Windows/Tools/Powerview.md",
-    "Windows/Tools/Sysinternals.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
