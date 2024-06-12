@@ -114,9 +114,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ac2e32df63142ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Exploits/DLL hijacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "Windows/Exploits/DLL hijacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "file": "Windows/Exploits/DLL hijacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
+                "file": "Windows/Exploits/DLL hijacking.md"
               }
             }
           }
@@ -244,10 +256,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fa015e3e362f312",
+  "active": "0bc7a59cff17c4cd",
   "lastOpenFiles": [
-    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/OSCP rooms/Relia.md",
+    "OSCP-specific notes/SQL Injections.md",
     "Methods/Hash cracking.md",
     "Tools/Hashcat.md",
     "Windows/Exploits/Mimikatz.md",

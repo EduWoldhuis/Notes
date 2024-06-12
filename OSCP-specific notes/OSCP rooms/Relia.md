@@ -190,10 +190,12 @@ Michael321:12345
 
 
 Windows:
-emma:SomersetVinyl1
+emma:SomersetVinyl1!
 (db named old, no username):HabitsAgesEnd123
 (old password, deprecieted)sa:SAPassword_1998
 
 Recycle bin
 (note "USE FOR NEW DB"):welcome1
+
+impacket-mssqlclient 'emma':'SomersetVinyl1!'@192.168.156.248 -windows-auth -p 49965
 ```
