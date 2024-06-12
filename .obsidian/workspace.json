@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Methods/Hash cracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Methodologies/Windows exploitation.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -244,9 +244,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be09bb648694cb4e",
+  "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "Methods/Hash cracking.md",
+    "Tools/Hashcat.md",
     "Windows/Exploits/Mimikatz.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
+    "OSCP-specific notes/SQL Injections.md",
     "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Windows firewall evasion.md",
@@ -255,7 +259,6 @@
     "Windows/Forensics/Windows forensics.md",
     "OSCP-specific notes/Information gathering.md",
     "Windows/Exploits/Passing the hash.md",
-    "OSCP-specific notes/OSCP rooms/Relia.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/Fixing exploits.md",
@@ -263,15 +266,12 @@
     "OSCP-specific notes/Ligolo-NG.md",
     "Tools/FFUF.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "OSCP-specific notes/SQL Injections.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Exploits/Modifyable service files.md",
     "Windows/Exploits/Modifiable services.md",
-    "Windows/Active directory.md",
-    "Windows/Methodologies/Active Directory exploitation.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",

