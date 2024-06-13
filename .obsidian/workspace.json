@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-specific notes/SSH Tunnelling.md",
+                "file": "Windows/Forensics/Windows forensics.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,8 +127,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compil",
+                "query": "sqlite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/Forensics/Windows forensics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "Windows/Forensics/Windows forensics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "Windows/Forensics/Windows forensics.md"
               }
             }
           }
@@ -257,13 +256,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7684a5919a23686",
+  "active": "c78dd1c092b3a4af",
   "lastOpenFiles": [
+    "OSCP-specific notes/SSH Tunnelling.md",
+    "Windows/Exploits/Mimikatz.md",
     "Tools/msfvenom.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Methodologies/Bypassing UAC.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/Hash cracking.md",
     "Windows/Exploits/DLL hijacking.md",
@@ -283,7 +283,6 @@
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Tools/FFUF.md",
-    "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
