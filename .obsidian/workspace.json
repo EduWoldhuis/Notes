@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/Mimikatz.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -244,8 +244,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7a59cff17c4cd",
+  "active": "6fa015e3e362f312",
   "lastOpenFiles": [
+    "Windows/Exploits/Mimikatz.md",
     "Windows/Exploits/Passing the hash.md",
     "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
@@ -253,7 +254,6 @@
     "Windows/Exploits/DLL hijacking.md",
     "Methods/Hash cracking.md",
     "Tools/Hashcat.md",
-    "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows service exploitation.md",
