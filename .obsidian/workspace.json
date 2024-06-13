@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "compil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +174,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -256,7 +257,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7a59cff17c4cd",
+  "active": "0aceb20f6b3ca121",
   "lastOpenFiles": [
     "Windows/Exploits/Mimikatz.md",
     "Windows/Methodologies/Windows exploitation.md",
