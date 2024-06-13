@@ -127,7 +127,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -156,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlite",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Forensics/Windows forensics.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Forensics/Windows forensics.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Forensics/Windows forensics.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -256,10 +257,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c78dd1c092b3a4af",
+  "active": "6fa015e3e362f312",
   "lastOpenFiles": [
-    "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Exploits/Mimikatz.md",
+    "Windows/Forensics/Windows forensics.md",
+    "OSCP-specific notes/SSH Tunnelling.md",
     "Tools/msfvenom.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Methodologies/Bypassing UAC.md",
@@ -275,7 +277,6 @@
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Methodologies/Active Directory enumeration.md",
-    "Windows/Forensics/Windows forensics.md",
     "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/File uploads.md",

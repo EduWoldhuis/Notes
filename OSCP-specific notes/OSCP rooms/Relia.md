@@ -213,3 +213,18 @@ RDP         192.168.156.248 3389   EXTERNAL         [*] Windows 10 or Windows Se
 RDP         192.168.156.248 3389   EXTERNAL         [+] EXTERNAL\mark:!8@aBRBYdb3! (Pwn3d!)
 
 ```
+
+```
+.249
+
+used "gitk":
+htdocs/cms/data/email.conf.bak
+-Email configuration of the CMS
+-maildmz@relia.com:DPuBT9tGCBrTbR
+-
+-If something breaks contact jim@relia.com as he is responsible for the mail server. 
+-Please don't send any office or executable attachments as they get filtered out for security reasons.
+
+
+maildmz@relia.com:DPuBT9tGCBrTbR
+```
