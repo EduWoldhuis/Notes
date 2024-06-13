@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "160ed93b9a69f81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/msfvenom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9dbed3823d92def7",
             "type": "leaf",
             "state": {
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methods/Hash cracking.md",
+                "file": "Windows/Methodologies/Bypassing UAC.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimikat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md",
+                "file": "Tools/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md",
+                "file": "Tools/msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/SQL Injections.md"
+                "file": "Tools/msfvenom.md"
               }
             }
           }
@@ -244,15 +256,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e99543c9ee9c4c2",
+  "active": "0bc7a59cff17c4cd",
   "lastOpenFiles": [
-    "OSCP-specific notes/OSCP rooms/Relia.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Exploits/Passing the hash.md",
     "Windows/Methodologies/Windows exploitation.md",
-    "OSCP-specific notes/SQL Injections.md",
-    "Windows/Exploits/DLL hijacking.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "Windows/Methodologies/Bypassing UAC.md",
     "Methods/Hash cracking.md",
+    "Windows/Exploits/DLL hijacking.md",
+    "OSCP-specific notes/SQL Injections.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
+    "Windows/Exploits/Passing the hash.md",
     "Tools/Hashcat.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Windows firewall evasion.md",
@@ -266,12 +280,10 @@
     "OSCP-specific notes/Important notes.md",
     "OSCP-specific notes/Ligolo-NG.md",
     "Tools/FFUF.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
     "Rooms/OSCP-Medtech.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "Windows/Exploits/Modifyable service files.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
