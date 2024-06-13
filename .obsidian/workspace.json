@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Exploits/Passing the hash.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,21 +114,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5ac2e32df63142ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Exploits/DLL hijacking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mimikat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Exploits/DLL hijacking.md"
+                "file": "Windows/Exploits/Mimikatz.md"
               }
             }
           }
@@ -258,19 +246,20 @@
   },
   "active": "0bc7a59cff17c4cd",
   "lastOpenFiles": [
-    "OSCP-specific notes/OSCP rooms/Relia.md",
+    "Windows/Exploits/Passing the hash.md",
+    "Windows/Methodologies/Windows exploitation.md",
     "OSCP-specific notes/SQL Injections.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
+    "Windows/Exploits/DLL hijacking.md",
     "Methods/Hash cracking.md",
     "Tools/Hashcat.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Methodologies/Windows exploitation.md",
     "Windows/Methodologies/Windows Active directory.md",
     "Windows/Methodologies/Windows firewall evasion.md",
     "Windows/Methodologies/Windows service exploitation.md",
     "Windows/Methodologies/Active Directory enumeration.md",
     "Windows/Forensics/Windows forensics.md",
     "OSCP-specific notes/Information gathering.md",
-    "Windows/Exploits/Passing the hash.md",
     "OSCP-specific notes/enumeration.ps1.md",
     "OSCP-specific notes/File uploads.md",
     "OSCP-specific notes/Fixing exploits.md",
@@ -283,7 +272,6 @@
     "Rooms/OSCP-Medtech.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Exploits/Modifyable service files.md",
-    "Windows/Exploits/Modifiable services.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
