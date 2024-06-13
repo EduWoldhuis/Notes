@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/msfvenom.md",
+                "file": "Windows/Exploits/Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/msfvenom.md"
+                "file": "Windows/Exploits/Mimikatz.md"
               }
             }
           }
@@ -257,12 +257,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aceb20f6b3ca121",
+  "active": "b7684a5919a23686",
   "lastOpenFiles": [
-    "Windows/Exploits/Mimikatz.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "Tools/msfvenom.md",
+    "Windows/kerberos exploitation/Kerberoasting.md",
     "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "Windows/Exploits/Mimikatz.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
     "Methods/Hash cracking.md",
     "Windows/Exploits/DLL hijacking.md",
     "OSCP-specific notes/SQL Injections.md",
@@ -283,8 +285,6 @@
     "Tools/FFUF.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Windows/Tools/Sharphound.md",
-    "Rooms/OSCP-Medtech.md",
-    "Windows/kerberos exploitation/Kerberoasting.md",
     "OSCP-specific notes/OSCP rooms",
     "OSCP-specific notes/Untitled.canvas",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
