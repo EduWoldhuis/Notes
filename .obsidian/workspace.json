@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Forensics/Windows forensics.md",
+                "file": "Methods/Hash cracking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f1bacc6cb0ba68a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-specific notes/Ligolo-NG.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,9 +138,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82bb98f28d643233",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -157,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ligolo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +198,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP-specific notes/email.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP-specific notes/email.md",
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP-specific notes/email.md"
+                "file": "OSCP-specific notes/OSCP rooms/Relia.md"
               }
             }
           }
@@ -256,24 +281,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fa015e3e362f312",
+  "active": "82bb98f28d643233",
   "lastOpenFiles": [
-    "OSCP-specific notes/SQL Injections.md",
+    "OSCP-specific notes/Ligolo-NG.md",
+    "Windows/Methodologies/Windows exploitation.md",
+    "OSCP-specific notes/OSCP rooms/Relia.md",
     "OSCP-specific notes/email.md",
+    "OSCP-specific notes/SQL Injections.md",
+    "Windows/Methodologies/Bypassing UAC.md",
+    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
+    "Methods/Hash cracking.md",
+    "Windows/Forensics/Windows forensics.md",
+    "Windows/Methodologies/Active Directory exploitation.md",
     "OSCP-specific notes/WPScan.md",
     "OSCP-specific notes/MSFconsole.md",
     "OSCP-specific notes/NMAP Scans.md",
     "OSCP-specific notes/Untitled.canvas",
-    "OSCP-specific notes/OSCP rooms/Relia.md",
     "Windows/Exploits/Mimikatz.md",
-    "Windows/Forensics/Windows forensics.md",
     "OSCP-specific notes/SSH Tunnelling.md",
     "Tools/msfvenom.md",
     "Windows/kerberos exploitation/Kerberoasting.md",
-    "Windows/Methodologies/Bypassing UAC.md",
-    "Windows/Methodologies/Windows exploitation.md",
-    "Windows/Exploits/SeImpersonatePrivilege explotation.md",
-    "Methods/Hash cracking.md",
     "Windows/Exploits/DLL hijacking.md",
     "Windows/Exploits/Passing the hash.md",
     "Tools/Hashcat.md",
@@ -283,8 +310,6 @@
     "Windows/Methodologies/Active Directory enumeration.md",
     "OSCP-specific notes/Information gathering.md",
     "OSCP-specific notes/enumeration.ps1.md",
-    "OSCP-specific notes/File uploads.md",
-    "OSCP-specific notes/Fixing exploits.md",
     "OSCP-specific notes/OSCP rooms",
     "Windows/Forensics/WindowsForensicsCheatsheetTryHackMe-1.png",
     "OSCP-specific notes",
